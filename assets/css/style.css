@@ -114,6 +114,7 @@ h2 {
     position: relative;
 }
 
+/* not in use */
 #form-main-banner {
     font-size: 100%;
     font-family: 'Abel', sans-serif;
@@ -129,7 +130,7 @@ h2 {
 }
 
 
-/* not in use */
+
 #form-main-banner2 {
     margin: 150px 10% 0 0;
     color: #fff;
