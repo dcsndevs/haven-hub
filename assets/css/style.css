@@ -75,3 +75,43 @@ h2 {
     height: 100vh;
 
 }
+
+/* aligning the bottom items - social links, nav, and copyright */
+#footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    height: min-content;
+    background-color: #444;
+}
+
+.footer-menu>a {
+    font-family: 'Abel', sans-serif;
+    font-size: inherit;
+    color: #F4DF4EFF;
+    letter-spacing: 2px;
+    padding: 2px;
+    margin: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.active-page {
+    color: black;
+}
+
+.footer-menu>a:hover {
+    color: white;
+}
+
+.footer-social-icons {
+    color: #F4DF4EFF;
+    font-size: 130%;
+    letter-spacing: 10px;
+}
+
+#footer>div>p {
+    color: #F4DF4EFF;
+    font-size: inherit;
+}
