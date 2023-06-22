@@ -1,0 +1,8 @@
+/* Remove all padding and margin unless stated */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
