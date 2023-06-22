@@ -24,14 +24,14 @@ body {
 h1,
 h2 {
     font-family: 'Abel', sans-serif;
-    font-weight: 280%;
+    font-weight: 100%;
     color: #F4DF4EFF;
 }
 
 #logo {
     font-family: 'Abel', sans-serif;
     float: right;
-    font-size: 300%;
+    font-size: 100%;
     color: #F4DF4EFF;
     border-width: 3px;
     border-style: solid;
@@ -43,7 +43,7 @@ h2 {
 #nav-style>a {
     font-family: 'Abel', sans-serif;
     float: right;
-    font-size: 130%;
+    font-size: 80%;
     color: #F4DF4EFF;
     letter-spacing: 4px;
     padding: 5px;
@@ -57,22 +57,58 @@ h2 {
     color: white;
 }
 
+/* Not working yet
+#nav-style>a>.active-page:hover {
+    color: #F4DF4EFF;
+} */
+
 /* aligning the top items - logo, nav, phone and map link */
 #header-top {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    line-height: 30px;
+    align-items: top;
+    flex-wrap: nowrap;
+    background: url('../images/haven-hub-main-banner-hands-holding.jpg') no-repeat center center;
+    height: 90vh;
+    position: relative;
+
+}
+
+/* introductory message */
+#main-banner {
+    font-size: 130%;
+    font-family: 'Abel', sans-serif;
+    letter-spacing: 4px;
+    width: 300px;
+    height: 100px;
+    padding-top: 15px;
+    padding-left: 10px;
+    background-color: rgba(157, 159, 160, 0.5);
+    top: 300px;
+    right: 800px;
+    position: absolute;
+}
+
+#main-banner2 {
+    font-size: 130%;
+    font-family: 'Abel', sans-serif;
+    letter-spacing: 4px;
+    width: 720px;
+    height: 60px;
+    padding-top: 15px;
+    padding-left: 10px;
+    background-color: rgba(157, 159, 160, 0.5);
+    top: 450px;
+    left: 800px;
+    position: absolute;
 }
 
 /* Main image banner on site home page */
 #header-image {
     background-color: #444;
-    background: url('../images/haven-hub-main-banner-hands-holding.jpg') no-repeat center center;
     background-color: blue;
     width: 100%;
-    height: 100vh;
+    height: 700px;
 
 }
 
@@ -80,8 +116,8 @@ h2 {
 #footer {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
+    align-items: bottom;
+    flex-wrap: nowrap;
     height: min-content;
     background-color: #444;
 }
