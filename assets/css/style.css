@@ -1,3 +1,8 @@
+/* Import font from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Diphylleia&family=Tilt+Prism&display=swap');
+
+
+
 /* Remove all padding and margin unless stated */
 *,
 *::before,
@@ -5,6 +10,30 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+/* Font css rule
+font-family: 'Abel', sans-serif;
+font-family: 'Diphylleia', serif;
+font-family: 'Tilt Prism', cursive; */
+
+body {
+    font-family: 'Diphylleia', serif;
+}
+
+h1,
+h2 {
+    font-family: 'Abel', sans-serif;
+    font-weight: 280%;
+    color: #F4DF4EFF;
+}
+
+#logo {
+    font-family: 'Abel', sans-serif;
+    float: right;
+    font-size: 300%;
+    color: #949398FF;
+    text-decoration: none;
 }
 
 /* Main image banner on site home page */
