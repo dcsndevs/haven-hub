@@ -6,3 +6,11 @@
     margin: 0;
     padding: 0;
 }
+
+/* Main image banner on site home page */
+#header-image {
+    background: url('../images/haven-hub-main-banner-hands-holding.jpg') no-repeat center center;
+    background-color: blue;
+    width: 100%;
+    height: 800px;
+}
