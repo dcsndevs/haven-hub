@@ -118,6 +118,13 @@ h2 {
 
 }
 
+/* Get involved page section */
+#get-involved {
+    height: 93vh;
+    background-color: #444;
+
+}
+
 /* aligning the bottom items - social links, nav, and copyright */
 #footer {
     display: flex;
