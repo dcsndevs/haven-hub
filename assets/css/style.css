@@ -112,6 +112,12 @@ h2 {
 
 }
 
+/* About us page section */
+#about-us {
+    height: 90vh;
+
+}
+
 /* aligning the bottom items - social links, nav, and copyright */
 #footer {
     display: flex;
