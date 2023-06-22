@@ -103,6 +103,44 @@ h2 {
     position: absolute;
 }
 
+/* Contact us form */
+#form-header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    flex-wrap: nowrap;
+    background: url('../images/haven-hub-main-banner-hands-holding.jpg') no-repeat center center;
+    height: 97vh;
+    position: relative;
+}
+
+#form-main-banner {
+    font-size: 100%;
+    font-family: 'Abel', sans-serif;
+    letter-spacing: 4px;
+    width: 400px;
+    height: 400px;
+    padding-top: 15px;
+    padding-left: 10px;
+    background-color: rgba(157, 159, 160, 0.5);
+    top: 300px;
+    right: 800px;
+    position: absolute;
+}
+
+
+/* not in use */
+#form-main-banner2 {
+    margin: 150px 10% 0 0;
+    color: #fff;
+    background-color: rgba(60, 60, 60, 0.6);
+    max-width: 400px;
+    position: absolute;
+    top: 0px;
+    right: 600px;
+    padding: 30px;
+}
+
 /* Main image banner on site home page */
 #header-image {
     background-color: #444;
