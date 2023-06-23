@@ -176,10 +176,35 @@ h2 {
 
 /* Get involved page section */
 #get-involved {
-    height: 93vh;
-    background-color: #444;
+    height: 50vh;
+    background-image: linear-gradient(to bottom, white, #F4DF4EFF);
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: bottom;
+    align-content: baseline;
+    flex-wrap: nowrap;
+
+    position: relative;
 
 }
+
+/* 
+item arrangement when screen size becomes too small 
+credit: https://www.youtube.com/watch?v=JqJNhM8i-nc&list=PL4-IK0AVhVjMSb9c06AjRlTpvxL3otpUd&index=3 */
+@media (min-width: 40rem) {
+    #get-involved {
+        flex direction: row;
+    }
+}
+
+#get-involved-child {
+
+    width: 20%;
+
+}
+
+
 
 /* aligning the bottom items - social links, nav, and copyright */
 #footer {
