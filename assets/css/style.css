@@ -184,7 +184,6 @@ h2 {
     align-items: bottom;
     align-content: baseline;
     flex-wrap: nowrap;
-
     position: relative;
 
 }
@@ -194,16 +193,20 @@ item arrangement when screen size becomes too small
 credit: https://www.youtube.com/watch?v=JqJNhM8i-nc&list=PL4-IK0AVhVjMSb9c06AjRlTpvxL3otpUd&index=3 */
 @media (min-width: 40rem) {
     #get-involved {
-        flex direction: row;
+        flex-direction: row;
     }
 }
 
 #get-involved-child {
-
     width: 20%;
-
 }
 
+.get-involved-icons {
+    color: black;
+    font-size: 290%;
+    letter-spacing: 10px;
+    font-weight: bolder;
+}
 
 
 /* aligning the bottom items - social links, nav, and copyright */
