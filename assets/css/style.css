@@ -31,13 +31,13 @@ h2 {
 #logo {
     font-family: 'Abel', sans-serif;
     float: right;
-    font-size: 100%;
+    font-size: 160%;
     color: #F4DF4EFF;
-    border-width: 3px;
-    border-style: solid;
-    border-color: #fafafa;
+    background-color: rgba(157, 159, 160, 0.6);
+    letter-spacing: 4px;
     padding: 5px;
     margin: 5px;
+
 }
 
 #nav-style>a {
@@ -50,7 +50,7 @@ h2 {
     margin: 5px;
     text-decoration: none;
     text-transform: uppercase;
-    background-color: rgba(157, 159, 160, 0.5);
+    background-color: rgba(157, 159, 160, 0.6);
 }
 
 #nav-style>a:hover {
@@ -117,7 +117,7 @@ h2 {
 .sub-button {
     margin-top: 20px;
     border-radius: 20px;
-    padding: 15px 32px 15px 32px;
+    padding: 15px;
     text-align: center;
     font-size: 100%;
     background-color: #F4DF4EFF;
