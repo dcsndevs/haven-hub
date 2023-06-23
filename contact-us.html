@@ -39,9 +39,9 @@
 
     <section>
 
-        <form id="form-main-banner2" action="#" method="post">
+        <form id="form-main-banner2" action="thank-you.html" method="post">
             <h1>Whatever it is, we'd get back!</h1><br>
-            <fieldset align="center">
+            <span align="center">
 
                 <label for="f_name">First Name:</label>
                 <br><input id="f_name" type="text" name="First_name" required>
@@ -67,15 +67,23 @@
                 <br>
                 <br>
 
-                <label for="age">Age</label><br>
-                <select id="option" name="choice">
-                    <option value="Volunteer">Volunteer</option>
+                <label for="option">Option</label><br>
+                <select id="option" name="reason" required>
+                    <option value=""> </option>
+                    <option value="client">Become a client</option>
                     <option value="Donate">Donate</option>
                     <option value="Property Lease">Property Lease</option>
-
+                    <option value="Volunteer">Volunteer</option>
                 </select>
-                <br><br><button type="submit" name="submit" color="red">Submit!</button>
-            </fieldset>
+                <br><br>
+                <label class="subnewsletter">Subcribe to our Newsletter!</label>
+                <br>
+                <input type="checkbox">
+
+
+                <br><br><button type="submit" name="submit" class="sub-button">Submit!</button>
+                <span><button type="reset" name="reset" class="reset-button">Reset Form</button></span>
+                </fieldset>
         </form>
 
     </section>

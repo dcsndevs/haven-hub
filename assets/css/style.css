@@ -114,6 +114,23 @@ h2 {
     position: relative;
 }
 
+.sub-button {
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #F4DF4EFF;
+    color: black;
+    font-weight: bold;
+
+}
+
+.sub-button:hover {
+    background-color: white;
+    color: #F4DF4EFF;
+}
+
 /* not in use */
 #form-main-banner {
     font-size: 100%;
