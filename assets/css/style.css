@@ -205,6 +205,18 @@ header {
     color: #F4DF4EFF;
 }
 
+#subscribe {
+    display: flex;
+    justify-content: center;
+    background-color: #F4DF4EFF;
+    letter-spacing: 3px;
+    width: 100%;
+    min-height: fit-content;
+    padding-top: 15px;
+
+
+}
+
 
 /* Contact us form */
 #form-header-top {
@@ -235,7 +247,7 @@ header {
 }
 
 /* not in use */
-#form-main-banner {
+/* #form-main-banner {
     font-size: 100%;
     font-family: 'Abel', sans-serif;
     letter-spacing: 4px;
@@ -260,7 +272,7 @@ header {
     top: 0px;
     right: 600px;
     padding: 30px;
-}
+} */
 
 
 
