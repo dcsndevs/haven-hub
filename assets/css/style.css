@@ -134,6 +134,21 @@ header {
     position: absolute;
 } */
 
+/* Main image banner on site home page */
+/* #header-image1 {
+    background-color: #444;
+    background-color: blue;
+    width: 100%;
+    height: 700px;
+
+} */
+
+/* About us page section */
+#about-us {
+    height: 90vh;
+
+}
+
 /* Contact us form */
 #form-header-top {
     display: flex;
@@ -190,20 +205,7 @@ header {
     padding: 30px;
 }
 
-/* Main image banner on site home page */
-#header-image {
-    background-color: #444;
-    background-color: blue;
-    width: 100%;
-    height: 700px;
 
-}
-
-/* About us page section */
-#about-us {
-    height: 90vh;
-
-}
 
 /* Get involved page section */
 #get-involved {
@@ -250,10 +252,10 @@ credit: https://www.youtube.com/watch?v=JqJNhM8i-nc&list=PL4-IK0AVhVjMSb9c06AjRl
 #footer {
     display: flex;
     justify-content: space-between;
-    align-items: bottom;
-    flex-wrap: nowrap;
-    height: min-content;
+    align-items: center;
+    padding: 2em;
     background-color: #444;
+    width: 100%;
 }
 
 .footer-menu>a {
