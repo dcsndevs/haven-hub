@@ -19,6 +19,11 @@ font-family: 'Tilt Prism', cursive; */
 
 body {
     font-family: 'Diphylleia', serif;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 h1,
@@ -26,9 +31,14 @@ h2 {
     font-family: 'Abel', sans-serif;
     font-weight: 100%;
     color: #F4DF4EFF;
+
 }
 
-#sech1 {
+a {
+    text-decoration: none;
+}
+
+/* #sech1 {
     alignment: center;
     font-weight: bolder;
     font-size: xx-large;
@@ -44,7 +54,42 @@ h2 {
 
 
 
+} */
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
 }
+
+/* aligning the top items - logo, nav, phone and map link */
+#header-top {
+    background: url('../images/haven-hub-main-banner-hands-holding.jpg') no-repeat center center;
+    height: 90vh;
+
+
+}
+
+.main-header-nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.main-banner-text {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
 
 #logo {
     font-family: 'Abel', sans-serif;
@@ -80,20 +125,10 @@ h2 {
     color: #F4DF4EFF;
 } */
 
-/* aligning the top items - logo, nav, phone and map link */
-#header-top {
-    display: flex;
-    justify-content: space-between;
-    align-items: top;
-    flex-wrap: nowrap;
-    background: url('../images/haven-hub-main-banner-hands-holding.jpg') no-repeat center center;
-    height: 90vh;
-    position: relative;
 
-}
 
 /* introductory message */
-#main-banner {
+/* #main-banner {
     font-size: 130%;
     font-family: 'Abel', sans-serif;
     letter-spacing: 4px;
@@ -105,9 +140,9 @@ h2 {
     top: 300px;
     right: 800px;
     position: absolute;
-}
+} */
 
-#main-banner2 {
+/* #main-banner2 {
     font-size: 130%;
     font-family: 'Abel', sans-serif;
     letter-spacing: 4px;
@@ -119,7 +154,7 @@ h2 {
     top: 450px;
     left: 800px;
     position: absolute;
-}
+} */
 
 /* Contact us form */
 #form-header-top {
