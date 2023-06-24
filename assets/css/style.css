@@ -144,6 +144,68 @@ header {
     align-self: flex-start;
 }
 
+/* Get Involved page section */
+
+#get-involved {
+    background-image: linear-gradient(to bottom, white, #F4DF4EFF);
+    padding-bottom: 3em;
+
+}
+
+.get-involved-title {
+    width: 100%;
+
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+.get-involved-title>h1 {
+    width: 100%;
+
+    text-align: center;
+
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: left;
+    background-color: white;
+    flex-direction: column;
+    padding: 30px;
+
+}
+
+.get-involved-list {
+
+    width: 100%;
+
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+.get-involved-child1 {
+    width: 20%;
+}
+
+.get-involved-icons {
+    color: black;
+    font-size: 290%;
+    letter-spacing: 10px;
+    font-weight: bolder;
+    padding-top: 1em;
+}
+
+.get-involved-icons:hover {
+    background-color: white;
+    color: #F4DF4EFF;
+}
+
+
 /* Contact us form */
 #form-header-top {
     display: flex;
@@ -161,15 +223,15 @@ header {
     padding: 15px;
     text-align: center;
     font-size: 100%;
-    background-color: #F4DF4EFF;
-    color: black;
+    background-color: black;
+    color: silver;
     font-weight: bold;
 
 }
 
 .sub-button:hover {
-    background-color: white;
-    color: #F4DF4EFF;
+    background-color: silver;
+    color: black;
 }
 
 /* not in use */
@@ -202,35 +264,7 @@ header {
 
 
 
-/* Get involved page section */
-#get-involved {
-    height: 50vh;
-    background-image: linear-gradient(to bottom, white, #F4DF4EFF);
-    text-align: center;
-    display: flex;
-    justify-content: space-around;
-    align-items: bottom;
-    align-content: baseline;
-    flex-wrap: nowrap;
-    position: relative;
 
-}
-
-#get-involved-child {
-    width: 20%;
-}
-
-.get-involved-icons {
-    color: black;
-    font-size: 290%;
-    letter-spacing: 10px;
-    font-weight: bolder;
-}
-
-.get-involved-icons:hover {
-    background-color: white;
-    color: #F4DF4EFF;
-}
 
 /* 
 item arrangement when screen size becomes too small 
