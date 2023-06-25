@@ -49,10 +49,10 @@ header {
 
 /* aligning the top items - logo, nav, phone and map link */
 #header-top {
-    background: url('../images/haven-hub-main-banner-hands-holding.jpg') no-repeat center center;
-    height: 90vh;
-
-
+    background: url('../images/haven-bub-main-image-lady-administering-prescriptions.jpg')no-repeat center center;
+    height: 900px;
+    width: 100%;
+    background-size: 100%;
 }
 
 .main-header-nav {
