@@ -208,8 +208,7 @@ header {
 }
 
 .get-involved-icons:hover {
-    background-color: white;
-    color: #F4DF4EFF;
+    color: green;
 }
 
 #subscribe {
