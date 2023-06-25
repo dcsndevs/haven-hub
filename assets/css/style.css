@@ -350,10 +350,14 @@ credit: https://www.youtube.com/watch?v=JqJNhM8i-nc&list=PL4-IK0AVhVjMSb9c06AjRl
     color: white;
 }
 
-.footer-social-icons {
+.footer-social-icons a {
     color: #F4DF4EFF;
     font-size: 130%;
     letter-spacing: 10px;
+}
+
+.footer-social-icons a:hover {
+    color: black;
 }
 
 #footer>div>p {
