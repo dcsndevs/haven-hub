@@ -157,6 +157,7 @@ header {
     background-image: linear-gradient(to bottom, white, #F4DF4EFF);
     padding-bottom: 3em;
 
+
 }
 
 .get-involved-title {
@@ -211,6 +212,16 @@ header {
     color: green;
 }
 
+#subscription {
+    width: 400px;
+    max-width: 100%;
+    position: relative;
+    background-color: aqua 0.5;
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+}
+
 #subscribe {
     display: flex;
     justify-content: center;
@@ -223,6 +234,21 @@ header {
 
 }
 
+button {
+    background-color: grey;
+    color: white;
+    text-decoration: white;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+
+button:hover {
+    background-color: transparent;
+    border: 2px solid black;
+}
 
 /* Contact us form */
 #form-header-top {
