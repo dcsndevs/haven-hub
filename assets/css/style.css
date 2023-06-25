@@ -121,7 +121,7 @@ header {
     padding-top: 30px;
 }
 
-.about-us-title {
+.about-us-subtitle {
     display: flex;
     align-items: center;
     align-content: center;
@@ -148,6 +148,7 @@ header {
     align-items: right;
     gap: 1em;
     align-self: flex-start;
+    object-fit: cover;
 }
 
 /* Get Involved page section */
