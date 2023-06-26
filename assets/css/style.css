@@ -32,7 +32,7 @@ h1,
 h2 {
     font-family: 'Abel', sans-serif;
     font-weight: 100%;
-    color: #009B4D;
+    color: #FFCC00;
 }
 
 a {
@@ -53,6 +53,8 @@ header {
     height: 900px;
     width: 100%;
     background-size: 100%;
+
+
 }
 
 .logo {
@@ -110,27 +112,32 @@ header {
     align-items: center;
     justify-content: center;
     font-size: larger;
-    color: black;
+    color: white;
     font-weight: bolder;
     font-size: 150%;
+    background-color: rgba(0, 0, 0, 0.5);
 
 }
 
+/* 
 .main-header-text>div {
     width: 35%;
     height: 30%;
-    background-color: #FAF5E9;
+    background-color: rgba(0, 0, 0, .5);
     opacity: 0.6;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     border-radius: 50%;
-
-
-
+    text-align: center;
 }
 
+.main-header-text>div:hover {
+    background-color: black;
+    opacity: .6;
+}
+ */
 
 /* About us page section */
 #about-us {
@@ -258,8 +265,25 @@ header {
 
 }
 
+.button {
+    background-color: #009B4D;
+    color: white;
+    text-decoration: white;
+    border: 2px solid transparent;
+    font-weight: normal;
+    padding: 5px;
+    border-radius: 30px;
+    transition: .4s;
+
+}
+
+.button:hover {
+    background-color: transparent;
+    border: 2px solid black;
+}
+
 button {
-    background-color: grey;
+    background-color: #009B4D;
     color: white;
     text-decoration: white;
     border: 2px solid transparent;
