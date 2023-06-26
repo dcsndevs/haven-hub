@@ -24,15 +24,15 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: green;
-    background-color: blue;
+    color: #009B4D;
+    background-color: #FAF5E9;
 }
 
 h1,
 h2 {
     font-family: 'Abel', sans-serif;
     font-weight: 100%;
-    color: #F4DF4EFF;
+    color: #FFCC00;
 }
 
 a {
@@ -44,7 +44,7 @@ header {
     width: 100%;
     display: flex;
     flex-direction: column;
-    color: pink;
+    /* color: pink; */
 }
 
 /* aligning the top items - logo, nav, phone and map link */
@@ -69,7 +69,7 @@ header {
     font-family: 'Abel', sans-serif;
     float: right;
     font-size: 80%;
-    color: #F4DF4EFF;
+    color: #FFCC00;
     letter-spacing: 4px;
     padding: 5px;
     margin: 5px;
@@ -89,7 +89,7 @@ header {
     font-family: 'Abel', sans-serif;
     float: right;
     font-size: 160%;
-    color: #F4DF4EFF;
+    color: #FFCC00;
     background-color: black;
     letter-spacing: 4px;
     padding: 5px;
@@ -154,7 +154,7 @@ header {
 /* Get Involved page section */
 
 #get-involved {
-    background-image: linear-gradient(to bottom, white, #F4DF4EFF);
+    background-image: linear-gradient(to bottom, white, #FFCC00);
     padding-bottom: 3em;
 
 
@@ -220,12 +220,13 @@ header {
     display: flex;
     flex-direction: column;
     padding: 2em;
+
 }
 
 #subscribe {
     display: flex;
     justify-content: center;
-    background-color: #F4DF4EFF;
+    background-color: #FFCC00;
     letter-spacing: 3px;
     width: 100%;
     min-height: fit-content;
@@ -334,7 +335,7 @@ credit: https://www.youtube.com/watch?v=JqJNhM8i-nc&list=PL4-IK0AVhVjMSb9c06AjRl
 .footer-menu>a {
     font-family: 'Abel', sans-serif;
     font-size: inherit;
-    color: #F4DF4EFF;
+    color: #FFCC00;
     letter-spacing: 2px;
     padding: 2px;
     margin: 2px;
@@ -351,7 +352,7 @@ credit: https://www.youtube.com/watch?v=JqJNhM8i-nc&list=PL4-IK0AVhVjMSb9c06AjRl
 }
 
 .footer-social-icons a {
-    color: #F4DF4EFF;
+    color: #FFCC00;
     font-size: 130%;
     letter-spacing: 10px;
 }
@@ -361,6 +362,6 @@ credit: https://www.youtube.com/watch?v=JqJNhM8i-nc&list=PL4-IK0AVhVjMSb9c06AjRl
 }
 
 #footer>div>p {
-    color: #F4DF4EFF;
+    color: #FFCC00;
     font-size: inherit;
 }
