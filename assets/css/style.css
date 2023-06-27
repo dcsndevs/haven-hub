@@ -103,6 +103,15 @@ header {
     color: #009B4D;
 }
 
+a>.nav-style>a:hover {
+    color: #009B4D;
+}
+
+#active-page {
+    color: black;
+
+}
+
 /* Introductory message */
 .main-header-text {
     width: 100%;
