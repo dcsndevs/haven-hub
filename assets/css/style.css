@@ -376,8 +376,8 @@ credit: https://www.youtube.com/watch?v=JqJNhM8i-nc&list=PL4-IK0AVhVjMSb9c06AjRl
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2em;
-    background-color: #444;
+    padding: 1em;
+    background-color: black;
     width: 100%;
 }
 
@@ -392,13 +392,13 @@ credit: https://www.youtube.com/watch?v=JqJNhM8i-nc&list=PL4-IK0AVhVjMSb9c06AjRl
     text-transform: uppercase;
 }
 
-.active-page {
+/* .active-page {
     color: black;
-}
+} */
 
-.footer-menu>a:hover {
+/* .footer-menu>a:hover {
     color: white;
-}
+} */
 
 .footer-social-icons a {
     color: #FFCC00;
@@ -407,10 +407,29 @@ credit: https://www.youtube.com/watch?v=JqJNhM8i-nc&list=PL4-IK0AVhVjMSb9c06AjRl
 }
 
 .footer-social-icons a:hover {
-    color: black;
+    color: white;
 }
 
 #footer>div>p {
     color: #FFCC00;
     font-size: inherit;
+}
+
+.footer-nav-style>a {
+    font-family: 'Abel', sans-serif;
+    float: right;
+    font-size: 80%;
+    font-weight: bolder;
+    color: #FFCC00;
+    letter-spacing: 4px;
+    padding: 5px;
+    margin: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    /* background-color: black; */
+    /* background-color: rgba(157, 159, 160, 0.6); */
+}
+
+.footer-nav-style>a:hover {
+    color: white;
 }
