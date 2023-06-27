@@ -249,7 +249,7 @@ header {
 #subscribe {
     display: flex;
     justify-content: center;
-    /* background-color: #FFCC00; */
+    background-color: #FFCC00;
     letter-spacing: 3px;
     width: 100%;
     min-height: fit-content;
