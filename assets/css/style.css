@@ -25,7 +25,7 @@ body {
     align-items: center;
     justify-content: center;
     color: #009B4D;
-    background-color: #FAF5E9;
+    background-color: linear-gradient(to right, white, #FAF5E9);
 }
 
 h1,
@@ -185,14 +185,13 @@ header {
 
 .get-involved-title {
     width: 100%;
-    letter-spacing: 4px;
     text-align: center;
     margin: 20px;
 }
 
 
 #get-involved {
-    background-image: linear-gradient(to bottom, white, #FAF5E9);
+    /* background-image: linear-gradient(to bottom, white, #FAF5E9); */
     padding-bottom: 3em;
     display: flex;
     align-items: center;
@@ -203,8 +202,8 @@ header {
 .get-involved-card {
     width: 300px;
     height: auto;
-    border-style: double;
-    color: #009B4D;
+    /* border-style: double;
+    color: #009B4D; */
     background-color: #FAF5E9;
     border-top-left-radius: 3%;
     border-top-right-radius: 3%;
@@ -217,6 +216,7 @@ header {
     justify-content: space-between;
     flex-direction: column;
     flex-wrap: wrap;
+    box-shadow: 0px 0px 5px #000000, 0px 0px 15px #858585;
 
 }
 
@@ -239,7 +239,7 @@ header {
     width: 400px;
     max-width: 100%;
     position: relative;
-    background-color: aqua 0.5;
+    /* background-color: aqua 0.5; */
     display: flex;
     flex-direction: column;
     padding: 2em;
@@ -249,13 +249,20 @@ header {
 #subscribe {
     display: flex;
     justify-content: center;
-    background-color: #FFCC00;
+    /* background-color: #FFCC00; */
     letter-spacing: 3px;
     width: 100%;
     min-height: fit-content;
     padding-top: 15px;
+}
 
-
+.subscribe-input {
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 14px;
+    border: 2px solid #009B4D;
+    outline: none;
+    border-radius: 30px;
 }
 
 .button {
