@@ -265,13 +265,13 @@ header {
     border-radius: 30px;
 }
 
-.button {
+/* .button {
     background-color: #009B4D;
     color: white;
     text-decoration: white;
     border: 2px solid transparent;
-    font-weight: normal;
-    padding: 5px;
+    font-weight: bold;
+    padding: 13px 30px;
     border-radius: 30px;
     transition: .4s;
 
@@ -280,7 +280,7 @@ header {
 .button:hover {
     background-color: transparent;
     border: 2px solid black;
-}
+} */
 
 button {
     background-color: #009B4D;
@@ -310,11 +310,12 @@ button:hover {
 }
 
 .sub-button {
+    font-family: 'Abel';
     background-color: #009B4D;
     color: white;
     text-decoration: white;
     border: 2px solid transparent;
-    font-weight: bold;
+    font-weight: normal;
     padding: 4px 13px;
     border-radius: 30px;
     transition: .4s;
