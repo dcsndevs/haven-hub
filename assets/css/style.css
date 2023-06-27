@@ -183,64 +183,57 @@ header {
 
 /* Get Involved page section */
 
-#get-involved {
-    background-image: linear-gradient(to bottom, white, #FFCC00);
-    padding-bottom: 3em;
-
-
-}
-
 .get-involved-title {
     width: 100%;
-
+    letter-spacing: 4px;
     text-align: center;
-    display: flex;
-    justify-content: space-around;
-
-
+    margin: 20px;
 }
 
-.get-involved-title>h1 {
-    width: 100%;
 
-    text-align: center;
-
-    width: 100%;
-    height: 100%;
+#get-involved {
+    background-image: linear-gradient(to bottom, white, #FAF5E9);
+    padding-bottom: 3em;
+    display: flex;
     align-items: center;
-    justify-content: left;
-    background-color: white;
-    flex-direction: column;
-    padding: 30px;
-
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
-.get-involved-list {
-
-    width: 100%;
-
+.get-involved-card {
+    width: 300px;
+    height: auto;
+    border-style: double;
+    color: #009B4D;
+    background-color: #FAF5E9;
+    border-top-left-radius: 3%;
+    border-top-right-radius: 3%;
     text-align: center;
+    margin: 10px;
+    padding: 20px;
+    /* padding-bottom: 3em; */
     display: flex;
-    justify-content: space-around;
-
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
 
 }
 
-.get-involved-child1 {
-    width: 20%;
-}
-
-.get-involved-icons {
+.get-involved-card-icon {
     color: black;
-    font-size: 290%;
-    letter-spacing: 10px;
+    font-size: 250%;
     font-weight: bolder;
     padding-top: 1em;
 }
 
-.get-involved-icons:hover {
+.get-involved-card-icon:hover {
     color: green;
 }
+
+
+
+/* Subscription */
 
 #subscription {
     width: 400px;
@@ -310,19 +303,20 @@ button:hover {
 }
 
 .sub-button {
-    margin-top: 20px;
-    border-radius: 20px;
-    padding: 15px;
-    text-align: center;
-    font-size: 100%;
-    background-color: black;
-    color: silver;
+    background-color: #009B4D;
+    color: white;
+    text-decoration: white;
+    border: 2px solid transparent;
     font-weight: bold;
+    padding: 4px 13px;
+    border-radius: 30px;
+    transition: .4s;
 
 }
 
 .sub-button:hover {
-    background-color: silver;
+    background-color: transparent;
+    border: 2px solid black;
     color: black;
 }
 
