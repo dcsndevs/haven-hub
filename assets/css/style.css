@@ -49,7 +49,7 @@ header {
 
 /* aligning the top items - logo, nav, phone and map link */
 #header-top {
-    background: url('../images/haven-bub-main-image-lady-administering-prescriptions.jpg')no-repeat center center;
+    background: url('../images/haven-hub-main-image-lady-administering-prescriptions.webp')no-repeat center center;
     height: 900px;
     width: 100%;
     background-size: 100%;
@@ -369,7 +369,7 @@ button:hover {
     justify-content: space-between;
     align-items: top;
     flex-wrap: nowrap;
-    background: url('../images/haven-hub-main-banner-hands-holding.jpg') no-repeat center center;
+    background: url('../images/haven-hub-main-banner-hands-holding.webp') no-repeat center center;
     height: 97vh;
     position: relative;
 }
