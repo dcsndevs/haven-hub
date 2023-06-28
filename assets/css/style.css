@@ -133,6 +133,7 @@ a>.nav-style>a:hover {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: center;
     font-size: larger;
     color: white;
     font-weight: bolder;
@@ -439,6 +440,7 @@ credit: https://www.youtube.com/watch?v=JqJNhM8i-nc&list=PL4-IK0AVhVjMSb9c06AjRl
     padding: 1em;
     background-color: black;
     width: 100%;
+
 }
 
 .footer-menu>a {
@@ -475,7 +477,8 @@ credit: https://www.youtube.com/watch?v=JqJNhM8i-nc&list=PL4-IK0AVhVjMSb9c06AjRl
     font-size: inherit;
 }
 
-.footer-nav-style>a {
+.footer-tel>a,
+.footer-address>a {
     font-family: 'Abel', sans-serif;
     float: right;
     font-size: 80%;
@@ -486,10 +489,93 @@ credit: https://www.youtube.com/watch?v=JqJNhM8i-nc&list=PL4-IK0AVhVjMSb9c06AjRl
     margin: 5px;
     text-decoration: none;
     text-transform: uppercase;
+    text-align: center;
     /* background-color: black; */
     /* background-color: rgba(157, 159, 160, 0.6); */
 }
 
 .footer-nav-style>a:hover {
     color: white;
+}
+
+/* Responsiveness for screen sizes */
+@media screen and (max-width: 1390px) {
+    .about-us-subtitle {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 1390px) {
+    #header-top {
+        height: 700px;
+    }
+
+    .main-header-text {
+        font-size: 120%;
+    }
+}
+
+@media screen and (max-width: 1179px) {
+    #footer {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 1115px) {
+    .about-us-subtitle {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    #header-top {
+        height: 600px;
+    }
+
+    .main-header-text {
+        font-size: 100%;
+    }
+
+    .main-header-nav {
+        flex-direction: column;
+    }
+
+    .about-us-subtitle {
+        width: 90%;
+    }
+
+    #footer {
+        justify-items: center;
+    }
+}
+
+@media screen and (max-width: 830px) {
+    #header-top {
+        height: 500px;
+    }
+
+    .main-header-text {
+        font-size: 80%;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .about-us-subtitle {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    #header-top {
+        height: 400px;
+    }
+
+    .about-us-image1 {
+        display: none;
+    }
+
+    .about-us-text1 {
+        padding: 2em;
+        height: 300px;
+    }
 }
