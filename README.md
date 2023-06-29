@@ -4,7 +4,7 @@ Welcome,
 
 This is my first project in completion of my Diploma at Code Institute. **Haven Hub Care Services** is intended for a real company that recently got starteed in the United Kingdom. The idea of Haven hub is to give visibility to the company on the internet. The website seeks to present key contact information about the company, and collect information from people that are interested in its services and offers. The last update to this 
 
-## Testing
+## **Testing**
 
 Various tools have been used in testing the the overall performance of the website from begining to end. I have listed them in no particular other below:
 
