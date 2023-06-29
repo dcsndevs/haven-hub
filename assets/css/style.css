@@ -227,6 +227,7 @@ a>.nav-style>a:hover {
     background-color: aliceblue;
     align-items: left;
     justify-content: left;
+    padding: 2em;
 }
 
 .about-us-image1 {
