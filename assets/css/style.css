@@ -405,19 +405,25 @@ button:hover {
     right: 800px;
     position: absolute;
 }
+*/
+.thankyou-cover {
+    height: 100%;
+    width: 100%;
+    background-color: brown;
+    background-size: 100%;
 
-
+}
 
 #form-main-banner2 {
     margin: 150px 10% 0 0;
     color: #fff;
     background-color: rgba(60, 60, 60, 0.6);
     max-width: 400px;
-    position: absolute;
     top: 0px;
     right: 600px;
     padding: 30px;
-} */
+    text-align: center;
+}
 
 
 
