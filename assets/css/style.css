@@ -606,3 +606,9 @@ credit: https://www.youtube.com/watch?v=JqJNhM8i-nc&list=PL4-IK0AVhVjMSb9c06AjRl
         background: url('../images/haven-hub-main-image-lady-administering-prescriptions-mobile.webp')no-repeat center center;
     }
 }
+
+@media screen and (max-width: 400px) {
+    #active-page {
+        display: none;
+    }
+}
