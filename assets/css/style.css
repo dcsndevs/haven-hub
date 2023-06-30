@@ -273,7 +273,7 @@ a>.nav-style>a:hover {
     height: auto;
     /* border-style: double;
     color: #009B4D; */
-    background-color: #FAF5E9;
+    /* background-color: #FAF5E9; */
     border-top-left-radius: 3%;
     border-top-right-radius: 3%;
     text-align: center;
@@ -513,7 +513,8 @@ credit: https://www.youtube.com/watch?v=JqJNhM8i-nc&list=PL4-IK0AVhVjMSb9c06AjRl
     /* background-color: rgba(157, 159, 160, 0.6); */
 }
 
-.footer-nav-style>a:hover {
+.footer-tel>a:hover,
+.footer-address>a:hover {
     color: white;
 }
 
