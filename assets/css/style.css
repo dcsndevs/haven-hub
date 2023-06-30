@@ -144,6 +144,7 @@ a>.nav-style>a:hover {
     font-weight: bolder;
     font-size: 150%;
     background-color: rgba(0, 0, 0, 0.5);
+    letter-spacing: 4px;
 }
 
 .main-header-text h2 {
