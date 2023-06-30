@@ -329,7 +329,7 @@ a>.nav-style>a:hover {
     padding-top: 15px;
 }
 
-.subscribe-input {
+#subscribe-input {
     display: inline-block;
     width: 100%;
     padding: 14px 130px 14px 14px;
