@@ -58,10 +58,11 @@ header {
     height: 900px;
     width: 100%;
     background-size: 100%;
-    animation: main-banner-animation 10s ease 0s 1 normal forwards;
+    /* animation: main-banner-animation 10s ease 0s 1 normal forwards; */
 
 }
 
+/* 
 @keyframes main-banner-animation {
     0% {
         background-position: center center;
@@ -72,7 +73,7 @@ header {
         background-position: right center;
         background-size: 110%
     }
-}
+} */
 
 
 .logo {
@@ -143,7 +144,7 @@ a>.nav-style>a:hover {
     color: white;
     font-weight: bolder;
     font-size: 150%;
-    background-color: rgba(0, 0, 0, 0.5);
+    /* background-color: rgba(0, 0, 0, 0.5); */
     letter-spacing: 4px;
 }
 
