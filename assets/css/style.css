@@ -28,7 +28,7 @@ body {
 h1,
 h2 {
     font-family: 'Abel', sans-serif;
-    font-weight: 100%;
+
     color: #006400;
 }
 
@@ -36,7 +36,7 @@ h2 {
 h3,
 h4 {
     font-family: 'Roboto', sans-serif;
-    font-weight: 100%;
+
     color: black;
 }
 
@@ -144,7 +144,7 @@ a>.nav-style>a:hover {
     color: white;
     font-weight: bolder;
     font-size: 150%;
-    /* background-color: rgba(0, 0, 0, 0.5); */
+    background-color: rgba(0, 0, 0, 0.5);
     letter-spacing: 4px;
 }
 
@@ -603,14 +603,57 @@ credit: https://www.youtube.com/watch?v=JqJNhM8i-nc&list=PL4-IK0AVhVjMSb9c06AjRl
     }
 
     .about-us-text1 {
-        padding: 2em;
-        height: 350px;
+        padding: 0em;
+        height: 130px;
+        padding-bottom: 0em;
+        padding-bottom: 0em;
+        margin: 0em;
+    }
+
+    #about-us {
+        padding-top: 0em;
+        padding-bottom: 0em;
+    }
+
+    .about-us-subtitle {
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        padding: 0;
+
     }
 }
 
 @media screen and (max-width: 500px) {
     #header-top {
+        background: none;
+        height: auto;
+
+    }
+
+    .main-header-text {
+        width: auto;
+        font-size: 50%;
+        letter-spacing: 1px;
+        height: 250px;
         background: url('../images/haven-hub-main-image-lady-administering-prescriptions-mobile.webp')no-repeat center center;
+        overflow: hidden;
+    }
+
+    .about-us-subtitle {
+        height: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    #about-us {
+        padding-top: 1em;
+        padding-bottom: 5em;
     }
 
     #subscription {
@@ -624,40 +667,60 @@ credit: https://www.youtube.com/watch?v=JqJNhM8i-nc&list=PL4-IK0AVhVjMSb9c06AjRl
     }
 
     #header-top {
-        background: url('../images/haven-hub-main-image-lady-administering-prescriptions-mobile.webp')no-repeat center center;
-        height: 450px;
-        width: 100%;
-        padding-bottom: 0;
+        background: none;
+        height: auto;
 
     }
 
     .main-header-text {
+        height: 266px;
+        width: auto;
+        font-size: 50%;
+        letter-spacing: 1px;
         height: 200px;
+        background: url('../images/haven-hub-main-image-lady-administering-prescriptions-mobile.webp')no-repeat center center;
+        overflow: hidden;
+
+    }
+
+    .about-us-subtitle {
+        height: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        padding: 0;
     }
 
     @keyframes main-banner-animation {}
 
     #about-us {
-        padding: 2em;
+        padding-top: 1em;
+        padding-bottom: 5em;
     }
 }
 
 @media screen and (max-width: 360px) {
+    body {
+        font-family: Garamond;
+
+
+    }
+
+
     .about-us-text1 {
-        padding: 2em;
-        height: 350px;
+        padding: 0em;
+        padding-top: 1em;
+        height: 230px;
+        width: auto;
     }
 
     .main-header-text {
         font-size: 50%;
         letter-spacing: 1px;
-        height: 205px;
-    }
-
-
-    #about-us {
-        padding: 1em;
-        width: 100%;
+        height: 200px;
+        background: url('../images/haven-hub-main-image-lady-administering-prescriptions-mobile-360px.webp')no-repeat center center;
+        width: 360px;
 
     }
 
@@ -667,19 +730,98 @@ credit: https://www.youtube.com/watch?v=JqJNhM8i-nc&list=PL4-IK0AVhVjMSb9c06AjRl
     }
 
     #header-top {
-        background: url('../images/haven-hub-main-image-lady-administering-prescriptions-mobile2.webp')no-repeat bottom;
-        height: 250px;
+        background: none;
+        height: auto;
+
     }
 
-    .get-involved-title {
-        margin: 0px;
+    #about-us {
+        padding: 0;
+        padding-top: 1em;
+
+        margin: 0em;
+        width: 302px;
+
     }
 
     .about-us-subtitle {
-        height: auto;
+        height: 150px;
         display: flex;
         align-items: center;
         justify-content: space-between;
-        flex-direction: column
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .get-involved-title {
+        width: 100%;
+        text-align: center;
+        margin: 0em;
+        padding: 0em;
+        padding-top: 3em;
+
+
+    }
+
+    #get-involved {
+
+        padding-bottom: 0em;
+        margin: 0em;
+        display: inline;
+
+
+
+    }
+
+    .get-involved-card {
+        width: 300px;
+        height: auto;
+
+        margin: 1px;
+        padding: 0em;
+        padding-bottom: 3em;
+        margin-top: 1em;
+
+    }
+
+
+    #subscribe {
+        display: flex;
+        justify-content: center;
+        background-color: white;
+        letter-spacing: 3px;
+        width: 340px;
+        min-height: fit-content;
+        /* padding-top: 15px; */
+        margin-top: 2em;
+
+
+
+    }
+
+    #subscription {
+
+
+
+        position: none;
+        /* background-color: aqua 0.5; */
+        display: ;
+        flex-direction: column;
+        justify-content: center;
+
+        padding-top: 0em;
+
+        /* padding: 2em; */
+
+    }
+
+
+    #subscribe-input {
+        display: inline-block;
+        width: 100%;
+        padding: 14px 130px 14px 14px;
+        border: 2px solid black;
+
+        border-radius: 30px;
     }
 }
