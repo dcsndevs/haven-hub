@@ -218,6 +218,8 @@ a>.nav-style>a:hover {
     background-color: white;
     flex-direction: column;
     padding-top: 30px;
+    text-align: center;
+    margin: 20px;
 }
 
 .about-us-subtitle {
@@ -225,7 +227,7 @@ a>.nav-style>a:hover {
     align-items: center;
     align-content: center;
     justify-content: center;
-    /* justify-items: flex-end; */
+    justify-items: flex-end;
     background-color: white;
     flex-direction: row;
     margin: 1em;
@@ -519,6 +521,10 @@ credit: https://www.youtube.com/watch?v=JqJNhM8i-nc&list=PL4-IK0AVhVjMSb9c06AjRl
     color: white;
 }
 
+#footer p {
+    font-family: 'Abel', sans-serif;
+}
+
 /* Responsiveness for screen sizes */
 @media screen and (max-width: 1390px) {
     .about-us-subtitle {
@@ -597,13 +603,17 @@ credit: https://www.youtube.com/watch?v=JqJNhM8i-nc&list=PL4-IK0AVhVjMSb9c06AjRl
 
     .about-us-text1 {
         padding: 2em;
-        height: 300px;
+        height: 350px;
     }
 }
 
 @media screen and (max-width: 500px) {
     #header-top {
         background: url('../images/haven-hub-main-image-lady-administering-prescriptions-mobile.webp')no-repeat center center;
+    }
+
+    #subscription {
+        width: 100%;
     }
 }
 
@@ -628,6 +638,47 @@ credit: https://www.youtube.com/watch?v=JqJNhM8i-nc&list=PL4-IK0AVhVjMSb9c06AjRl
 
     #about-us {
         padding: 2em;
+    }
+}
 
+@media screen and (max-width: 360px) {
+    .about-us-text1 {
+        padding: 2em;
+        height: 350px;
+    }
+
+    .main-header-text {
+        font-size: 50%;
+        letter-spacing: 1px;
+        height: 205px;
+    }
+
+
+    #about-us {
+        padding: 1em;
+        width: 100%;
+
+    }
+
+    .nav-style>a {
+        font-size: 70%;
+        letter-spacing: 2px;
+    }
+
+    #header-top {
+        background: url('../images/haven-hub-main-image-lady-administering-prescriptions-mobile2.webp')no-repeat bottom;
+        height: 250px;
+    }
+
+    .get-involved-title {
+        margin: 0px;
+    }
+
+    .about-us-subtitle {
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column
     }
 }
