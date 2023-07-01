@@ -624,9 +624,7 @@ credit: https://www.youtube.com/watch?v=JqJNhM8i-nc&list=PL4-IK0AVhVjMSb9c06AjRl
         height: 200px;
     }
 
-    @keyframes main-banner-animation {
-        display: none;
-    }
+    @keyframes main-banner-animation {}
 
     #about-us {
         padding: 2em;
