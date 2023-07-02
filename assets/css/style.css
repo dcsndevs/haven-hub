@@ -750,14 +750,6 @@ credit: https://www.youtube.com/watch?v=JqJNhM8i-nc&list=PL4-IK0AVhVjMSb9c06AjRl
 
     }
 
-
-    .about-us-text1 {
-        padding: 0em;
-        padding-top: 1em;
-        height: 230px;
-        width: auto;
-    }
-
     .main-header-text {
         font-size: 50%;
         letter-spacing: 1px;
@@ -796,14 +788,11 @@ credit: https://www.youtube.com/watch?v=JqJNhM8i-nc&list=PL4-IK0AVhVjMSb9c06AjRl
         padding: 0;
     }
 
-    .get-involved-title {
-        width: 100%;
-        text-align: center;
-        margin: 0em;
+    .about-us-text1 {
         padding: 0em;
-        padding-top: 3em;
-
-
+        padding-top: 1em;
+        height: 230px;
+        width: auto;
     }
 
     #get-involved {
@@ -812,7 +801,14 @@ credit: https://www.youtube.com/watch?v=JqJNhM8i-nc&list=PL4-IK0AVhVjMSb9c06AjRl
         margin: 0em;
         display: inline;
 
+    }
 
+    .get-involved-title {
+        width: 100%;
+        text-align: center;
+        margin: 0em;
+        padding: 0em;
+        padding-top: 3em;
 
     }
 
@@ -848,7 +844,7 @@ credit: https://www.youtube.com/watch?v=JqJNhM8i-nc&list=PL4-IK0AVhVjMSb9c06AjRl
 
         position: none;
         /* background-color: aqua 0.5; */
-        display: ;
+        /* display: ; */
         flex-direction: column;
         justify-content: center;
 
@@ -866,5 +862,60 @@ credit: https://www.youtube.com/watch?v=JqJNhM8i-nc&list=PL4-IK0AVhVjMSb9c06AjRl
         border: 2px solid black;
 
         border-radius: 30px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .main-header-text {
+        color: #000000;
+        height: 175px;
+        width: 280px;
+
+    }
+
+    #about-us {
+        padding: 0em;
+        padding-top: 1em;
+
+        margin: 0em;
+        width: 290px;
+
+        margin-bottom: 1.5em;
+
+    }
+
+    .about-us-subtitle {
+        height: 170px;
+
+
+    }
+
+    .about-us-text1 {
+        padding: 1em;
+
+        height: 240px;
+
+    }
+
+    .get-involved-title {
+
+        padding-top: 2em;
+        padding-right: 4em;
+
+    }
+
+    .get-involved-card {
+        width: 260px;
+        margin-left: 0.5em;
+
+    }
+
+    #subscribe {
+        width: auto;
+        margin-right: 3em;
+
+
+
+
     }
 }
