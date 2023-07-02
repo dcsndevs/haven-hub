@@ -49,31 +49,31 @@
                 <span align="center">
 
                     <label for="f_name">First Name:</label>
-                    <br><input id="f_name" type="text" name="First_name" required>
+                    <br><input id="f_name" type="text" name="First_name" aria-label="First Name" required>
                     <br>
-                    <br><label for="f_name">Last Name:</label>
+                    <br><label for="l_name">Last Name:</label>
                     <br>
-                    <input id="f_name" type="text" name="First_name" required>
-                    <br>
-                    <br>
-                    <label for="f_name">Email:</label>
-                    <br>
-                    <input id="f_name" type="text" name="First_name" required>
+                    <input id="l_name" type="text" name="Last_name" aria-label="Last Name" required>
                     <br>
                     <br>
-                    <label for="f_name">Phone number:</label>
+                    <label for="email">Email:</label>
                     <br>
-                    <input id="f_name" type="text" name="First_name" required>
+                    <input id="email" type="text" name="email" aria-label="Email Address" required>
                     <br>
                     <br>
-                    <label for="f_name">Address:</label>
+                    <label for="phone">Phone number:</label>
                     <br>
-                    <input id="f_name" type="text" name="First_name" required>
+                    <input id="phone" type="text" name="phone" aria-label="Phone Number" required>
+                    <br>
+                    <br>
+                    <label for="address">Address:</label>
+                    <br>
+                    <input id="address" type="text" name="address" aria-label="Adress" required>
                     <br>
                     <br>
 
                     <label for="option">Option:</label><br>
-                    <select id="option" name="reason" required>
+                    <select id="option" name="reason" aria-label="Choose an Option" required>
                         <option value=""> </option>
                         <option value="client">Become a client</option>
                         <option value="Donate">Donate</option>
@@ -81,12 +81,12 @@
                         <option value="Volunteer">Volunteer</option>
                     </select>
                     <br><br>
-                    <label class="subnewsletter">Subcribe to our Newsletter!</label>
+                    <label for="subnewsletter">Subcribe to our Newsletter!</label>
                     <br>
-                    <input type="checkbox">
+                    <input type="checkbox" id="subnewsletter">
 
 
-                    <br><br><button type="submit" name="submit">Submit!</button>
+                    <br><br><button type="submit" name="submit" aria-label="Newsletter Subscription">Submit!</button>
                     <span><button type="reset" name="reset" class="sub-button">Reset Form</button></span>
                     </fieldset>
             </form>

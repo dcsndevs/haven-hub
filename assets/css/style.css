@@ -315,23 +315,14 @@ button:hover {
 
 #form-main-banner2 {
     margin: 30% 10% 0 0;
-    color: #fff;
-    background-color: rgba(60, 60, 60, 0.6);
+    color: black;
+    background-color: #FFCC00;
     max-width: 400px;
     top: 0px;
     right: 600px;
     padding: 30px;
     text-align: center;
 }
-
-/* 
-item arrangement when screen size becomes too small 
-credit: https://www.youtube.com/watch?v=JqJNhM8i-nc&list=PL4-IK0AVhVjMSb9c06AjRlTpvxL3otpUd&index=3 */
-/* @media (min-width: 40rem) {
-    #get-involved {
-        flex-direction: row;
-    }
-} */
 
 /* aligning the bottom items - social links, nav, and copyright */
 #footer {
