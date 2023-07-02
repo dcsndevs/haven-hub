@@ -28,7 +28,6 @@ body {
 h1,
 h2 {
     font-family: 'Abel', sans-serif;
-
     color: #006400;
 }
 
@@ -36,7 +35,6 @@ h2 {
 h3,
 h4 {
     font-family: 'Roboto', sans-serif;
-
     color: black;
 }
 
@@ -49,7 +47,6 @@ header {
     width: 100%;
     display: flex;
     flex-direction: column;
-    /* color: pink; */
 }
 
 /* aligning the top items - logo, nav, phone and map link */
@@ -82,16 +79,13 @@ header {
     font-size: 205%;
     font-weight: bolder;
     color: #009B4D;
-    /* background-color: black; */
     letter-spacing: 4px;
     padding: 5px;
     margin: 5px;
-
 }
 
 .logo span {
     color: black;
-
 }
 
 .main-header-nav {
@@ -100,7 +94,6 @@ header {
     align-items: center;
     justify-content: space-between;
     background-color: #FAF5E9;
-
 }
 
 .nav-style>a {
@@ -114,8 +107,6 @@ header {
     margin: 5px;
     text-decoration: none;
     text-transform: uppercase;
-    /* background-color: black; */
-    /* background-color: rgba(157, 159, 160, 0.6); */
 }
 
 .nav-style>a:hover {
@@ -128,7 +119,6 @@ a>.nav-style>a:hover {
 
 #active-page {
     color: black;
-
 }
 
 /* Introductory message */
@@ -151,63 +141,6 @@ a>.nav-style>a:hover {
 .main-header-text h2 {
     color: #FFCC00
 }
-
-/* .main-header-text h2 {
-    -webkit-animation: text-focus-in 3s cubic-beizier(0.550, 0.085, 0.680, 0.530) both;
-    animation: text-focus-in 3s cubic-beizier(0.550, 0.085, 0.680, 0.530) both;
-
-}
-
-@-webkit-keyframes text-focus-in {
-    0% {
-        -webkit-filter: blur(12px);
-        filter: blur(12px);
-        opacity: 0;
-    }
-
-    100% {
-        -webkit-filter: blur(0px);
-        filter: blur(0px);
-        opacity: 1;
-    }
-
-}
-
-@keyframes text-focus-in {
-    0% {
-        -webkit-filter: blur(12px);
-        filter: blur(12px);
-        opacity: 0;
-    }
-
-    100% {
-        -webkit-filter: blur(0px);
-        filter: blur(0px);
-        opacity: 1;
-    }
-
-} */
-
-
-/* 
-.main-header-text>div {
-    width: 35%;
-    height: 30%;
-    background-color: rgba(0, 0, 0, .5);
-    opacity: 0.6;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-    text-align: center;
-}
-
-.main-header-text>div:hover {
-    background-color: black;
-    opacity: .6;
-}
- */
 
 /* About us page section */
 #about-us {
@@ -264,7 +197,6 @@ a>.nav-style>a:hover {
 
 
 #get-involved {
-    /* background-image: linear-gradient(to bottom, white, #FAF5E9); */
     padding-bottom: 3em;
     display: flex;
     align-items: center;
@@ -275,15 +207,11 @@ a>.nav-style>a:hover {
 .get-involved-card {
     width: 300px;
     height: auto;
-    /* border-style: double;
-    color: #009B4D; */
-    /* background-color: #FAF5E9; */
     border-top-left-radius: 3%;
     border-top-right-radius: 3%;
     text-align: center;
     margin: 10px;
     padding: 20px;
-    /* padding-bottom: 3em; */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -308,15 +236,12 @@ a>.nav-style>a:hover {
     color: #FFCC00;
 }
 
-
-
 /* Subscription */
 
 #subscription {
     width: 430px;
     max-width: 100%;
     position: relative;
-    /* background-color: aqua 0.5; */
     display: flex;
     flex-direction: column;
     padding: 2em;
@@ -341,23 +266,6 @@ a>.nav-style>a:hover {
     outline: none;
     border-radius: 30px;
 }
-
-/* .button {
-    background-color: #009B4D;
-    color: white;
-    text-decoration: white;
-    border: 2px solid transparent;
-    font-weight: bold;
-    padding: 13px 30px;
-    border-radius: 30px;
-    transition: .4s;
-
-}
-
-.button:hover {
-    background-color: transparent;
-    border: 2px solid black;
-} */
 
 button {
     background-color: black;
@@ -397,21 +305,12 @@ button:hover {
     padding: 4px 13px;
     border-radius: 30px;
     transition: .4s;
-
 }
 
 .sub-button:hover {
     background-color: transparent;
     border: 2px solid black;
     color: black;
-}
-
-.thankyou-cover {
-    height: 100%;
-    width: 100%;
-    background-color: brown;
-    background-size: 100%;
-
 }
 
 #form-main-banner2 {
@@ -425,20 +324,14 @@ button:hover {
     text-align: center;
 }
 
-
-
-
-
 /* 
 item arrangement when screen size becomes too small 
 credit: https://www.youtube.com/watch?v=JqJNhM8i-nc&list=PL4-IK0AVhVjMSb9c06AjRlTpvxL3otpUd&index=3 */
-@media (min-width: 40rem) {
+/* @media (min-width: 40rem) {
     #get-involved {
         flex-direction: row;
     }
-}
-
-
+} */
 
 /* aligning the bottom items - social links, nav, and copyright */
 #footer {
@@ -460,7 +353,6 @@ credit: https://www.youtube.com/watch?v=JqJNhM8i-nc&list=PL4-IK0AVhVjMSb9c06AjRl
     text-decoration: none;
     text-transform: uppercase;
 }
-
 
 .footer-social-icons a {
     color: #FFCC00;
@@ -490,7 +382,6 @@ credit: https://www.youtube.com/watch?v=JqJNhM8i-nc&list=PL4-IK0AVhVjMSb9c06AjRl
     text-decoration: none;
     text-transform: uppercase;
     text-align: center;
-
 }
 
 .footer-tel>a:hover,
@@ -522,7 +413,6 @@ credit: https://www.youtube.com/watch?v=JqJNhM8i-nc&list=PL4-IK0AVhVjMSb9c06AjRl
 #sticky-footer p {
     font-family: 'Abel', sans-serif;
 }
-
 
 /* Responsiveness for screen sizes */
 @media screen and (max-width: 1390px) {
@@ -659,16 +549,12 @@ credit: https://www.youtube.com/watch?v=JqJNhM8i-nc&list=PL4-IK0AVhVjMSb9c06AjRl
         width: auto;
         margin: 0em;
     }
-
-
-
 }
 
 @media screen and (max-width: 500px) {
     #header-top {
         background: none;
         height: auto;
-
     }
 
     .main-header-text {
@@ -707,7 +593,6 @@ credit: https://www.youtube.com/watch?v=JqJNhM8i-nc&list=PL4-IK0AVhVjMSb9c06AjRl
     #header-top {
         background: none;
         height: auto;
-
     }
 
     .main-header-text {
@@ -718,7 +603,6 @@ credit: https://www.youtube.com/watch?v=JqJNhM8i-nc&list=PL4-IK0AVhVjMSb9c06AjRl
         height: 200px;
         background: url('../images/haven-hub-main-image-lady-administering-prescriptions-mobile.webp')no-repeat center center;
         overflow: hidden;
-
     }
 
     .about-us-subtitle {
@@ -748,8 +632,6 @@ credit: https://www.youtube.com/watch?v=JqJNhM8i-nc&list=PL4-IK0AVhVjMSb9c06AjRl
 @media screen and (max-width: 360px) {
     body {
         font-family: Garamond;
-
-
     }
 
     .main-header-text {
@@ -758,7 +640,6 @@ credit: https://www.youtube.com/watch?v=JqJNhM8i-nc&list=PL4-IK0AVhVjMSb9c06AjRl
         height: 200px;
         background: url('../images/haven-hub-main-image-lady-administering-prescriptions-mobile-360px.webp')no-repeat center center;
         width: 360px;
-
     }
 
     .nav-style>a {
@@ -775,10 +656,8 @@ credit: https://www.youtube.com/watch?v=JqJNhM8i-nc&list=PL4-IK0AVhVjMSb9c06AjRl
     #about-us {
         padding: 0;
         padding-top: 1em;
-
         margin: 0em;
         width: 302px;
-
     }
 
     .about-us-subtitle {
@@ -798,11 +677,9 @@ credit: https://www.youtube.com/watch?v=JqJNhM8i-nc&list=PL4-IK0AVhVjMSb9c06AjRl
     }
 
     #get-involved {
-
         padding-bottom: 0em;
         margin: 0em;
         display: inline;
-
     }
 
     .get-involved-title {
@@ -811,18 +688,15 @@ credit: https://www.youtube.com/watch?v=JqJNhM8i-nc&list=PL4-IK0AVhVjMSb9c06AjRl
         margin: 0em;
         padding: 0em;
         padding-top: 3em;
-
     }
 
     .get-involved-card {
         width: 300px;
         height: auto;
-
         margin: 1px;
         padding: 0em;
         padding-bottom: 3em;
         margin-top: 1em;
-
     }
 
 
@@ -833,7 +707,6 @@ credit: https://www.youtube.com/watch?v=JqJNhM8i-nc&list=PL4-IK0AVhVjMSb9c06AjRl
         letter-spacing: 3px;
         width: 340px;
         min-height: fit-content;
-        /* padding-top: 15px; */
         margin-top: 2em;
 
 
@@ -841,19 +714,12 @@ credit: https://www.youtube.com/watch?v=JqJNhM8i-nc&list=PL4-IK0AVhVjMSb9c06AjRl
     }
 
     #subscription {
-
-
-
         position: none;
         /* background-color: aqua 0.5; */
         /* display: ; */
         flex-direction: column;
         justify-content: center;
-
         padding-top: 0em;
-
-        /* padding: 2em; */
-
     }
 
 
@@ -862,7 +728,6 @@ credit: https://www.youtube.com/watch?v=JqJNhM8i-nc&list=PL4-IK0AVhVjMSb9c06AjRl
         width: 100%;
         padding: 14px 130px 14px 14px;
         border: 2px solid black;
-
         border-radius: 30px;
     }
 }
@@ -873,7 +738,6 @@ credit: https://www.youtube.com/watch?v=JqJNhM8i-nc&list=PL4-IK0AVhVjMSb9c06AjRl
         margin: 0em;
         padding: 0em;
         margin-left: -1.8em;
-
     }
 
     .main-header-nav {
@@ -884,52 +748,37 @@ credit: https://www.youtube.com/watch?v=JqJNhM8i-nc&list=PL4-IK0AVhVjMSb9c06AjRl
         color: #000000;
         height: 175px;
         width: 280px;
-
     }
 
     #about-us {
         padding: 0em;
         padding-top: 1em;
-
         margin: 0em;
         width: 290px;
-
         margin-bottom: 1.5em;
-
     }
 
     .about-us-subtitle {
         height: 170px;
-
-
     }
 
     .about-us-text1 {
         padding: 1em;
-
         height: 240px;
-
     }
 
     .get-involved-title {
-
         padding-top: 2em;
         padding-right: 4em;
-
     }
 
     .get-involved-card {
         width: 260px;
         margin-left: 0.5em;
-
     }
 
     #subscribe {
         width: auto;
         margin-right: 3em;
-
-
-
-
     }
 }
