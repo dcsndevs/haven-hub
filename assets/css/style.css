@@ -406,21 +406,6 @@ button:hover {
     color: black;
 }
 
-/* not in use */
-/* #form-main-banner {
-    font-size: 100%;
-    font-family: 'Abel', sans-serif;
-    letter-spacing: 4px;
-    width: 400px;
-    height: 400px;
-    padding-top: 15px;
-    padding-left: 10px;
-    background-color: rgba(157, 159, 160, 0.5);
-    top: 300px;
-    right: 800px;
-    position: absolute;
-}
-*/
 .thankyou-cover {
     height: 100%;
     width: 100%;
@@ -430,7 +415,7 @@ button:hover {
 }
 
 #form-main-banner2 {
-    margin: 150px 10% 0 0;
+    margin: 30% 10% 0 0;
     color: #fff;
     background-color: rgba(60, 60, 60, 0.6);
     max-width: 400px;
@@ -463,7 +448,6 @@ credit: https://www.youtube.com/watch?v=JqJNhM8i-nc&list=PL4-IK0AVhVjMSb9c06AjRl
     padding: 1em;
     background-color: black;
     width: 100%;
-
 }
 
 .footer-menu>a {
@@ -477,13 +461,6 @@ credit: https://www.youtube.com/watch?v=JqJNhM8i-nc&list=PL4-IK0AVhVjMSb9c06AjRl
     text-transform: uppercase;
 }
 
-/* .active-page {
-    color: black;
-} */
-
-/* .footer-menu>a:hover {
-    color: white;
-} */
 
 .footer-social-icons a {
     color: #FFCC00;
@@ -513,8 +490,7 @@ credit: https://www.youtube.com/watch?v=JqJNhM8i-nc&list=PL4-IK0AVhVjMSb9c06AjRl
     text-decoration: none;
     text-transform: uppercase;
     text-align: center;
-    /* background-color: black; */
-    /* background-color: rgba(157, 159, 160, 0.6); */
+
 }
 
 .footer-tel>a:hover,
@@ -525,6 +501,28 @@ credit: https://www.youtube.com/watch?v=JqJNhM8i-nc&list=PL4-IK0AVhVjMSb9c06AjRl
 #footer p {
     font-family: 'Abel', sans-serif;
 }
+
+/* Contact us Footer */
+#contact-us-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    background-color: black;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+}
+
+#contact-us-footer>div>p {
+    color: #FFCC00;
+    font-size: inherit;
+}
+
+#contact-us-footer p {
+    font-family: 'Abel', sans-serif;
+}
+
 
 /* Responsiveness for screen sizes */
 @media screen and (max-width: 1390px) {
@@ -545,6 +543,10 @@ credit: https://www.youtube.com/watch?v=JqJNhM8i-nc&list=PL4-IK0AVhVjMSb9c06AjRl
 
 @media screen and (max-width: 1179px) {
     #footer {
+        flex-direction: column;
+    }
+
+    #contact-us-footer {
         flex-direction: column;
     }
 }
