@@ -866,6 +866,18 @@ credit: https://www.youtube.com/watch?v=JqJNhM8i-nc&list=PL4-IK0AVhVjMSb9c06AjRl
 }
 
 @media screen and (max-width: 320px) {
+    #header-top {
+        width: 290px;
+        margin: 0em;
+        padding: 0em;
+        margin-left: -1.8em;
+
+    }
+
+    .main-header-nav {
+        width: 280px;
+    }
+
     .main-header-text {
         color: #000000;
         height: 175px;
