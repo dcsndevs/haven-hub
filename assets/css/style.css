@@ -503,7 +503,7 @@ credit: https://www.youtube.com/watch?v=JqJNhM8i-nc&list=PL4-IK0AVhVjMSb9c06AjRl
 }
 
 /* Contact us Footer */
-#contact-us-footer {
+#sticky-footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -514,12 +514,12 @@ credit: https://www.youtube.com/watch?v=JqJNhM8i-nc&list=PL4-IK0AVhVjMSb9c06AjRl
     bottom: 0px;
 }
 
-#contact-us-footer>div>p {
+#sticky-footer>div>p {
     color: #FFCC00;
     font-size: inherit;
 }
 
-#contact-us-footer p {
+#sticky-footer p {
     font-family: 'Abel', sans-serif;
 }
 
@@ -546,7 +546,7 @@ credit: https://www.youtube.com/watch?v=JqJNhM8i-nc&list=PL4-IK0AVhVjMSb9c06AjRl
         flex-direction: column;
     }
 
-    #contact-us-footer {
+    #sticky-footer {
         flex-direction: column;
     }
 }
