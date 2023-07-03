@@ -427,6 +427,11 @@ button:hover {
     #sticky-footer {
         flex-direction: column;
     }
+
+    #form-main-banner2 {
+        margin: 0% 10% 0 0;
+
+    }
 }
 
 @media screen and (max-width: 1115px) {
@@ -471,6 +476,37 @@ button:hover {
     .about-us-subtitle {
         width: 100%;
     }
+
+    #sticky-footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1em;
+        background-color: black;
+        width: 100%;
+        position: relative;
+        bottom: 0px;
+    }
+}
+
+@media screen and (max-height: 700px) {
+    body {
+        background-color: #FFCC00;
+    }
+
+    #form-main-banner2 {
+        max-width: 400px;
+        right: 600px;
+        padding: 30px;
+        margin-left: 40px;
+
+    }
+
+    #sticky-footer {
+        position: relative;
+        bottom: 0px;
+    }
+
 }
 
 @media screen and (max-width: 670px) {
@@ -696,9 +732,6 @@ button:hover {
         width: 340px;
         min-height: fit-content;
         margin-top: 2em;
-
-
-
     }
 
     #subscription {
