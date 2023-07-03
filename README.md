@@ -98,6 +98,10 @@ After these steps, the site would have been deployed and becomes live at https:/
 <li>While creating the elements on the index page, I struggled with aligning the texts and contents to an absolute center. I was then introduced to the Flex box tutorial by <a href="https://www.youtube.com/user/KepowOb">Kelvin Powell</a> on <a href="https://www.youtube.com/watch?v=hwbqquXww-U&list=PL4-IK0AVhVjMSb9c06AjRlTpvxL3otpUd&ab_channel=KevinPowell">YouTube</a></li>
 <li>In preparation for this website, I used Balsamiq to create wireframes to guide me through the project. Even though the final website didn't look exactly like the wireframe, it provide a guide on the journey and was important to helping me achieve the final design.</li>
 
+``Fonts & Icons``
+
+The fonts used were imported from <a href="https://fonts.google.com/">Google Fonts</a> and the Icons were from <a href="https://fontawesome.com/">Font Awesome</a>.
+
 `Colors`
 
 Black, Dark Green, Ivory, and Yellow were the main colors used for this site. <a href="https://www.hostinger.com/tutorials/website-color-schemes">Hostinger's</a> color scheme tutorial inspired the use of Dark Green, Ivory, and Yellow. The color pallete according to it, suggests they are "easy on the eyes, making the website seem relaxing and organic"
