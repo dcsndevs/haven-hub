@@ -12,9 +12,13 @@ Various tools have been used in testing the the overall performance of the websi
 Google page speed insights was used to test the speed of the website and various issues were highlighted which was followed by subsequent adjustments.
 A notable issue raised was that of the body font bing high in contrast. The font (Diphlliea) was then changed to Roboto. High contrast fonts are difficult to read by some users and also on some devices.
 
-`W3 Validator:`
+`HTML Validator:`
 1. The W3 validator (validator.w3.org) highlighted errors on the website's links. Arial-label instead of aria-label had been used, and 15 errors were found and corrected.
-2. A <p> element hhad been left exposed on the about section and this was detected and corrected afterwards.
+2. An element hhad been left exposed on the about section and this was detected and corrected afterwards.
+
+`CSS Validator:`
+1. The W3 validator highlighted 5 errors regarding the use of a wrongly written code for background-color, align-items and position. These codes were then rewritten correctly.
+2. The validator highlighted 5 warnings regarding using same background color and border colors for the buttons on the pages.
 
 
 ## Tools
