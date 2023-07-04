@@ -451,18 +451,16 @@ button:hover {
 
 /* Responsiveness for screen sizes */
 @media screen and (max-width: 1390px) {
-    .about-us-subtitle {
-        width: 60%;
-    }
-}
-
-@media screen and (max-width: 1390px) {
     #header-top {
         height: 700px;
     }
 
     .main-header-text {
         font-size: 120%;
+    }
+
+    .about-us-subtitle {
+        width: 60%;
     }
 }
 
@@ -474,7 +472,6 @@ button:hover {
     #sticky-footer {
         flex-direction: column;
     }
-
 }
 
 @media screen and (max-width: 1115px) {
