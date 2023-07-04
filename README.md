@@ -99,30 +99,24 @@ The fonts used were imported from [Google Fonts]("https://fonts.google.com/) and
 
 `Colors`
 
-Black, Dark Green, Ivory, and Yellow were the main colors used for this site. <a href="https://www.hostinger.com/tutorials/website-color-schemes">Hostinger's</a> color scheme tutorial inspired the use of Dark Green, Ivory, and Yellow. The color pallete according to it, suggests they are "easy on the eyes, making the website seem relaxing and organic"
+Black, Dark Green, Ivory, and Yellow were the main colors used for this site. [Hostinger's](https://www.hostinger.com/tutorials/website-color-schemes) color scheme tutorial inspired the use of Dark Green, Ivory, and Yellow. The color pallete according to it, suggests they are "easy on the eyes, making the website seem relaxing and organic"
 
 ``Animations``
 
-The animation used for the intro message is "text-focus-in" animation gotten from <a href="https://animista.net/play/text/focus-in/text-focus-in">Animista</a>
+The animation used for the intro message is "text-focus-in" animation gotten from [Animista](https://animista.net/play/text/focus-in/text-focus-in)
 
 `Images`
 
-<ul>
-<li>All the images used in the creation of this website were sourced on Pexels, Unsplash and W3 websites. Below is a list of the images used and there links: 
-<ol>
-<li>Photo by <a href="https://www.pexels.com/photo/woman-in-white-shirt-sitting-beside-woman-in-black-long-sleeve-shirt-7551652/">Kampus Production</a></li>
-<li>Photo from <a href="https://www.w3schools.com/w3images/house2.jpg"> W3 Web Themes</a></li>
-<li>Photo by <a href="https://unsplash.com/photos/8irA6aCfgDs">Doan Anh</a></li>
-<li>Photo by <a href="https://www.pexels.com/photo/joyful-adult-daughter-greeting-happy-surprised-senior-mother-in-garden-3768131/">Andrea Piacquadio</a></li>
-<li>Photo by <a href="https://www.pexels.com/photo/2-person-holding-hands-45842/">Pixabay</a></li>
-</ol>
-</li>
+All the images used in the creation of this website were sourced on Pexels, Unsplash and W3 websites. Below is a list of the images used and there links: 
+1. Photo by [Kampus Production](https://www.pexels.com/photo/woman-in-white-shirt-sitting-beside-woman-in-black-long-sleeve-shirt-7551652/)
+2. Photo from  [W3 Web Themes](https://www.w3schools.com/w3images/house2.jpg)
+3. Photo by [Doan Anh](https://unsplash.com/photos/8irA6aCfgDs)
+4. Photo by [Andrea Piacquadio](https://www.pexels.com/photo/joyful-adult-daughter-greeting-happy-surprised-senior-mother-in-garden-3768131/)
+5. Photo by [Pixabay](https://www.pexels.com/photo/2-person-holding-hands-45842/)
 
-<li>
-<a href="https://imageresizer.com/">Image Resizer</a> and <a href="https://tinypng.com/">Tiny Png</a> were used to respectively esize and compress all the images on this site.
-</li>
-<li>
-<a href="ami.responsivedesign.is">Am I Responsive</a> website was used to simultaneously display how the site looks on different screen sizes.
+
+[Image Resizer](https://imageresizer.com/) and [Tiny Png](https://tinypng.com/) were used to respectively esize and compress all the images on this site.
+[Am I Responsive](ami.responsivedesign.is) website was used to simultaneously display how the site looks on different screen sizes.
 </li>
 </ol></ul>
 
@@ -130,6 +124,6 @@ The animation used for the intro message is "text-focus-in" animation gotten fro
 
 `Acknowledgements`
 
-In the build up of the website, I got a lot of inspiration from my Mentor <a href="https://github.com/IuliiaKonovalova/">Julia Konn</a> who guided me through out this work. She explained difficult terminologies and helped break down complex structures.
+In the build up of the website, I got a lot of inspiration from my Mentor [Juliia Konn](https://github.com/IuliiaKonovalova/) who guided me through out this work. She explained difficult terminologies and helped break down complex structures.
 
 I wish to thank my loving wife for her support in the course of this work. She's been taking up most of my shifts for baby sitting our son in other to allow me give more time to this work.
