@@ -30,7 +30,7 @@ The footer also contains the organisation's phone number and physical address/ T
 
 `Sign Up Page:`
 The Signup page (https://dcsndevs.github.io/haven-hub/contact-us.html) contains a web form that collects the users data based on the reason why they are contacting the organisation. The user has the options and choose to become a client, Donate, Volunteer, Lease their property and subscribe to the organisation's newsletter.
-At the moment, the form is not connected to any database but only make use of a 'Get' form action. There are future plans of connnecting it using PHP and MYSQL in order to store what is submitted.
+At the moment, the form is not connected to any database but only make use of a 'Get' form action. There are future plans of connnecting it using Javascript, PHP and MYSQL in order to store what is submitted.
 
 `Thank you Page:`
 There are two thank you page with same layout but different messages. 
