@@ -2,7 +2,7 @@
 
 Welcome,
 
-**Haven Hub Care Services Limited** is an organisation that specialises in providing assisted living for people with special needs and is based in the United Kingdom. The website seeks to present key contact information about the organisation, and collect information from people that are interested in its services and offers. The link to the deployed site is <a href="https://dcsndevs.github.io/haven-hub/">Here</a>
+**Haven Hub Care Services Limited** is an organisation that specialises in providing assisted living for people with special needs and is based in the United Kingdom. The website seeks to present key contact information about the organisation, and collect information from people that are interested in its services and offers. The link to the deployed site is [Here](https://dcsndevs.github.io/haven-hub)
 
 ## **Features**
 <hr>
@@ -29,13 +29,13 @@ Like the Navigation bar, the footer maintains the same design and content throug
 The footer also contains the organisation's phone number and physical address/ The address when clicked also opens a google map for ease of direction.Likewise, the phone number when clicked, would attempt to dial the number if the user were using a mobile device  ora computer that has Call abilities.
 
 `Sign Up Page:`
-The Signup page (https://dcsndevs.github.io/haven-hub/contact-us.html) contains a web form that collects the users data based on the reason why they are contacting the organisation. The user has the options and choose to become a client, Donate, Volunteer, Lease their property and subscribe to the organisation's newsletter.
+The [Signup page](https://dcsndevs.github.io/haven-hub/contact-us.html) contains a web form that collects the users data based on the reason why they are contacting the organisation. The user has the options and choose to become a client, Donate, Volunteer, Lease their property and subscribe to the organisation's newsletter.
 At the moment, the form is not connected to any database but only make use of a 'Get' form action. There are future plans of connnecting it using Javascript, PHP and MYSQL in order to store what is submitted.
 
 `Thank you Page:`
 There are two thank you page with same layout but different messages. 
-The first, (https://dcsndevs.github.io/haven-hub/contact-us.html) is a message that users who Signed up via the contact us page gets to see. It informs the user that their deatils have been received, and that they would be contacted shortly.
-The second, (https://dcsndevs.github.io/haven-hub/newsletter-thankyou.html) refers to users who specificaly used the Newsletter subscription form from the hompage. It lets the user know that they have successfully scubscribed to recevie newsletter from the organisation.
+[The first](https://dcsndevs.github.io/haven-hub/contact-us.html), is a message that users who Signed up via the contact us page gets to see. It informs the user that their deatils have been received, and that they would be contacted shortly.
+[The second](https://dcsndevs.github.io/haven-hub/newsletter-thankyou.html), refers to users who specificaly used the Newsletter subscription form from the hompage. It lets the user know that they have successfully scubscribed to recevie newsletter from the organisation.
 
 There is a future plan to allow the user receive a pop-up after submitting through the contact page and then gives the user an option to return to the homepage. This would reduce the number of pages for the website as a whole, and is a faster and more user friendly method rather than allowing another page load before confirming actions to the users.
 
@@ -51,55 +51,51 @@ A notable issue raised was that of the body font bing high in contrast. The font
 `HTML Validator:`
 1. The W3 validator (validator.w3.org) highlighted errors on the website's links. Arial-label instead of aria-label had been used, and 15 errors were found and corrected.
 2. An element hhad been left exposed on the about section and this was detected and corrected afterwards. Click the image below to visit the validation page!
-<p>
-    <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fdcsndevs.github.io%2Fhaven-hub%2F">
-        <img style="border:0;width:88px;height:31px"
-            src="https://jigsaw.w3.org/css-validator/images/vcss-blue"
-            alt="Valid CSS!" />
-    </a>
-</p>
+
+![w3](https://jigsaw.w3.org/css-validator/images/vcss-blue)
+            
+
 
 `CSS Validator:`
 1. The W3 validator highlighted 5 errors regarding the use of a wrongly written code for background-color, align-items and position. These codes were then rewritten correctly.
 2. The validator highlighted 5 warnings regarding using same background color and border colors for the buttons on the pages.
 Click the image below to visit the validation page!
-<p>
-    <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdcsndevs.github.io%2Fhaven-hub%2Fassets%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">
-        <img style="border:0;width:88px;height:31px"
-            src="https://jigsaw.w3.org/css-validator/images/vcss"
-            alt="Valid CSS!" />
-    </a>
-</p>
+
+![w3](https://jigsaw.w3.org/css-validator/images/vcss)
+
 
 `Color Contrast:`
-Deque's University Color Contrast Analyzer was used to determine what colors go together This ensures that users of all kind can clearly view texts and image/button borders. Some users might be color blind or are people with low vision experience. This tool ensures that the best colours are used in other to gurantee their convenience. A brief understanding of this would be an instance where a white text is put on a yellow backrougnd. Both colors are too bnright and would be difficult to read for most users.
-https://dequeuniversity.com/rules/axe/4.7/color-contrast
+
+[Deque's University Color Contrast Analyzer](https://dequeuniversity.com/rules/axe/4.7/color-contrast) was used to determine what colors go together This ensures that users of all kind can clearly view texts and image/button borders. Some users might be color blind or are people with low vision experience. This tool ensures that the best colours are used in other to gurantee their convenience. A brief understanding of this would be an instance where a white text is put on a yellow backrougnd. Both colors are too bnright and would be difficult to read for most users.
+
 
             
 `Unfixed Bugs:`
-At the time of documenting, there are no know bugs yet.
+I encountered issues with the footer the signup and thank you pages. The footers were floating because the page didn't have enough content and then scrolling was an issue in mobile screens - This tutorial by [Sir Chogyal](https://www.youtube.com/watch?v=J-r75L3Tflg) helped me through it.
 
 ## **Deployment**
 <hr>
 The site was deployed using Github and was pushed through via Vscode.
 The repository was created on Github and then cloned on Vscode. After creating the site on Vscode, it was pushed onto github.
-The site was then deployed via Github pages by -
-<li>Selecting the settings tab inside the repo on Github </li>
-<li>Selecting Deploy from a branch under 'Build and deployment'</li>
-<li>Selecting Main under branch</li>
-<li>Click save</li>
-After these steps, the site would have been deployed and becomes live at https://dcsndevs.github.io/haven-hub/
+The site was then deployed via Github pages by:
+
+    - Selecting the settings tab inside the repo on Github
+    - Selecting Deploy from a branch under 'Build and deployment'
+    - Selecting Main under branch
+    - Click save
+After these steps, the site would have been deployed and becomes live at <https://dcsndevs.github.io/haven-hub>
+
 
 ## **Credits**
 <hr>
 
 `Content`
-<li>While creating the elements on the index page, I struggled with aligning the texts and contents to an absolute center. I was then introduced to the Flex box tutorial by <a href="https://www.youtube.com/user/KepowOb">Kelvin Powell</a> on <a href="https://www.youtube.com/watch?v=hwbqquXww-U&list=PL4-IK0AVhVjMSb9c06AjRlTpvxL3otpUd&ab_channel=KevinPowell">YouTube</a></li>
-<li>In preparation for this website, I used Balsamiq to create wireframes to guide me through the project. Even though the final website didn't look exactly like the wireframe, it provide a guide on the journey and was important to helping me achieve the final design.</li>
+- While creating the elements on the index page, I struggled with aligning the texts and contents to an absolute center. I was then introduced to the Flex box tutorial by [Kelvin Powell](https://www.youtube.com/user/KepowOb) on [YouTube](https://www.youtube.com/watch?v=hwbqquXww-U&list=PL4-IK0AVhVjMSb9c06AjRlTpvxL3otpUd&ab_channel=KevinPowell)
+- In preparation for this website, I used Balsamiq to create wireframes to guide me through the project. Even though the final website didn't look exactly like the wireframe, it provide a guide on the journey and was important to helping me achieve the final design.</l>
 
 ``Fonts & Icons``
 
-The fonts used were imported from <a href="https://fonts.google.com/">Google Fonts</a> and the Icons were from <a href="https://fontawesome.com/">Font Awesome</a>.
+The fonts used were imported from [Google Fonts]("https://fonts.google.com/) and the Icons were from [Font Awesome](https://fontawesome.com/)
 
 `Colors`
 
