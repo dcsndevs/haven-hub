@@ -257,15 +257,12 @@ a>.nav-style>a:hover {
 }
 
 .get-involved-card-icon {
-    color: black;
+    color: #009B4D;
     font-size: 250%;
     font-weight: bolder;
     padding-top: 1em;
 }
 
-.get-involved-card-icon:hover {
-    color: green;
-}
 
 .get-involved-card-title {
     color: #FFCC00;
