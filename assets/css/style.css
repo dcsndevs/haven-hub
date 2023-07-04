@@ -319,6 +319,20 @@ button:hover {
 }
 
 /* Contact us form */
+#contact-us-sign-up {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+#contact-us-sign-up-body {
+    min-height: 100%;
+    position: relative;
+    box-sizing: inherit;
+
+}
+
+
+
 #form-header-top {
     display: flex;
     justify-content: space-between;
@@ -351,9 +365,7 @@ button:hover {
     color: black;
     background-color: #FFCC00;
     max-width: auto;
-    margin-top: 10px;
-    right: 600px;
-
+    margin-top: 30%;
     text-align: center;
 }
 
@@ -425,8 +437,7 @@ button:hover {
     padding: 1em;
     background-color: black;
     width: 100%;
-    position: fixed;
-    bottom: 0px;
+    margin-top: auto;
 }
 
 #sticky-footer>div>p {
@@ -464,10 +475,6 @@ button:hover {
         flex-direction: column;
     }
 
-    #form-main-banner2 {
-        /* margin: 0% 10% 0 0; */
-
-    }
 }
 
 @media screen and (max-width: 1115px) {
@@ -496,340 +503,344 @@ button:hover {
     #footer {
         justify-items: center;
     }
-}
-
-@media screen and (max-width: 830px) {
-    #header-top {
-        height: 500px;
-    }
-
-    .main-header-text {
-        font-size: 80%;
-    }
-}
-
-@media screen and (max-width: 740px) {
-    .about-us-subtitle {
-        width: 100%;
-    }
-
-    #sticky-footer {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 1em;
-        background-color: black;
-        width: 100%;
-        position: relative;
-        bottom: 0px;
-    }
-}
-
-@media screen and (max-height: 700px) {
 
     #form-main-banner2 {
-        max-width: 400px;
-        right: 600px;
-        padding: 30px;
-        /* margin-left: 40px; */
+        margin-top: 40%;
+    }
+
+    @media screen and (max-width: 830px) {
+        #header-top {
+            height: 500px;
+        }
+
+        .main-header-text {
+            font-size: 80%;
+        }
+    }
+
+    @media screen and (max-width: 740px) {
+        .about-us-subtitle {
+            width: 100%;
+        }
+
+        #sticky-footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1em;
+            background-color: black;
+            width: 100%;
+            position: relative;
+            bottom: 0px;
+        }
+    }
+
+    @media screen and (max-height: 700px) {
+
+        #form-main-banner2 {
+            max-width: 400px;
+            right: 600px;
+            padding: 30px;
+            /* margin-left: 40px; */
+
+        }
+
+        #sticky-footer {
+            position: relative;
+            bottom: 0px;
+        }
 
     }
 
-    #sticky-footer {
-        position: relative;
-        bottom: 0px;
+    @media screen and (max-width: 670px) {
+        #header-top {
+            height: 400px;
+        }
+
+        .about-us-image1 {
+            display: none;
+        }
+
+        .about-us-text1 {
+            padding: 0em;
+            height: 130px;
+            padding-bottom: 0em;
+            padding-bottom: 0em;
+            margin: 0em;
+        }
+
+        #about-us {
+            padding-top: 0em;
+            padding-bottom: 0em;
+        }
+
+        .about-us-subtitle {
+
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-direction: column;
+            padding: 0;
+
+        }
     }
 
-}
+    @media screen and (max-width: 630px) {
 
-@media screen and (max-width: 670px) {
-    #header-top {
-        height: 400px;
+        #header-top {
+            height: 360px;
+        }
+
+        #about-us {
+            font-family: Arial, Helvetica, sans-serif;
+            padding-top: 0em;
+            padding-bottom: 2em;
+            width: auto;
+        }
+
+        .about-us-subtitle {
+            height: 130px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-direction: column;
+            padding: 0em;
+            padding-bottom: 1em;
+            margin-bottom: 1em;
+        }
+
+        .about-us-text1 {
+            padding: 1em;
+
+            height: auto;
+            width: auto;
+            margin: 0em;
+        }
     }
 
-    .about-us-image1 {
-        display: none;
+    @media screen and (max-width: 500px) {
+        #header-top {
+            background: none;
+            height: auto;
+        }
+
+        .main-header-text {
+            width: auto;
+            font-size: 50%;
+            letter-spacing: 1px;
+            height: 250px;
+            background: url('../images/haven-hub-main-image-lady-administering-prescriptions-mobile.webp')no-repeat center center;
+            overflow: hidden;
+        }
+
+        .about-us-subtitle {
+            height: 150px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-direction: column;
+            padding: 0;
+        }
+
+        #about-us {
+            padding-top: 1em;
+            padding-bottom: 5em;
+        }
+
+        #subscription {
+            width: 100%;
+        }
     }
 
-    .about-us-text1 {
-        padding: 0em;
-        height: 130px;
-        padding-bottom: 0em;
-        padding-bottom: 0em;
-        margin: 0em;
+    @media screen and (max-width: 400px) {
+        #active-page {
+            display: none;
+        }
+
+        #header-top {
+            background: none;
+            height: auto;
+        }
+
+        .main-header-text {
+            height: 266px;
+            width: auto;
+            font-size: 50%;
+            letter-spacing: 1px;
+            height: 200px;
+            background: url('../images/haven-hub-main-image-lady-administering-prescriptions-mobile.webp')no-repeat center center;
+            overflow: hidden;
+        }
+
+        .about-us-subtitle {
+            height: 150px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-direction: column;
+            padding: 0;
+        }
+
+        .about-us-text1 {
+            padding: 0em;
+            padding-top: 1em;
+            height: 230px;
+            width: auto;
+        }
+
+
+
+        #about-us {
+            padding-top: 1em;
+            padding-bottom: 5em;
+        }
     }
 
-    #about-us {
-        padding-top: 0em;
-        padding-bottom: 0em;
+    @media screen and (max-width: 360px) {
+        body {
+            font-family: Garamond;
+        }
+
+        .main-header-text {
+            font-size: 50%;
+            letter-spacing: 1px;
+            height: 200px;
+            background: url('../images/haven-hub-main-image-lady-administering-prescriptions-mobile-360px.webp')no-repeat center center;
+            width: 360px;
+        }
+
+        .nav-style>a {
+            font-size: 70%;
+            letter-spacing: 2px;
+        }
+
+        #header-top {
+            background: none;
+            height: auto;
+
+        }
+
+        #about-us {
+            padding: 0;
+            padding-top: 1em;
+            margin: 0em;
+            width: 302px;
+        }
+
+        .about-us-subtitle {
+            height: 150px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-direction: column;
+            padding: 0;
+        }
+
+        .about-us-text1 {
+            padding: 0em;
+            padding-top: 1em;
+            height: 230px;
+            width: auto;
+        }
+
+        #get-involved {
+            padding-bottom: 0em;
+            margin: 0em;
+            display: inline;
+        }
+
+        .get-involved-title {
+            width: 100%;
+            text-align: center;
+            margin: 0em;
+            padding: 0em;
+            padding-top: 3em;
+        }
+
+        .get-involved-card {
+            width: 300px;
+            height: auto;
+            margin: 1px;
+            padding: 0em;
+            padding-bottom: 3em;
+            margin-top: 1em;
+        }
+
+
+        #subscribe {
+            display: flex;
+            justify-content: center;
+            background-color: white;
+            letter-spacing: 3px;
+            width: 340px;
+            min-height: fit-content;
+            margin-top: 2em;
+        }
+
+        #subscription {
+            flex-direction: column;
+            justify-content: center;
+            padding-top: 0em;
+        }
+
+
+        #subscribe-input {
+            display: inline-block;
+            width: 100%;
+            padding: 14px 130px 14px 14px;
+            border: 2px solid black;
+            border-radius: 30px;
+        }
     }
 
-    .about-us-subtitle {
+    @media screen and (max-width: 320px) {
+        #header-top {
+            width: 290px;
+            margin: 0em;
+            padding: 0em;
+            /* margin-left: -1.8em; */
+        }
 
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        flex-direction: column;
-        padding: 0;
+        .main-header-nav {
+            width: 280px;
+        }
 
-    }
-}
+        .main-header-text {
+            color: #000000;
+            height: 175px;
+            width: 280px;
+        }
 
-@media screen and (max-width: 630px) {
+        #about-us {
+            padding: 0em;
+            padding-top: 1em;
+            margin: 0em;
+            width: 290px;
+            margin-bottom: 1.5em;
+        }
 
-    #header-top {
-        height: 360px;
-    }
+        .about-us-subtitle {
+            height: 170px;
+        }
 
-    #about-us {
-        font-family: Arial, Helvetica, sans-serif;
-        padding-top: 0em;
-        padding-bottom: 2em;
-        width: auto;
-    }
+        .about-us-text1 {
+            padding: 1em;
+            height: 240px;
+        }
 
-    .about-us-subtitle {
-        height: 130px;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        flex-direction: column;
-        padding: 0em;
-        padding-bottom: 1em;
-        margin-bottom: 1em;
-    }
+        .get-involved-title {
+            padding-top: 2em;
+            padding-right: 4em;
+        }
 
-    .about-us-text1 {
-        padding: 1em;
+        .get-involved-card {
+            width: 260px;
+            margin-left: 0.5em;
+        }
 
-        height: auto;
-        width: auto;
-        margin: 0em;
-    }
-}
-
-@media screen and (max-width: 500px) {
-    #header-top {
-        background: none;
-        height: auto;
-    }
-
-    .main-header-text {
-        width: auto;
-        font-size: 50%;
-        letter-spacing: 1px;
-        height: 250px;
-        background: url('../images/haven-hub-main-image-lady-administering-prescriptions-mobile.webp')no-repeat center center;
-        overflow: hidden;
-    }
-
-    .about-us-subtitle {
-        height: 150px;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        flex-direction: column;
-        padding: 0;
-    }
-
-    #about-us {
-        padding-top: 1em;
-        padding-bottom: 5em;
-    }
-
-    #subscription {
-        width: 100%;
-    }
-}
-
-@media screen and (max-width: 400px) {
-    #active-page {
-        display: none;
-    }
-
-    #header-top {
-        background: none;
-        height: auto;
-    }
-
-    .main-header-text {
-        height: 266px;
-        width: auto;
-        font-size: 50%;
-        letter-spacing: 1px;
-        height: 200px;
-        background: url('../images/haven-hub-main-image-lady-administering-prescriptions-mobile.webp')no-repeat center center;
-        overflow: hidden;
-    }
-
-    .about-us-subtitle {
-        height: 150px;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        flex-direction: column;
-        padding: 0;
-    }
-
-    .about-us-text1 {
-        padding: 0em;
-        padding-top: 1em;
-        height: 230px;
-        width: auto;
-    }
-
-
-
-    #about-us {
-        padding-top: 1em;
-        padding-bottom: 5em;
-    }
-}
-
-@media screen and (max-width: 360px) {
-    body {
-        font-family: Garamond;
-    }
-
-    .main-header-text {
-        font-size: 50%;
-        letter-spacing: 1px;
-        height: 200px;
-        background: url('../images/haven-hub-main-image-lady-administering-prescriptions-mobile-360px.webp')no-repeat center center;
-        width: 360px;
-    }
-
-    .nav-style>a {
-        font-size: 70%;
-        letter-spacing: 2px;
-    }
-
-    #header-top {
-        background: none;
-        height: auto;
-
-    }
-
-    #about-us {
-        padding: 0;
-        padding-top: 1em;
-        margin: 0em;
-        width: 302px;
-    }
-
-    .about-us-subtitle {
-        height: 150px;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        flex-direction: column;
-        padding: 0;
-    }
-
-    .about-us-text1 {
-        padding: 0em;
-        padding-top: 1em;
-        height: 230px;
-        width: auto;
-    }
-
-    #get-involved {
-        padding-bottom: 0em;
-        margin: 0em;
-        display: inline;
-    }
-
-    .get-involved-title {
-        width: 100%;
-        text-align: center;
-        margin: 0em;
-        padding: 0em;
-        padding-top: 3em;
-    }
-
-    .get-involved-card {
-        width: 300px;
-        height: auto;
-        margin: 1px;
-        padding: 0em;
-        padding-bottom: 3em;
-        margin-top: 1em;
-    }
-
-
-    #subscribe {
-        display: flex;
-        justify-content: center;
-        background-color: white;
-        letter-spacing: 3px;
-        width: 340px;
-        min-height: fit-content;
-        margin-top: 2em;
-    }
-
-    #subscription {
-        flex-direction: column;
-        justify-content: center;
-        padding-top: 0em;
-    }
-
-
-    #subscribe-input {
-        display: inline-block;
-        width: 100%;
-        padding: 14px 130px 14px 14px;
-        border: 2px solid black;
-        border-radius: 30px;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    #header-top {
-        width: 290px;
-        margin: 0em;
-        padding: 0em;
-        /* margin-left: -1.8em; */
-    }
-
-    .main-header-nav {
-        width: 280px;
-    }
-
-    .main-header-text {
-        color: #000000;
-        height: 175px;
-        width: 280px;
-    }
-
-    #about-us {
-        padding: 0em;
-        padding-top: 1em;
-        margin: 0em;
-        width: 290px;
-        margin-bottom: 1.5em;
-    }
-
-    .about-us-subtitle {
-        height: 170px;
-    }
-
-    .about-us-text1 {
-        padding: 1em;
-        height: 240px;
-    }
-
-    .get-involved-title {
-        padding-top: 2em;
-        padding-right: 4em;
-    }
-
-    .get-involved-card {
-        width: 260px;
-        margin-left: 0.5em;
-    }
-
-    #subscribe {
-        width: auto;
-        margin-right: 3em;
+        #subscribe {
+            width: auto;
+            margin-right: 3em;
+        }
     }
 }
