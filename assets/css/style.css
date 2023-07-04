@@ -430,7 +430,7 @@ button:hover {
 }
 
 /* Contact us Footer */
-#sticky-footer {
+#contact-footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -440,12 +440,12 @@ button:hover {
     margin-top: auto;
 }
 
-#sticky-footer>div>p {
+#contact-footer>div>p {
     color: #FFCC00;
     font-size: inherit;
 }
 
-#sticky-footer p {
+#contact-footer p {
     font-family: 'Garamond', sans-serif;
 }
 
@@ -469,7 +469,7 @@ button:hover {
         flex-direction: column;
     }
 
-    #sticky-footer {
+    #contact-footer {
         flex-direction: column;
     }
 }
@@ -520,7 +520,7 @@ button:hover {
             width: 100%;
         }
 
-        #sticky-footer {
+        #contact-footer {
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -542,7 +542,7 @@ button:hover {
 
         }
 
-        #sticky-footer {
+        #contact-footer {
             position: relative;
             bottom: 0px;
         }
@@ -799,7 +799,7 @@ button:hover {
         }
 
         .main-header-nav {
-            width: 280px;
+            max-width: auto;
         }
 
         .main-header-text {

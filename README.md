@@ -94,7 +94,6 @@ After these steps, the site would have been deployed and becomes live at https:/
 <hr>
 
 `Content`
-<li>The text of the whole website was written with the help of Open Artificial intelligence <a href="https://chat.openai.com/">Chat GPT</a>.</li>
 <li>While creating the elements on the index page, I struggled with aligning the texts and contents to an absolute center. I was then introduced to the Flex box tutorial by <a href="https://www.youtube.com/user/KepowOb">Kelvin Powell</a> on <a href="https://www.youtube.com/watch?v=hwbqquXww-U&list=PL4-IK0AVhVjMSb9c06AjRlTpvxL3otpUd&ab_channel=KevinPowell">YouTube</a></li>
 <li>In preparation for this website, I used Balsamiq to create wireframes to guide me through the project. Even though the final website didn't look exactly like the wireframe, it provide a guide on the journey and was important to helping me achieve the final design.</li>
 
