@@ -345,13 +345,13 @@ button:hover {
 }
 
 #form-main-banner2 {
-    margin: 30% 10% 0 0;
+    padding: 2em;
     color: black;
     background-color: #FFCC00;
-    max-width: 400px;
-    top: 0px;
+    max-width: auto;
+    margin-top: 10px;
     right: 600px;
-    padding: 30px;
+
     text-align: center;
 }
 
@@ -463,7 +463,7 @@ button:hover {
     }
 
     #form-main-banner2 {
-        margin: 0% 10% 0 0;
+        /* margin: 0% 10% 0 0; */
 
     }
 }
@@ -529,7 +529,7 @@ button:hover {
         max-width: 400px;
         right: 600px;
         padding: 30px;
-        margin-left: 40px;
+        /* margin-left: 40px; */
 
     }
 
@@ -786,7 +786,7 @@ button:hover {
         width: 290px;
         margin: 0em;
         padding: 0em;
-        margin-left: -1.8em;
+        /* margin-left: -1.8em; */
     }
 
     .main-header-nav {
