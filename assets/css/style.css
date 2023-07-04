@@ -121,7 +121,7 @@ a>.nav-style>a:hover {
 }
 
 #active-page {
-    color: black;
+    color: #009B4D;
 }
 
 /* Introductory message */
@@ -527,7 +527,7 @@ button:hover {
     }
 }
 
-@media screen and (max-height: 700px){
+@media screen and (max-height: 700px) {
 
     #form-main-banner2 {
         max-width: 400px;
