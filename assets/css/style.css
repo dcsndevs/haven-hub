@@ -10,6 +10,10 @@
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* Font css rule ~Guide~
 font-family: 'Abel', sans-serif;
 font-family: 'Roboto', sans-serif; */
