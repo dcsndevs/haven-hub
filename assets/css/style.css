@@ -319,12 +319,14 @@ button:hover {
 }
 
 /* Contact us form */
-#contact-us-sign-up {
+#contact-us-sign-up,
+#thank-you-page {
     height: 100%;
     box-sizing: border-box;
 }
 
-#contact-us-sign-up-body {
+#contact-us-sign-up-body,
+#thank-you-body {
     min-height: 100%;
     position: relative;
     box-sizing: inherit;
