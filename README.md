@@ -113,6 +113,9 @@ All the images used in the creation of this website were sourced on Pexels, Unsp
 3. Photo by [Doan Anh](https://unsplash.com/photos/8irA6aCfgDs)
 4. Photo by [Andrea Piacquadio](https://www.pexels.com/photo/joyful-adult-daughter-greeting-happy-surprised-senior-mother-in-garden-3768131/)
 5. Photo by [Pixabay](https://www.pexels.com/photo/2-person-holding-hands-45842/)
+6. Photo by [Mikhail Nilov](https://www.pexels.com/photo/woman-helping-a-man-sitting-on-a-chair-6981012/) 
+7. Photo by [Liza Summer](https://www.pexels.com/photo/cheerful-ethnic-woman-with-donate-box-6348123/)
+8. Photo by [Lisa Fotios](https://www.pexels.com/photo/houses-in-town-3825883/)
 
 
 [Image Resizer](https://imageresizer.com/) and [Tiny Png](https://tinypng.com/) were used to respectively esize and compress all the images on this site.
