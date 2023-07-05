@@ -814,6 +814,7 @@ button:hover {
                 background: url('../images/haven-hub-main-image-lady-administering-prescriptions-mobile.png')no-repeat center center;
                 overflow: hidden;
                 margin-top: 136px;
+                background-size: cover;
             }
 
             .main-header-text>h2,
