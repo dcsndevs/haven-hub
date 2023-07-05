@@ -457,6 +457,15 @@ button:hover {
     text-align: center;
 }
 
+#form-main-banner2>input,
+#form-main-banner2>select {
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 14px;
+    border: 2px solid black;
+    border-radius: 30px;
+}
+
 /* aligning the bottom items - social links, nav, and copyright */
 #footer {
     display: flex;
@@ -960,6 +969,7 @@ button:hover {
             border: 2px solid black;
             border-radius: 30px;
         }
+
 
         #p-volunteer,
         #p-lease,
