@@ -270,7 +270,9 @@ a>.nav-style>a:hover {
 }
 
 /* Get Involved page */
-#p-volunteer {
+#p-volunteer,
+#p-donate,
+#p-lease {
     /* border-width: 1em;
     border-style: dashed; */
     height: auto;
@@ -282,8 +284,8 @@ a>.nav-style>a:hover {
     padding: auto;
     margin: auto;
     margin-top: 100px;
-
 }
+
 
 .p-volunteer-image {
     /* background: url('../images/pexels-mikhail-nilov-lady-assisting-blind-man.jpg')no-repeat center center;
@@ -302,7 +304,8 @@ a>.nav-style>a:hover {
 
 }
 
-.p-volunteer-text {
+.p-volunteer-text,
+.p-lease-text {
     height: 500px;
     width: 50%;
     text-align: center;
@@ -331,18 +334,11 @@ a>.nav-style>a:hover {
 
 
 .p-volunteer-text>h2,
-.p-donate-text>h2 {
+.p-donate-text>h2,
+.p-lease-text>h2 {
     font-size: 200%;
 }
 
-
-
-/* #volunteer {
-    border-bottom: #006400;
-    border-bottom-width: 1px;
-    border-bottom-style: dashed;
-
-} */
 
 #donate {
 
@@ -386,6 +382,7 @@ a>.nav-style>a:hover {
     border: 2px solid #006400;
     outline: none;
     border-radius: 30px;
+    display: ;
 }
 
 button {
@@ -421,6 +418,7 @@ button:hover {
     min-height: 100%;
     position: relative;
     box-sizing: inherit;
+    background-color: red;
 
 }
 
@@ -607,11 +605,21 @@ button:hover {
         width: 650px;
         margin-top: 150px;
         max-width: 100%;
+    }
+
+    #p-lease,
+    #p-donate {
+        width: 650px;
+        margin-top: 0px;
+        padding-top: 2em;
+        max-width: 100%;
+
 
     }
 
     .p-volunteer-image,
     .p-volunteer-text,
+    .p-lease-text,
     .p-donate-text {
         margin: 0;
         padding: 1em;
@@ -668,7 +676,9 @@ button:hover {
             bottom: 0px;
         }
 
-        #p-volunteer {
+        #p-volunteer,
+        #p-lease,
+        #p-donate {
             width: 700px;
             max-width: auto;
         }
@@ -738,41 +748,78 @@ button:hover {
             width: auto;
             margin: 0em;
         }
-    }
 
-    @media screen and (max-width: 500px) {
-        #header-top {
-            background: none;
-            height: auto;
-        }
-
-        .main-header-text {
-            width: auto;
-            font-size: 50%;
-            letter-spacing: 1px;
-            height: 250px;
-            background: url('../images/haven-hub-main-image-lady-administering-prescriptions-mobile.webp')no-repeat center center;
-            overflow: hidden;
-        }
-
-        .about-us-subtitle {
-            height: 150px;
+        #p-volunteer,
+        #p-lease,
+        #p-donate {
             display: flex;
+            justify-content: center;
             align-items: center;
-            justify-content: space-between;
             flex-direction: column;
-            padding: 0;
         }
 
-        #about-us {
-            padding-top: 1em;
-            padding-bottom: 5em;
+        #p-donate {
+            flex-direction: column-reverse;
         }
 
-        #subscription {
+        .p-volunteer-image {
+            height: 450px;
+            padding: 0em;
             width: 100%;
+            text-align: center;
+        }
+
+        .p-volunteer-text,
+        .p-lease-text,
+        .p-donate-text {
+            border: none;
+            padding: 0em;
+            width: 100%
+        }
+
+        @media screen and (max-width: 500px) {
+            #header-top {
+                background: none;
+                height: auto;
+            }
+
+            .main-header-text {
+                width: auto;
+                font-size: 50%;
+                letter-spacing: 1px;
+                height: 250px;
+                background: url('../images/haven-hub-main-image-lady-administering-prescriptions-mobile.webp')no-repeat center center;
+                overflow: hidden;
+            }
+
+            .about-us-subtitle {
+                height: 150px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                flex-direction: column;
+                padding: 0;
+            }
+
+            #about-us {
+                padding-top: 1em;
+                padding-bottom: 5em;
+            }
+
+            #subscription {
+                width: 100%;
+            }
+        }
+
+        #p-volunteer,
+        #p-lease,
+        #p-donate {
+            width: 400px;
+
         }
     }
+
+
 
     @media screen and (max-width: 400px) {
         #active-page {
@@ -815,6 +862,13 @@ button:hover {
         #about-us {
             padding-top: 1em;
             padding-bottom: 5em;
+        }
+
+        #p-volunteer,
+        #p-lease,
+        #p-donate {
+            width: 360px;
+
         }
     }
 
@@ -913,6 +967,13 @@ button:hover {
             border: 2px solid black;
             border-radius: 30px;
         }
+
+        #p-volunteer,
+        #p-lease,
+        #p-donate {
+            width: 350px;
+
+        }
     }
 
     @media screen and (max-width: 320px) {
@@ -963,6 +1024,13 @@ button:hover {
         #subscribe {
             width: auto;
             margin-right: 3em;
+        }
+
+        #p-volunteer,
+        #p-lease,
+        #p-donate {
+            width: 300px;
+
         }
     }
 }
