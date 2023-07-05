@@ -269,6 +269,53 @@ a>.nav-style>a:hover {
     color: #FFCC00;
 }
 
+/* Get Involved page */
+#p-volunteer {
+    /* border-width: 1em;
+    border-style: dashed; */
+    height: 80vh;
+    max-width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: auto;
+    margin: auto;
+    margin-top: 100px;
+
+}
+
+.p-volunteer-image {
+    /* background: url('../images/pexels-mikhail-nilov-lady-assisting-blind-man.jpg')no-repeat center center;
+    background: url('../images/haven-hub-main-image-lady-administering-prescriptions.webp')no-repeat center center; */
+    /* border-width: 4px;
+    border-style: dotted;
+    border-color: #006400; */
+    height: 500px;
+    width: 500px;
+    /* background-color: aqua; */
+    margin: 3em;
+    text-align: center;
+
+
+}
+
+.p-volunteer-text {
+    /* border-width: 4px;
+    border-style: dotted;
+    border-color: #006400; */
+    height: 500px;
+    width: 500px;
+    /* background-color: brown; */
+    margin: 3em;
+    text-align: center;
+    line-height: 1.5em;
+    border-left-width: px;
+    border-left-color: #006400;
+    border-left-style: groove;
+    padding-left: 2em;
+
+}
+
 /* Subscription */
 
 #subscription {
