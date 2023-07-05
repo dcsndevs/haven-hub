@@ -819,10 +819,6 @@ button:hover {
 
 
     @media screen and (max-width: 400px) {
-        #active-page {
-            display: none;
-        }
-
         #header-top {
             background: none;
             height: auto;
