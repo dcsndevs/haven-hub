@@ -746,16 +746,6 @@ button:hover {
 
     @media screen and (max-width: 630px) {
 
-        /* #header-top {
-            height: 360px;
-        } */
-
-        /* .main-header-text {
-            font-size: 70%;
-            margin-top: 136px;
-            margin-bottom: 2em;
-        } */
-
         #about-us {
             font-family: Arial, Helvetica, sans-serif;
             padding-top: 0em;
@@ -821,7 +811,7 @@ button:hover {
                 font-size: 50%;
                 letter-spacing: 1px;
                 height: 250px;
-                background: url('../images/haven-hub-main-image-lady-administering-prescriptions-mobile.webp')no-repeat center center;
+                background: url('../images/haven-hub-main-image-lady-administering-prescriptions-mobile.png')no-repeat center center;
                 overflow: hidden;
                 margin-top: 136px;
             }
@@ -873,7 +863,7 @@ button:hover {
             font-size: 50%;
             letter-spacing: 1px;
             height: 200px;
-            background: url('../images/haven-hub-main-image-lady-administering-prescriptions-mobile.webp')no-repeat center center;
+            background: url('../images/haven-hub-main-image-lady-administering-prescriptions-mobile.png')no-repeat center center;
             overflow: hidden;
             background-size: cover;
         }
@@ -918,7 +908,7 @@ button:hover {
             font-size: 50%;
             letter-spacing: 1px;
             height: 200px;
-            background: url('../images/haven-hub-main-image-lady-administering-prescriptions-mobile-2.webp')no-repeat center center;
+            background: url('../images/haven-hub-main-image-lady-administering-prescriptions-mobile.png')no-repeat center center;
             width: 360px;
             margin-top: 130px;
             background-size: cover;
