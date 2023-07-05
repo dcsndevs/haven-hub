@@ -223,7 +223,7 @@ a>.nav-style>a:hover {
     object-fit: cover;
 }
 
-/* Get Involved page section */
+/* Get Involved page Cars on Home page section */
 
 .get-involved-title {
     width: 100%;
@@ -273,8 +273,9 @@ a>.nav-style>a:hover {
 #p-volunteer {
     /* border-width: 1em;
     border-style: dashed; */
-    height: 80vh;
+    height: auto;
     max-width: 80%;
+    width: 900px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -291,29 +292,69 @@ a>.nav-style>a:hover {
     border-style: dotted;
     border-color: #006400; */
     height: 500px;
-    width: 500px;
+    width: 50%;
     /* background-color: aqua; */
-    margin: 3em;
-    text-align: center;
+    /* margin: 3em; */
+    text-align: right;
+    padding-right: 2em;
+
 
 
 }
 
 .p-volunteer-text {
+    height: 500px;
+    width: 50%;
+    text-align: center;
+    line-height: 1.5em;
+    border-left-width: 1px;
+    border-left-color: #006400;
+    border-left-style: groove;
+    padding-left: 2em;
+}
+
+.p-donate-text {
     /* border-width: 4px;
     border-style: dotted;
     border-color: #006400; */
     height: 500px;
-    width: 500px;
+    width: 50%;
     /* background-color: brown; */
-    margin: 3em;
+    /* margin: 3em; */
     text-align: center;
     line-height: 1.5em;
-    border-left-width: px;
-    border-left-color: #006400;
-    border-left-style: groove;
-    padding-left: 2em;
+    border-right-width: 1px;
+    border-right-color: #006400;
+    border-right-style: groove;
+    padding-right: 2em;
+}
 
+
+.p-volunteer-text>h2,
+.p-donate-text>h2 {
+    font-size: 200%;
+}
+
+
+
+/* #volunteer {
+    border-bottom: #006400;
+    border-bottom-width: 1px;
+    border-bottom-style: dashed;
+
+} */
+
+#donate {
+
+    width: 100%;
+    background-color: ivory;
+    padding-top: 5px;
+    border-bottom: #006400;
+    border-bottom-width: 1px;
+    border-bottom-style: dashed;
+    border-top: #006400;
+    border-top-width: 1px;
+    border-top-style: dashed;
 }
 
 /* Subscription */
@@ -366,14 +407,16 @@ button:hover {
     color: black;
 }
 
-/* Contact us form */
+/* Contact us form, Thank You and Get-involved page HTML property */
 #contact-us-sign-up,
+#p-get-involved-html,
 #thank-you-page {
     height: 100%;
     box-sizing: border-box;
 }
 
 #contact-us-sign-up-body,
+#p-get-involved-body,
 #thank-you-body {
     min-height: 100%;
     position: relative;
@@ -560,6 +603,29 @@ button:hover {
         margin-top: 40%;
     }
 
+    #p-volunteer {
+        width: 650px;
+        margin-top: 150px;
+        max-width: 100%;
+
+    }
+
+    .p-volunteer-image,
+    .p-volunteer-text,
+    .p-donate-text {
+        margin: 0;
+        padding: 1em;
+    }
+
+    .br2,
+    .br5 {
+        display: none;
+    }
+
+    #donate {
+        padding-top: 1px;
+    }
+
     @media screen and (max-width: 830px) {
         #header-top {
             height: 500px;
@@ -602,6 +668,10 @@ button:hover {
             bottom: 0px;
         }
 
+        #p-volunteer {
+            width: 700px;
+            max-width: auto;
+        }
     }
 
     @media screen and (max-width: 670px) {
