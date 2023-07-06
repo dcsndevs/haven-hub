@@ -313,9 +313,10 @@ a>.nav-style>a:hover {
     /* margin: 3em; */
     text-align: right;
     padding-right: 2em;
+}
 
-
-
+.p-volunteer-image>img {
+    border-radius: 10px;
 }
 
 .p-volunteer-text,
@@ -344,6 +345,7 @@ a>.nav-style>a:hover {
     border-right-color: #006400;
     border-right-style: groove;
     padding-right: 2em;
+
 }
 
 
