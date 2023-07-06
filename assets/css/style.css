@@ -277,7 +277,6 @@ a>.nav-style>a:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: auto;
     margin: auto;
     margin-top: 100px;
 }
@@ -436,7 +435,6 @@ button:hover {
     padding: 2em;
     color: black;
     background-color: #FFCC00;
-    max-width: auto;
     margin-top: 30%;
     text-align: center;
 }
@@ -668,7 +666,6 @@ button:hover {
         #p-lease,
         #p-donate {
             width: 700px;
-            max-width: auto;
         }
     }
 
@@ -956,10 +953,6 @@ button:hover {
             width: 290px;
             margin: 0em;
             padding: 0em;
-        }
-
-        .main-header-nav {
-            max-width: auto;
         }
 
         .main-header-text {
