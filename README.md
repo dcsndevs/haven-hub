@@ -67,6 +67,29 @@ Various tools have been used in testing the the overall performance of the websi
 `Google PageSpeed Insights:`
 Google page speed insights was used to test the speed of the website and various issues were highlighted which was followed by subsequent adjustments.
 A notable issue raised was that of the body font bing high in contrast. The font (Diphlliea) was then changed to Roboto. High contrast fonts are difficult to read by some users and also on some devices.
+- [Index Page Mobile](https://pagespeed.web.dev/analysis/https-dcsndevs-github-io-haven-hub/r2s9s49ea7?form_factor=mobile)![Index](documentation/images/index-m-pagespeed-insights.png)
+
+- [Index Page Desktop](https://pagespeed.web.dev/analysis/https-dcsndevs-github-io-haven-hub/r2s9s49ea7?form_factor=desktop)![Index-Desktop](documentation/images/index-d-pagespeed-insights.png)
+
+- [Get Involved Page Mobile](https://pagespeed.web.dev/analysis/https-dcsndevs-github-io-haven-hub-get-involved-html/i6xp9ym1x3?form_factor=mobile)![Get Involved Mobile](documentation/images/get-involved-m-pagespeed-insights.png)
+
+- [Get Involved Page Desktop](https://pagespeed.web.dev/analysis/https-dcsndevs-github-io-haven-hub-get-involved-html/i6xp9ym1x3?form_factor=desktop)![Get Involved Desktop](documentation/images/get-involved-d-pagespeed-insights.png)
+
+- [Contact Us Page Mobile](https://pagespeed.web.dev/analysis/https-dcsndevs-github-io-haven-hub-contact-us-html/i3mv69wajy?form_factor=mobile)![Contact Us Mobile](documentation/images/contact-us-m-pagespeed-insights.png)
+
+- [Contact Us Page Desktop](https://pagespeed.web.dev/analysis/https-dcsndevs-github-io-haven-hub-contact-us-html/i3mv69wajy?form_factor=desktop)![Contact Us Desktop](documentation/images/contact-us-d-pagespeed-insights.png)
+
+- [Thank You Page Mobile](https://pagespeed.web.dev/analysis/https-dcsndevs-github-io-haven-hub-thankyou-html/qpcap08jog?form_factor=mobile)![Thank you Mobile](documentation/images/thankyou-m-pagespeed-insights.png)
+
+- [Thank You Page Desktop](https://pagespeed.web.dev/analysis/https-dcsndevs-github-io-haven-hub-thankyou-html/qpcap08jog?form_factor=desktop)![Thank you Desktop](documentation/images/thankyou-d-pagespeed-insights.png)
+
+- [Newsletter Thank You Page Mobile](https://pagespeed.web.dev/analysis/https-dcsndevs-github-io-haven-hub-newsletter-thankyou-html/8xcycq1qls?form_factor=mobile)![Newsletter Mobile](documentation/images/newsletter-thankyou-m-pagespeed-insights.png)
+
+- [Newsletter Thank You Page Desktop](https://pagespeed.web.dev/analysis/https-dcsndevs-github-io-haven-hub-newsletter-thankyou-html/8xcycq1qls?form_factor=desktop)![Newsletter Desktop](documentation/images/newsletter-thankyou-d-pagespeed-insights.png)
+
+- [404 Error Mobile](https://pagespeed.web.dev/analysis/https-dcsndevs-github-io-haven-hub-404-html/tvxphjh6gb?form_factor=mobile)![404 Error Mobile](documentation/images/404-m-pagespeed-insights.png)
+
+- [404 Error Desktop](https://pagespeed.web.dev/analysis/https-dcsndevs-github-io-haven-hub-404-html/tvxphjh6gb?form_factor=desktop)![404 Error Desktop](documentation/images/404-d-pagespeed-insights.png)
 
 `HTML Validator:`
 1. The W3 validator (validator.w3.org) highlighted errors on the website's links. Arial-label instead of aria-label had been used, and 15 errors were found and corrected.
