@@ -93,9 +93,19 @@ A notable issue raised was that of the body font bing high in contrast. The font
 
 `HTML Validator:`
 1. The W3 validator (validator.w3.org) highlighted errors on the website's links. Arial-label instead of aria-label had been used, and 15 errors were found and corrected.
-2. An element hhad been left exposed on the about section and this was detected and corrected afterwards. Click the image below to visit the validation page!
+2. An element hhad been left exposed on the about section and this was detected and corrected afterwards. Click the links below to visit the validation page.
 
-![w3](https://jigsaw.w3.org/css-validator/images/vcss-blue)
+- [Index page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdcsndevs.github.io%2Fhaven-hub%2F)![Index]!(documentation/images/validator-index.png)
+
+- [Get Involved Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdcsndevs.github.io%2Fhaven-hub%2Fget-involved.html)![Get involved](documentation/images/validator-404.png)
+
+- [Contact Us Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdcsndevs.github.io%2Fhaven-hub%2Fcontact-us.html)![Contact us]!(documentation/images/validator-contact.png)![Contact us Fixed]!(documentation/images/validator-contact2.png)
+
+- [404 Error Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdcsndevs.github.io%2Fhaven-hub%2F404.html)![404 Error Page]!(documentation/images/validator-404.png)
+
+- [Thank You Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdcsndevs.github.io%2Fhaven-hub%2Fthankyou.html)![Thank you Page]!(documentation/images/validator-thankyou.png)
+
+- [Newsletter Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdcsndevs.github.io%2Fhaven-hub%2Fnewsletter-thankyou.html)![Newsletter Page]!(documentation/images/validator-newsletter.png)
             
 
 
@@ -148,7 +158,8 @@ https://github.com/dcsndevs/haven-hub.git
 
 `Content:`
 - While creating the elements on the index page, I struggled with aligning the texts and contents to an absolute center. I was then introduced to the Flex box tutorial by [Kelvin Powell](https://www.youtube.com/user/KepowOb) on [YouTube](https://www.youtube.com/watch?v=hwbqquXww-U&list=PL4-IK0AVhVjMSb9c06AjRlTpvxL3otpUd&ab_channel=KevinPowell)
-- In preparation for this website, I used Balsamiq to create wireframes to guide me through the project. Even though the final website didn't look exactly like the wireframe, it provide a guide on the journey and was important to helping me achieve the final design.</l>
+- In preparation for this website, I used Balsamiq to create wireframes to guide me through the project. Even though the final website didn't look exactly like the wireframe, it provide a guide on the journey and was important to helping me achieve the final design.
+
 
 ``Fonts & Icons:``
 
