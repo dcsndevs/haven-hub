@@ -95,17 +95,17 @@ A notable issue raised was that of the body font bing high in contrast. The font
 1. The W3 validator (validator.w3.org) highlighted errors on the website's links. Arial-label instead of aria-label had been used, and 15 errors were found and corrected.
 2. An element hhad been left exposed on the about section and this was detected and corrected afterwards. Click the links below to visit the validation page.
 
-- [Index page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdcsndevs.github.io%2Fhaven-hub%2F)![Index]!(documentation/images/validator-index.png)
+- [Index page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdcsndevs.github.io%2Fhaven-hub%2F)![Index](documentation/images/validator-index.png)
 
 - [Get Involved Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdcsndevs.github.io%2Fhaven-hub%2Fget-involved.html)![Get involved](documentation/images/validator-404.png)
 
-- [Contact Us Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdcsndevs.github.io%2Fhaven-hub%2Fcontact-us.html)![Contact us]!(documentation/images/validator-contact.png)![Contact us Fixed]!(documentation/images/validator-contact2.png)
+- [Contact Us Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdcsndevs.github.io%2Fhaven-hub%2Fcontact-us.html)![Contact us](documentation/images/validator-contact.png)![Contact us Fixed]!(documentation/images/validator-contact2.png)
 
-- [404 Error Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdcsndevs.github.io%2Fhaven-hub%2F404.html)![404 Error Page]!(documentation/images/validator-404.png)
+- [404 Error Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdcsndevs.github.io%2Fhaven-hub%2F404.html)![404 Error Page](documentation/images/validator-404.png)
 
-- [Thank You Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdcsndevs.github.io%2Fhaven-hub%2Fthankyou.html)![Thank you Page]!(documentation/images/validator-thankyou.png)
+- [Thank You Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdcsndevs.github.io%2Fhaven-hub%2Fthankyou.html)![Thank you Page](documentation/images/validator-thankyou.png)
 
-- [Newsletter Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdcsndevs.github.io%2Fhaven-hub%2Fnewsletter-thankyou.html)![Newsletter Page]!(documentation/images/validator-newsletter.png)
+- [Newsletter Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdcsndevs.github.io%2Fhaven-hub%2Fnewsletter-thankyou.html)![Newsletter Page](documentation/images/validator-newsletter.png)
             
 
 
