@@ -2,8 +2,9 @@
 
 Welcome,
 
-**Haven Hub Care Services Limited** is an organisation that specialises in providing assisted living for people with special needs and is based in the United Kingdom. The website seeks to present key contact information about the organisation, and collect information from people that are interested in its services and offers. The link to the deployed site is [Here](https://dcsndevs.github.io/haven-hub)
-![Responsive Image](/documentation/images/responsive-image.png)
+**Haven Hub Care Services Limited** is an organisation that specialises in providing assisted living for people with special needs and is based in the United Kingdom. The website seeks to present key contact information about the organisation, and collect information from people that are interested in its services and offers. The link to the deployed site is [Here](https://dcsndevs.github.io/haven-hub) 
+
+![Responsive Image](/documentation/images/haven-hub-responsive-image.png)
 
 # **User Stories**
 
