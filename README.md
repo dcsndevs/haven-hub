@@ -1,11 +1,11 @@
-![Haven Hub Logo](/assets/images/havenhub-logo.png)
+# ![Haven Hub Logo](/assets/images/havenhub-logo.png)
 
 Welcome,
 
 **Haven Hub Care Services Limited** is an organisation that specialises in providing assisted living for people with special needs and is based in the United Kingdom. The website seeks to present key contact information about the organisation, and collect information from people that are interested in its services and offers. The link to the deployed site is [Here](https://dcsndevs.github.io/haven-hub)
 
-## **User Stories**
-<hr>
+# **User Stories**
+
 
 `First Time Visitor Goals:` 
 As a first time visitor, I want to easily learn and know more about the organisation. 
@@ -18,8 +18,7 @@ As a returning visitor, I want to get updated information about the organisation
 ``Frequent Visitor Goals:``
 I want to learn if they have new openings, acquired new service centres near me and learn of any charity projects that might be ongoing.
 
-## **Features**
-<hr>
+# **Features**
 
 `Navigation Bar:`
 The Navigation bar is replit across the pages of the entire website. It helps the users of this website to easily move from one page to the other. It also bares a phone number which can be dialed via a single click, if the user is browsing through a device that has a calling application installed on it. The navigation bar also includes a Location link that can automatically list the address to the organisation on google maps, rather than typing the address manually. Finally the Navigation bar includes the organisation logo wirtten in large fonts, in other to help the user know with ease, that they are on the Haven Hub website and to also give a feel of the organisation's brand.
@@ -59,8 +58,7 @@ There is a future plan to allow the user receive a pop-up after submitting throu
 ``404 Error Page:``
 The [404 Error](https://dcsndevs.github.io/haven-hub/404.html) is a saftey net for broken links. The name of the file 404.html was created according to Github's standard for showing visitors a message in a situation where there intended link becomes unavailable.
 
-## **Testing**
-<hr>
+# **Testing**
 
 Various tools have been used in testing the the overall performance of the website from begining to end. I have listed them in no particular other below:
 
@@ -105,8 +103,8 @@ I encountered issues with the footer the signup and thank you pages. The footers
 - Image resizer was used to resize images on the site
 
 
-## **Deployment**
-<hr>
+# **Deployment**
+
 The site was deployed using Github and was pushed through via Vscode.
 The repository was created on Github and then cloned on Vscode. After creating the site on Vscode, it was pushed onto github.
 The site was then deployed via Github pages by:
@@ -117,30 +115,30 @@ The site was then deployed via Github pages by:
     - Click save
 After these steps, the site would have been deployed and becomes live at <https://dcsndevs.github.io/haven-hub>
 
-`Local Deployment`: To clone this project, you can do so at 
+`Local Deployment:`
+To clone this project, you can do so at 
 https://github.com/dcsndevs/haven-hub.git
 
-## **Credits**
-<hr>
+# **Credits**
 
-`Content`
+`Content:`
 - While creating the elements on the index page, I struggled with aligning the texts and contents to an absolute center. I was then introduced to the Flex box tutorial by [Kelvin Powell](https://www.youtube.com/user/KepowOb) on [YouTube](https://www.youtube.com/watch?v=hwbqquXww-U&list=PL4-IK0AVhVjMSb9c06AjRlTpvxL3otpUd&ab_channel=KevinPowell)
 - In preparation for this website, I used Balsamiq to create wireframes to guide me through the project. Even though the final website didn't look exactly like the wireframe, it provide a guide on the journey and was important to helping me achieve the final design.</l>
 
-``Fonts & Icons``
+``Fonts & Icons:``
 
 The fonts used were imported from [Google Fonts]("https://fonts.google.com/) and the Icons were from [Font Awesome](https://fontawesome.com/) 
 Regular 400 Font Abel and Roboto were mainly used. Garamond was also applied on the home page for mobile devices because the inital font was found to cause layout displacement issues as suggested when the page was tested on [Page Speed](https://pagespeed.web.dev/)
 
-`Colors`
+`Colors:`
 
 Black (#000000), Green (#009B4D), Dark Green (#006400), Ivory (#FAF5E9), and Tangerine Yellow (#FFCC00) were the main colors used for this site. [Hostinger's](https://www.hostinger.com/tutorials/website-color-schemes) color scheme tutorial inspired the use of Dark Green, Ivory, and Yellow. The color pallete according to it, suggests they are "easy on the eyes, making the website seem relaxing and organic"
 
-``Animations``
+``Animations:``
 
 The animation used for the intro message is "text-focus-in" animation gotten from [Animista](https://animista.net/play/text/focus-in/text-focus-in)
 
-`Images`
+`Images:`
 
 All the images used in the creation of this website were sourced on Pexels, Unsplash and W3 websites. Below is a list of the images used and there links: 
 1. Photo by [Kampus Production](https://www.pexels.com/photo/woman-in-white-shirt-sitting-beside-woman-in-black-long-sleeve-shirt-7551652/)
@@ -160,7 +158,7 @@ All the images used in the creation of this website were sourced on Pexels, Unsp
 
 
 
-`Acknowledgements`
+`Acknowledgements:`
 
 In the build up of the website, I got a lot of inspiration from my Mentor [Juliia Konn](https://github.com/IuliiaKonovalova/) who guided me through out this work. She explained difficult terminologies and helped break down complex structures.
 
