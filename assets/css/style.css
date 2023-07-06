@@ -958,7 +958,7 @@ button:hover {
         }
 
         .get-involved-title {
-            width: 100%;
+            width: auto;
             text-align: center;
             margin: 0em;
             padding: 0em;

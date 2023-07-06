@@ -4,11 +4,25 @@ Welcome,
 
 **Haven Hub Care Services Limited** is an organisation that specialises in providing assisted living for people with special needs and is based in the United Kingdom. The website seeks to present key contact information about the organisation, and collect information from people that are interested in its services and offers. The link to the deployed site is [Here](https://dcsndevs.github.io/haven-hub)
 
+## **User Stories**
+<hr>
+
+`First Time Visitor Goals:` 
+As a first time visitor, I want to easily learn and know more about the organisation. 
+I want to easily get their contact details and to know where they are located.
+I want to learn more about the services that they offer and how I can be involved with what the organisation does.
+
+``Returning Visitor Goals:`` 
+As a returning visitor, I want to get updated information about the organisation. 
+
+``Frequent Visitor Goals:``
+I want to learn if they have new openings, acquired new service centres near me and learn of any charity projects that might be ongoing.
+
 ## **Features**
 <hr>
 
 `Navigation Bar:`
-The Navigation bar is replit acrros the pages of the entire website. It helps the users of this website to easily move from one page to the other. It also bares a phone number which can be dialed via a single click, if the user is browsing through a mobile device. The navigation bar also includes a Location link that can automatically list the address to the organisation on google maps, rather than typing the address manually. Finally the Navigation bar includes the organisation logo wirtten in large fonts, in other to help the user know with ease, that they are on the Haven Hub website and to also give a feel of the organisation's brand.
+The Navigation bar is replit across the pages of the entire website. It helps the users of this website to easily move from one page to the other. It also bares a phone number which can be dialed via a single click, if the user is browsing through a device that has a calling application installed on it. The navigation bar also includes a Location link that can automatically list the address to the organisation on google maps, rather than typing the address manually. Finally the Navigation bar includes the organisation logo wirtten in large fonts, in other to help the user know with ease, that they are on the Haven Hub website and to also give a feel of the organisation's brand.
 
 `Hero image with text:`
 The main image shows a staff administering medication to a client in a residential setting. A bold introductory message immediately lets the user know that this is a organisation that specialises in supported living and housing accommodations.
@@ -18,8 +32,8 @@ This section is immeidately under the hero image, and it is also a page. It can 
 This section welcomes the user to the website with a brief introductory message of what the organisation does.
 This section is divided into four sections and each of the remaining three sections explains the kind of services that is provided by the organisation.
 
-`Get Involved:`
-Below the About Us & Services section is the Get Involved section. This section can be visited by further scrolling or by clicking the Get Involved link on the menu on the navigation bar. It consists of thre responsive cards that visually depicts a call to action for the user. It immediately lets the user know that they can be invovled in three ways - Volunteer, Donation, and Leasing their property to the organisation.
+`Get Involved Section:`
+Below the About Us & Services section is the Get Involved section (different from the get-involved page). This section can be visited by further scrolling. It consists of three responsive cards that visually depicts a call to action for the user. It immediately lets the user know that they can be invovled in three ways - Volunteering, Donation, and Leasing their property to the organisation.
 
 `Subscribe to Newsletter:`
 This section is found towards the bottm of the page and it helps the user signup up to the organisation's newsletter. It was built with ease and seeks to secure the subscription by just accepting one input field and then collecting the user's email address.
@@ -28,9 +42,12 @@ This section is found towards the bottm of the page and it helps the user signup
 Like the Navigation bar, the footer maintains the same design and content through out all the pages of the website. It contains the organisation's social links which when clicked opens the social site on a new window and still keeps Haven hub's website open. This helps the user to still stay active in what they were doing on the organisation's website. 
 The footer also contains the organisation's phone number and physical address/ The address when clicked also opens a google map for ease of direction.Likewise, the phone number when clicked, would attempt to dial the number if the user were using a mobile device  ora computer that has Call abilities.
 
+``Get Involved Page:``
+By clicking the Get Involved link on the menu on the navigation bar, the user can visit this page. The page gives more explanation to the Get-involved section that we witnessed on the home page. It encourages he user to take action by signing up and participating by volunteering, donations and leasing propertys to the organisation.
+
 `Sign Up Page:`
 The [Signup page](https://dcsndevs.github.io/haven-hub/contact-us.html) contains a web form that collects the users data based on the reason why they are contacting the organisation. The user has the options and choose to become a client, Donate, Volunteer, Lease their property and subscribe to the organisation's newsletter.
-At the moment, the form is not connected to any database but only make use of a 'Get' form action. There are future plans of connnecting it using Javascript, PHP and MYSQL in order to store what is submitted.
+At the moment, the form is not connected to any database but only make use of a 'Get' form action. There are future plans of connnecting it using Javascript, PHP and MYSQL in other to store what is submitted.
 
 `Thank you Page:`
 There are two thank you page with same layout but different messages. 
@@ -38,6 +55,9 @@ There are two thank you page with same layout but different messages.
 [The second](https://dcsndevs.github.io/haven-hub/newsletter-thankyou.html), refers to users who specificaly used the Newsletter subscription form from the hompage. It lets the user know that they have successfully scubscribed to recevie newsletter from the organisation.
 
 There is a future plan to allow the user receive a pop-up after submitting through the contact page and then gives the user an option to return to the homepage. This would reduce the number of pages for the website as a whole, and is a faster and more user friendly method rather than allowing another page load before confirming actions to the users.
+
+``404 Error Page:``
+The [404 Error](https://dcsndevs.github.io/haven-hub/404.html) is a saftey net for broken links. The name of the file 404.html was created according to Github's standard for showing visitors a message in a situation where there intended link becomes unavailable.
 
 ## **Testing**
 <hr>
@@ -71,7 +91,19 @@ Click the image below to visit the validation page!
 
             
 `Unfixed Bugs:`
+
 I encountered issues with the footer the signup and thank you pages. The footers were floating because the page didn't have enough content and then scrolling was an issue in mobile screens - This tutorial by [Sir Chogyal](https://www.youtube.com/watch?v=J-r75L3Tflg) helped me through it.
+
+``Technologies used:``
+- HTML was used as the main language for the website.
+- CSS was used to add styles and layout to the website.
+- Blasmiq was used to create wireframes to predeign and guide the site's layout and designs
+- VScode was used to write and edit the codes and host the site my local computer
+- Git was used for the version control of the website
+- GitHub was used to host the deployed website
+- Tiny Png was used to compress the images on the site
+- Image resizer was used to resize images on the site
+
 
 ## **Deployment**
 <hr>
@@ -95,11 +127,12 @@ After these steps, the site would have been deployed and becomes live at <https:
 
 ``Fonts & Icons``
 
-The fonts used were imported from [Google Fonts]("https://fonts.google.com/) and the Icons were from [Font Awesome](https://fontawesome.com/)
+The fonts used were imported from [Google Fonts]("https://fonts.google.com/) and the Icons were from [Font Awesome](https://fontawesome.com/) 
+Regular 400 Font Abel and Roboto were mainly used. Garamond was also applied on the home page for mobile devices because the inital font was found to cause layout displacement issues as suggested when the page was tested on [Page Speed](https://pagespeed.web.dev/)
 
 `Colors`
 
-Black, Dark Green, Ivory, and Yellow were the main colors used for this site. [Hostinger's](https://www.hostinger.com/tutorials/website-color-schemes) color scheme tutorial inspired the use of Dark Green, Ivory, and Yellow. The color pallete according to it, suggests they are "easy on the eyes, making the website seem relaxing and organic"
+Black (#000000), Green (#009B4D), Dark Green (#006400), Ivory (#FAF5E9), and Tangerine Yellow (#FFCC00) were the main colors used for this site. [Hostinger's](https://www.hostinger.com/tutorials/website-color-schemes) color scheme tutorial inspired the use of Dark Green, Ivory, and Yellow. The color pallete according to it, suggests they are "easy on the eyes, making the website seem relaxing and organic"
 
 ``Animations``
 
