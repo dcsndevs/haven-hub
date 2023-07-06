@@ -93,7 +93,7 @@ A notable issue raised was that of the body font bing high in contrast. The font
 
 `HTML Validator:`
 1. The W3 validator (validator.w3.org) highlighted errors on the website's links. Arial-label instead of aria-label had been used, and 15 errors were found and corrected.
-2. An element hhad been left exposed on the about section and this was detected and corrected afterwards. Click the links below to visit the validation page.
+2. An element hhad been left exposed on the about section and this was detected and corrected afterwards. Click the links below to visit the HTML validation page.
 
 - [Index page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdcsndevs.github.io%2Fhaven-hub%2F)![Index](documentation/images/validator-index.png)
 
@@ -112,10 +112,13 @@ A notable issue raised was that of the body font bing high in contrast. The font
 `CSS Validator:`
 1. The W3 validator highlighted 5 errors regarding the use of a wrongly written code for background-color, align-items and position. These codes were then rewritten correctly.
 2. The validator highlighted 5 warnings regarding using same background color and border colors for the buttons on the pages.
-Click the image below to visit the validation page!
+3. The validator highlighted the usage of a wrong value in some codes and this was corrected afterwards.
+Click the link below to visit the CSS validation page.
 
-![w3](https://jigsaw.w3.org/css-validator/images/vcss)
-
+ - ![Error](documentation/images/jigsaw.w3.org_css-validator_validator_error.png)
+ - ![[Warning](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdcsndevs.github.io%2Fhaven-hub%2Fassets%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#warnings)](documentation/images/jigsaw.w3.org_css-validator_warning.png)
+ - ![No Error](documentation/images/jigsaw.w3.org_css-validator_validator_error-free.png)
+  
 
 `Color Contrast:`
 
