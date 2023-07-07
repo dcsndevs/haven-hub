@@ -872,10 +872,10 @@ button:hover {
         }
 
         #about-us {
-            padding: 0;
-            padding-top: 1em;
+            padding: 1em;
+            /* padding-top: 1em; */
             margin: 0em;
-            width: 302px;
+            width: auto;
         }
 
         .about-us-subtitle {
@@ -950,22 +950,44 @@ button:hover {
     }
 
     @media screen and (max-width: 320px) {
-        #header-top {
-            width: 290px;
-            margin: 0em;
+        body {
             padding: 0em;
+            margin: 0em;
+            display: inline;
+        }
+
+        .main-header-nav {
+            width: 100%;
+            padding-right: 0em;
+            padding-left: 0em;
+            margin-left: 0em;
+            margin-right: 0em;
+        }
+
+        #header-top {
+            width: auto;
+            /* margin: 0em; */
+            padding: 0em;
+            padding-right: 0em;
+            padding-left: 0em;
+            margin-left: 0em;
+            margin-right: 0em;
         }
 
         .main-header-text {
             height: 175px;
-            width: 280px;
+            width: auto;
+            padding-right: 0em;
+            padding-left: 0em;
+            margin-left: 0em;
+            margin-right: 0em;
         }
 
         #about-us {
             padding: 0em;
             padding-top: 1em;
             margin: 0em;
-            width: 290px;
+            width: auto;
             margin-bottom: 1.5em;
         }
 
@@ -976,28 +998,37 @@ button:hover {
         .about-us-text1 {
             padding: 1em;
             height: 240px;
+            overflow: auto;
         }
 
         .get-involved-title {
-            padding-top: 2em;
-            padding-right: 4em;
+            padding-top: 3em;
         }
 
         .get-involved-card {
-            width: 260px;
-            margin-left: 0.5em;
+            width: auto;
+            padding-left: 0.5em;
+            padding-right: 0.5em;
+        }
+
+        #subscription {
+            padding-right: 0em;
+            padding-left: 0em;
+            margin-left: 0em;
+            margin-right: 0em;
+            width: auto;
         }
 
         #subscribe {
             width: auto;
-            margin-right: 3em;
+            padding-left: 0.5em;
+            padding-right: 0.5em;
         }
 
         #p-volunteer,
         #p-lease,
         #p-donate {
             width: 300px;
-
         }
     }
 }
