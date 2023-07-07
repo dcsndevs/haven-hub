@@ -1,14 +1,5 @@
 # ![Haven Hub Logo](/assets/images/havenhub-logo.png)
 
-## Table of Contents
-    [Welcome](#welcome)
-    [User Stories](#user-stories)
-    [Features](#features)
-    [Testing](#testing)
-    [Deployment](#deployment)
-    [Credits](#credits)
-
-
 
 ## Welcome
 
@@ -77,6 +68,10 @@ Various tools have been used in testing the the overall performance of the websi
 Respomsive Design Tester by Media Genesis was used to view the website on different media screens. Click any title below to view the site's appearance on the screen.
  
 - [Home Page 411 x 731](documentation/images/responsiv-screens/mobile_home_page.png)
+
+- [Home Page 375 x 667](<video src="documentation/videos/index-page-mobile-375-width.mp4" controls title="Title"></video>)
+
+- [Home Page 375 x 667]([WEBM format](documentation/videos/index-page-mobile-375px-width.webm))
 
 ### Google PageSpeed Insights:
 Google page speed insights was used to test the speed of the website and various issues were highlighted which was followed by subsequent adjustments.
