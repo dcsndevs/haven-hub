@@ -58,11 +58,15 @@ There are two thank you page with same layout but different messages.
 There is a future plan to allow the user receive a pop-up after submitting through the contact page and then gives the user an option to return to the homepage. This would reduce the number of pages for the website as a whole, and is a faster and more user friendly method rather than allowing another page load before confirming actions to the users.
 
 ``404 Error Page:``
-The [404 Error](https://dcsndevs.github.io/haven-hub/404.html) is a saftey net for broken links. The name of the file 404.html was created according to Github's standard for showing visitors a message in a situation where there intended link becomes unavailable.
+The [404 Error](https://dcsndevs.github.io/haven-hub/404.html) is a saftey net for broken links. The name of the file 404.html was created according to [Github's standard](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-custom-404-page-for-your-github-pages-site) for showing visitors a message in a situation where the intended link becomes unavailable. If a link is unavailable, the host, in this case Github, redirectes the user to 404.html by default. This prevents the user from having a total bad eexperience an ensures that the user still remains on the website.
 
 # **Testing**
 
 Various tools have been used in testing the the overall performance of the website from begining to end. I have listed them in no particular other below:
+
+Respomsive Design Tester by Media Genesis was used to view the website on different media screens. Click any title below to view the site's appearance on the screen.
+ 
+- [Home Page 411 x 731](documentation/images/responsiv-screens/mobile_home_page.png)
 
 `Google PageSpeed Insights:`
 Google page speed insights was used to test the speed of the website and various issues were highlighted which was followed by subsequent adjustments.
