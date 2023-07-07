@@ -226,7 +226,7 @@ a>.nav-style>a:hover {
     object-fit: cover;
 }
 
-/* Get Involved page Cars on Home page section */
+/* Get Involved page Cards on Home page section */
 .get-involved-title {
     width: 100%;
     text-align: center;
@@ -266,6 +266,10 @@ a>.nav-style>a:hover {
 
 .get-involved-card-title {
     color: #FFCC00;
+}
+
+.get-involved-card-text {
+    padding-bottom: 2em;
 }
 
 /* Get Involved page */
