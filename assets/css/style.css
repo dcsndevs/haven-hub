@@ -306,13 +306,8 @@ a>.nav-style>a:hover {
 }
 
 .p-donate-text {
-    /* border-width: 4px;
-    border-style: dotted;
-    border-color: #006400; */
     height: 500px;
     width: 50%;
-    /* background-color: brown; */
-    /* margin: 3em; */
     text-align: center;
     line-height: 1.5em;
     border-right-width: 1px;
