@@ -147,7 +147,6 @@ a>.nav-style>a:hover {
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 6px;
     padding: 3px 6px;
-
 }
 
 /* The animation below was generated from http://animista.net under FreeBSD License */
@@ -286,7 +285,6 @@ a>.nav-style>a:hover {
     margin-top: 100px;
 }
 
-
 .p-volunteer-image {
     height: 500px;
     width: 50%;
@@ -320,7 +318,6 @@ a>.nav-style>a:hover {
     border-right-style: groove;
     padding-right: 2em;
 }
-
 
 .p-volunteer-text>h2,
 .p-donate-text>h2,
@@ -602,8 +599,6 @@ button:hover {
         margin-top: 0px;
         padding-top: 2em;
         max-width: 100%;
-
-
     }
 
     .p-volunteer-image,
@@ -695,13 +690,11 @@ button:hover {
         }
 
         .about-us-subtitle {
-
             display: flex;
             align-items: center;
             justify-content: space-between;
             flex-direction: column;
             padding: 0;
-
         }
     }
 
@@ -726,7 +719,6 @@ button:hover {
 
         .about-us-text1 {
             padding: 1em;
-
             height: auto;
             width: auto;
             margin: 0em;
@@ -799,7 +791,6 @@ button:hover {
         #p-lease,
         #p-donate {
             width: 400px;
-
         }
     }
 
@@ -851,15 +842,12 @@ button:hover {
         body {
             padding: 0em;
             margin: 0em;
-            /* display: inline; */
             font-family: Garamond;
         }
 
         .main-header-nav {
             width: 100%;
         }
-
-
 
         .main-header-text {
             font-size: 50%;
@@ -881,8 +869,6 @@ button:hover {
         }
 
         #about-us {
-            /* padding: 1em; */
-            /* padding-top: 1em; */
             margin: 0em;
             width: auto;
         }
@@ -898,7 +884,6 @@ button:hover {
 
         .about-us-text1 {
             padding: 1em;
-            /* padding-top: 1em; */
             margin: 0em;
             height: 230px;
             width: auto;
@@ -955,7 +940,6 @@ button:hover {
         #p-lease,
         #p-donate {
             width: 350px;
-
         }
     }
 
