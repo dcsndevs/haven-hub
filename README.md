@@ -241,6 +241,6 @@ All the images used in the creation of this website were sourced on Pexels, Unsp
 
 ### Acknowledgements:
 
-In the build-up of the website, I got a lot of inspiration from my Mentor [Juliia Konn](https://github.com/IuliiaKonovalova/) who guided me throughout this work. She explained difficult terminologies and helped break down complex structures. [Juliia](https://github.com/IuliiaKonovalova/) pushed me and was unstatisfied with average. She wanted an excellet project and encourage me to get this far.
+In the build-up of the website, I got a lot of inspiration from my Mentor [Juliia Konn](https://github.com/IuliiaKonovalova/) who guided me throughout this work. She explained difficult terminologies and helped break down complex structures. [Juliia](https://github.com/IuliiaKonovalova/) pushed me and was unstatisfied with average. She wanted an excellent project and encourage me to get this far.
 
 I wish to thank my loving wife for her support in the course of this work. She's been taking up most of my shifts for babysitting our son in other to allow me give more time to this work.
