@@ -214,8 +214,10 @@ All the images used in the creation of this website were sourced on Pexels, Unsp
 8. Photo by [Lisa Fotios](https://www.pexels.com/photo/houses-in-town-3825883/)
 
 
-[Image Resizer](https://imageresizer.com/) and [Tiny Png](https://tinypng.com/) were used to respectively esize and compress all the images on this site.
-[Am I Responsive](ami.responsivedesign.is) website was used to simultaneously display how the site looks on different screen sizes.
+ - [Image Resizer](https://imageresizer.com/) and [Tiny Png](https://tinypng.com/) were used to respectively resize and compress all the images on this site.
+ - [Ezgif.com](https://ezgif.com/) was used to covert videos to the animated gif images that was used to show live tests.
+ - [Screenshot & Screen Recorder](https://ezgif.com/) was used to record live tests and used to create videos therefore.
+ - [Am I Responsive](ami.responsivedesign.is) website was used to simultaneously display how the site looks on different screen sizes.
 
 
 ### Acknowledgements:
