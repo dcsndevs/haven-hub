@@ -66,6 +66,21 @@ The [404 Error](https://dcsndevs.github.io/haven-hub/404.html) is a saftey net f
 Various tools have been used in testing the the overall performance of the website from begining to end. I have listed them in no particular other below:
 
 Responsive Design Tester by Media Genesis was used to view the website on different media screens. Click any title below to view the site's appearance on the screen.
+
+### Links & Feature Test
+- [YouTube Video of live testing](https://youtu.be/CFa9-n3SuaA)
+
+[![Haven-hub-Youtube-Video-Banner](documentation/images/haven-hub-youtube-placeholder.png)](https://youtu.be/CFa9-n3SuaA "Haven Hub Website Project")
+
+- [Fixed Email Input on Contact form](documentation/images/gifs/contact-form-fix.gif)
+
+![Fixed Email Input on Contact form](documentation/images/gifs/contact-form-fix.gif)
+
+
+- [Phone Link Text](documentation/images/gifs/phone-link-test.gif)
+
+![Phone Link Test](documentation/images/gifs/phone-link-test.gif)
+
  
  ### Responsive Screen Diplays
 `Mobile Screens 375 x 667`
@@ -217,7 +232,8 @@ All the images used in the creation of this website were sourced on Pexels, Unsp
  - [Image Resizer](https://imageresizer.com/) and [Tiny Png](https://tinypng.com/) were used to respectively resize and compress all the images on this site.
  - [Ezgif.com](https://ezgif.com/) was used to covert videos to the animated gif images that was used to show live tests.
  - [Screenshot & Screen Recorder](https://ezgif.com/) was used to record live tests and used to create videos therefore.
- - [Am I Responsive](ami.responsivedesign.is) website was used to simultaneously display how the site looks on different screen sizes.
+ - [Am I Responsive](https://ami.responsivedesign.is/) website was used to simultaneously display how the site looks on different screen sizes.
+ - [CANVA](https://canva.com/) website was used to edit and design images.
 
 
 ### Acknowledgements:
