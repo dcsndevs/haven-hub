@@ -138,7 +138,7 @@ A notable issue raised was that of the body font being high in contrast. The fon
 
 - [Get Involved Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdcsndevs.github.io%2Fhaven-hub%2Fget-involved.html)![Get involved](documentation/images/validator-404.png)
 
-- [Contact Us Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdcsndevs.github.io%2Fhaven-hub%2Fcontact-us.html)![Contact us](documentation/images/validator-contact.png)![Contact us Fixed]!(documentation/images/validator-contact2.png)
+- [Contact Us Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdcsndevs.github.io%2Fhaven-hub%2Fcontact-us.html)![Contact us](documentation/images/validator-contact2.png)
 
 - [404 Error Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdcsndevs.github.io%2Fhaven-hub%2F404.html)![404 Error Page](documentation/images/validator-404.png)
 
