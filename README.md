@@ -68,18 +68,18 @@ Various tools have been used in testing the overall performance of the website f
 Responsive Design Tester by Media Genesis was used to view the website on different media screens. Click any title below to view the site's appearance on the screen.
 
 ### Links & Feature Test
-- [YouTube Video of live testing](https://youtu.be/CFa9-n3SuaA)
-
-[![Haven-hub-Youtube-Video-Banner](documentation/images/haven-hub-youtube-placeholder.png)](https://youtu.be/CFa9-n3SuaA "Haven Hub Website Project")
+- [Link to first video before Homepage redesign YouTube Video of live testing](https://youtu.be/CFa9-n3SuaA)
+- [Current YouTube Video of live testing](https://youtu.be/e_SBWsyzmAA)
+[![Haven-hub-Youtube-Video-Banner](documentation/images/haven-hub-youtube-placeholder.png)](https://youtu.be/e_SBWsyzmAA "Haven Hub Website Project")
 
 - [Fixed Email Input on Contact form](documentation/images/gifs/contact-form-fix.gif)
 
-![Fixed Email Input on Contact form](documentation/images/gifs/contact-form-fix.gif)
 
 
-- [Phone Link Text](documentation/images/gifs/phone-link-test.gif)
 
-![Phone Link Test](documentation/images/gifs/phone-link-test.gif)
+- [Phone Link Test](documentation/images/gifs/phone-call-link-test.gif)
+
+
 
  
  ### Responsive Screen Displays
