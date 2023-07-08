@@ -227,6 +227,12 @@ a>.nav-style>a:hover {
 }
 
 /* Get Involved page Cards on Home page section */
+.get-involved-title {
+    width: auto;
+    text-align: center;
+    margin-top: 1em;
+}
+
 #get-involved {
     padding-bottom: 3em;
     display: flex;
@@ -255,16 +261,6 @@ a>.nav-style>a:hover {
     font-size: 250%;
     font-weight: bolder;
     padding-top: 1em;
-}
-
-.get-involved-title {
-    width: auto;
-    text-align: center;
-    margin-bottom: 1em;
-}
-
-.get-involved-card-title {
-    color: #FFCC00;
 }
 
 .get-involved-card-text {
