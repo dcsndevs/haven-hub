@@ -772,6 +772,7 @@ button:hover {
             background-size: cover;
         }
 
+        /* For Get-involved Page not section */
         #p-volunteer,
         #p-lease,
         #p-donate {
@@ -855,6 +856,7 @@ button:hover {
             border-radius: 30px;
         }
 
+        /* For Get-involved Page not section */
         #p-volunteer,
         #p-lease,
         #p-donate {
@@ -920,6 +922,7 @@ button:hover {
             padding-right: 0.5em;
         }
 
+        /* For Get-involved Page not section */
         #p-volunteer,
         #p-lease,
         #p-donate {
