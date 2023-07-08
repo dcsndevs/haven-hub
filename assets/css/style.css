@@ -806,6 +806,7 @@ button:hover {
     @media screen and (max-width: 425px) {
         .about-us-title {
             display: block;
+            padding-bottom: 1em;
         }
 
         #about-us {
