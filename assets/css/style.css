@@ -720,7 +720,8 @@ button:hover {
 
         .about-us-text1 {
             padding: 1em;
-            height: auto;
+            height: 280px;
+            overflow: hidden;
             padding-bottom: 0em;
             margin: 0em;
             width: 100%;
@@ -738,6 +739,9 @@ button:hover {
     }
 
     @media screen and (max-width: 630px) {
+        .about-us-text1 {
+            height: 350px;
+        }
 
         #p-volunteer,
         #p-lease,
@@ -769,6 +773,10 @@ button:hover {
     }
 
     @media screen and (max-width: 500px) {
+        .about-us-text1 {
+            height: 440px;
+        }
+
         #header-top {
             background: none;
             height: auto;
@@ -806,8 +814,13 @@ button:hover {
 
         .about-us-subtitle {
             width: 80%;
-
+            align-self: center;
         }
+
+        .about-us-text1 {
+            height: auto;
+        }
+
     }
 
     @media screen and (max-width: 400px) {
