@@ -83,68 +83,67 @@ Responsive Design Tester by Media Genesis was used to view the website on differ
 
  
  ### Responsive Screen Displays
-**Mobile Screens 375 x 667**
-- Mobile Screen
+- [Responsiveness Test across multiple device sizes](https://youtu.be/CFa9-n3SuaA)
+ [![Haven-hub-Youtube-Video-Banner](documentation/images/haven-hub-youtube-placeholder.png)](https://youtu.be/CFa9-n3SuaA "Haven Hub Responsivenes Test Project")
 
-    ![Mobile Screen](documentation/images/gifs/haven-hub-375-responsiveness.gif)
+    #### Old Gifs Images of Homepage rresponsiveness:
+    [Mobile Screens 375 x 667](documentation/images/gifs/haven-hub-375-responsiveness.gif)
 
-**Tablet Screen 768 x 1024**
-- Tablet Screen
+    [Tablet Screen 768 x 1024](documentation/images/gifs/haven-hub-768-responsiveness.gif)
 
-    ![Tablet Screen](documentation/images/gifs/haven-hub-768-responsiveness.gif)
+    [Laptop Screen 1024 x 800](documentation/images/gifs/haven-hub-1024-responsiveness.gif)
 
-**Laptop Screen 1024 x 800**
-- Laptop Screen
-
-    ![Laptop Screen](documentation/images/gifs/haven-hub-1024-responsiveness.gif)
-
-**Desktop Screen 1920 x 1200**
-- Desktop Screen
-
-    ![Desktop Screen](documentation/images/gifs/haven-hub-1920-responsiveness.gif)
+    [Desktop Screen 1920 x 1200](documentation/images/gifs/haven-hub-1920-responsiveness.gif)
 
 ### Google PageSpeed Insights:
 Google page speed insights was used to test the speed of the website and various issues were highlighted which was followed by subsequent adjustments.
 A notable issue raised was that of the body font being high in contrast. The font (Diphlliea) was then changed to Roboto. High contrast fonts are difficult to read by some users and also on some devices.
-- [Index Page Mobile](https://pagespeed.web.dev/analysis/https-dcsndevs-github-io-haven-hub/r2s9s49ea7?form_factor=mobile)![Index](documentation/images/index-m-pagespeed-insights.png)
 
-- [Index Page Desktop](https://pagespeed.web.dev/analysis/https-dcsndevs-github-io-haven-hub/r2s9s49ea7?form_factor=desktop)![Index-Desktop](documentation/images/index-d-pagespeed-insights.png)
+- [Index Page Mobile (Current)](https://pagespeed.web.dev/analysis/https-dcsndevs-github-io-haven-hub/r2s9s49ea7?form_factor=mobile)![Index](documentation/images/index-m-pagespeed-insights.png)
 
-- [Get Involved Page Mobile](https://pagespeed.web.dev/analysis/https-dcsndevs-github-io-haven-hub-get-involved-html/i6xp9ym1x3?form_factor=mobile)![Get Involved Mobile](documentation/images/get-involved-m-pagespeed-insights.png)
+- [Index Page Desktop (Current)](https://pagespeed.web.dev/analysis/https-dcsndevs-github-io-haven-hub/r2s9s49ea7?form_factor=desktop)![Index-Desktop](documentation/images/index-d-pagespeed-insights.png)
 
-- [Get Involved Page Desktop](https://pagespeed.web.dev/analysis/https-dcsndevs-github-io-haven-hub-get-involved-html/i6xp9ym1x3?form_factor=desktop)![Get Involved Desktop](documentation/images/get-involved-d-pagespeed-insights.png)
+- [Index Page Mobile(Old)](https://pagespeed.web.dev/analysis/https-dcsndevs-github-io-haven-hub/r2s9s49ea7?form_factor=mobile)
 
-- [Contact Us Page Mobile](https://pagespeed.web.dev/analysis/https-dcsndevs-github-io-haven-hub-contact-us-html/i3mv69wajy?form_factor=mobile)![Contact Us Mobile](documentation/images/contact-us-m-pagespeed-insights.png)
+- [Index Page Desktop (Old)](https://pagespeed.web.dev/analysis/https-dcsndevs-github-io-haven-hub/r2s9s49ea7?form_factor=desktop)
 
-- [Contact Us Page Desktop](https://pagespeed.web.dev/analysis/https-dcsndevs-github-io-haven-hub-contact-us-html/i3mv69wajy?form_factor=desktop)![Contact Us Desktop](documentation/images/contact-us-d-pagespeed-insights.png)
+- [Get Involved Page Mobile](https://pagespeed.web.dev/analysis/https-dcsndevs-github-io-haven-hub-get-involved-html/i6xp9ym1x3?form_factor=mobile)
 
-- [Thank You Page Mobile](https://pagespeed.web.dev/analysis/https-dcsndevs-github-io-haven-hub-thankyou-html/qpcap08jog?form_factor=mobile)![Thank you Mobile](documentation/images/thankyou-m-pagespeed-insights.png)
+- [Get Involved Page Desktop](https://pagespeed.web.dev/analysis/https-dcsndevs-github-io-haven-hub-get-involved-html/i6xp9ym1x3?form_factor=desktop)
 
-- [Thank You Page Desktop](https://pagespeed.web.dev/analysis/https-dcsndevs-github-io-haven-hub-thankyou-html/qpcap08jog?form_factor=desktop)![Thank you Desktop](documentation/images/thankyou-d-pagespeed-insights.png)
+- [Contact Us Page Mobile](https://pagespeed.web.dev/analysis/https-dcsndevs-github-io-haven-hub-contact-us-html/i3mv69wajy?form_factor=mobile)
 
-- [Newsletter Thank You Page Mobile](https://pagespeed.web.dev/analysis/https-dcsndevs-github-io-haven-hub-newsletter-thankyou-html/8xcycq1qls?form_factor=mobile)![Newsletter Mobile](documentation/images/newsletter-thankyou-m-pagespeed-insights.png)
+- [Contact Us Page Desktop](https://pagespeed.web.dev/analysis/https-dcsndevs-github-io-haven-hub-contact-us-html/i3mv69wajy?form_factor=desktop)
 
-- [Newsletter Thank You Page Desktop](https://pagespeed.web.dev/analysis/https-dcsndevs-github-io-haven-hub-newsletter-thankyou-html/8xcycq1qls?form_factor=desktop)![Newsletter Desktop](documentation/images/newsletter-thankyou-d-pagespeed-insights.png)
+- [Thank You Page Mobile](https://pagespeed.web.dev/analysis/https-dcsndevs-github-io-haven-hub-thankyou-html/qpcap08jog?form_factor=mobile)
 
-- [404 Error Mobile](https://pagespeed.web.dev/analysis/https-dcsndevs-github-io-haven-hub-404-html/tvxphjh6gb?form_factor=mobile)![404 Error Mobile](documentation/images/404-m-pagespeed-insights.png)
+- [Thank You Page Desktop](https://pagespeed.web.dev/analysis/https-dcsndevs-github-io-haven-hub-thankyou-html/qpcap08jog?form_factor=desktop)
 
-- [404 Error Desktop](https://pagespeed.web.dev/analysis/https-dcsndevs-github-io-haven-hub-404-html/tvxphjh6gb?form_factor=desktop)![404 Error Desktop](documentation/images/404-d-pagespeed-insights.png)
+- [Newsletter Thank You Page Mobile](https://pagespeed.web.dev/analysis/https-dcsndevs-github-io-haven-hub-newsletter-thankyou-html/8xcycq1qls?form_factor=mobile)
+
+- [Newsletter Thank You Page Desktop](https://pagespeed.web.dev/analysis/https-dcsndevs-github-io-haven-hub-newsletter-thankyou-html/8xcycq1qls?form_factor=desktop)
+
+- [404 Error Mobile](https://pagespeed.web.dev/analysis/https-dcsndevs-github-io-haven-hub-404-html/tvxphjh6gb?form_factor=mobile)
+
+- [404 Error Desktop](https://pagespeed.web.dev/analysis/https-dcsndevs-github-io-haven-hub-404-html/tvxphjh6gb?form_factor=desktop)
 
 ### HTML Validator:
 1. The W3 validator (validator.w3.org) highlighted errors on the website's links. Arial-label instead of aria-label had been used, and 15 errors were found and corrected.
 2. An element had been left exposed on the about section and this was detected and corrected afterwards. Click the links below to visit the HTML validation page.
 
-- [Index page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdcsndevs.github.io%2Fhaven-hub%2F)![Index](documentation/images/validator-index.png)
+- [Index page (Current)](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdcsndevs.github.io%2Fhaven-hub%2F)![Index](documentation/images/current-validator-index.png)
 
-- [Get Involved Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdcsndevs.github.io%2Fhaven-hub%2Fget-involved.html)![Get involved](documentation/images/validator-404.png)
+- [Index page (Old)](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdcsndevs.github.io%2Fhaven-hub%2F)
 
-- [Contact Us Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdcsndevs.github.io%2Fhaven-hub%2Fcontact-us.html)![Contact us](documentation/images/validator-contact2.png)
+- [Get Involved Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdcsndevs.github.io%2Fhaven-hub%2Fget-involved.html)
 
-- [404 Error Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdcsndevs.github.io%2Fhaven-hub%2F404.html)![404 Error Page](documentation/images/validator-404.png)
+- [Contact Us Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdcsndevs.github.io%2Fhaven-hub%2Fcontact-us.html)
 
-- [Thank You Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdcsndevs.github.io%2Fhaven-hub%2Fthankyou.html)![Thank you Page](documentation/images/validator-thankyou.png)
+- [404 Error Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdcsndevs.github.io%2Fhaven-hub%2F404.html)
 
-- [Newsletter Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdcsndevs.github.io%2Fhaven-hub%2Fnewsletter-thankyou.html)![Newsletter Page](documentation/images/validator-newsletter.png)
+- [Thank You Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdcsndevs.github.io%2Fhaven-hub%2Fthankyou.html)
+
+- [Newsletter Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdcsndevs.github.io%2Fhaven-hub%2Fnewsletter-thankyou.html)
             
 
 
@@ -154,12 +153,14 @@ A notable issue raised was that of the body font being high in contrast. The fon
 3. The validator highlighted the usage of a wrong value in some codes and this was corrected afterwards.
 Click the link below to visit the CSS validation page.
 
- **- First CSS Test showing Error**
- ![Error](documentation/images/jigsaw.w3.org_css-validator_validator_error.png)
- - ![[Warning](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdcsndevs.github.io%2Fhaven-hub%2Fassets%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#warnings)](documentation/images/jigsaw.w3.org_css-validator_warning.png)
+ - [Current CSS Test](documentation/images/css-validator-success.png)
+  ![Current CSS Test](documentation/images/css-validator-success.png)
  
- **- Second CSS Test after error was fixed.**
- - ![No Error](documentation/images/jigsaw.w3.org_css-validator_validator_error-free.png)
+ - [Current CSS Test - 4 Warnings](documentation/images/css-validator-warning.png)
+
+ - [First CSS Test showing Error (Old)](documentation/images/jigsaw.w3.org_css-validator_validator_error.png)
+ 
+ - [Second CSS Test after error was fixed(Old)](documentation/images/jigsaw.w3.org_css-validator_validator_error-free.png)
   
 
 ### Color Contrast:
