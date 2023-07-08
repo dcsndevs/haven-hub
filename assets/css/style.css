@@ -671,6 +671,8 @@ button:hover {
         #p-donate {
             width: 700px;
         }
+
+        /* End of Max-height for contact page */
     }
 
     @media screen and (max-width: 670px) {
@@ -680,18 +682,29 @@ button:hover {
             margin-bottom: 2em;
         }
 
+        .about-us-title {
+            display: none;
+        }
+
         #about-us {
             padding-top: 1em;
             padding-bottom: 0em;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            flex-wrap: wrap;
+
         }
 
         .about-us-subtitle {
             display: flex;
             align-items: center;
-            justify-content: space-between;
-            flex-direction: column;
+            justify-content: space-around;
+            flex-direction: column-reverse;
             padding: 0em;
             margin: 0em;
+            width: 46%;
+            padding-bottom: 2em;
         }
 
         .about-us-text1 {
@@ -699,10 +712,19 @@ button:hover {
             height: auto;
             padding-bottom: 0em;
             margin: 0em;
+            width: 100%;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+
+
         }
 
         .about-us-image1 {
-            display: none;
+            /* display: none; */
+            border-top-right-radius: 10px;
+            border-top-left-radius: 10px;
+            width: 100%;
+            background-size: cover;
         }
     }
 
@@ -761,6 +783,20 @@ button:hover {
         #p-lease,
         #p-donate {
             width: 400px;
+        }
+    }
+
+    @media screen and (max-width: 425px) {
+        .about-us-title {
+            display: block;
+        }
+
+        #about-us {
+            flex-direction: column;
+        }
+
+        .about-us-subtitle {
+            width: 80%;
         }
     }
 
