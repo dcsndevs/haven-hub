@@ -672,56 +672,33 @@ button:hover {
             margin-bottom: 2em;
         }
 
-        .about-us-image1 {
-            display: none;
-        }
-
-        .about-us-text1 {
-            padding: 1em;
-            height: 130px;
-            padding-bottom: 0em;
-            padding-bottom: 0em;
-            margin: 0em;
-        }
-
         #about-us {
-            padding-top: 0em;
+            padding-top: 1em;
             padding-bottom: 0em;
         }
 
         .about-us-subtitle {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            flex-direction: column;
-            padding: 0;
-        }
-    }
-
-    @media screen and (max-width: 630px) {
-        #about-us {
-            font-family: Arial, Helvetica, sans-serif;
-            padding-top: 0em;
-            padding-bottom: 2em;
-            width: auto;
-        }
-
-        .about-us-subtitle {
-            height: 130px;
             display: flex;
             align-items: center;
             justify-content: space-between;
             flex-direction: column;
             padding: 0em;
-            padding-bottom: 1em;
-            margin-bottom: 1em;
+            margin: 0em;
         }
 
         .about-us-text1 {
+            padding: 1em;
             height: auto;
-            width: auto;
+            padding-bottom: 0em;
             margin: 0em;
         }
+
+        .about-us-image1 {
+            display: none;
+        }
+    }
+
+    @media screen and (max-width: 630px) {
 
         #p-volunteer,
         #p-lease,
@@ -750,40 +727,26 @@ button:hover {
             padding: 0em;
             width: 100%
         }
+    }
 
-        @media screen and (max-width: 500px) {
-            #header-top {
-                background: none;
-                height: auto;
-            }
+    @media screen and (max-width: 500px) {
+        #header-top {
+            background: none;
+            height: auto;
+        }
 
-            .main-header-text {
-                width: auto;
-                font-size: 50%;
-                letter-spacing: 1px;
-                height: 250px;
-                overflow: hidden;
-                margin-top: 136px;
-                background-size: cover;
-            }
+        .main-header-text {
+            width: auto;
+            font-size: 50%;
+            letter-spacing: 1px;
+            height: 250px;
+            overflow: hidden;
+            margin-top: 136px;
+            background-size: cover;
+        }
 
-            .about-us-subtitle {
-                height: 150px;
-                display: flex;
-                align-items: center;
-                justify-content: space-between;
-                flex-direction: column;
-                padding: 0;
-            }
-
-            #about-us {
-                padding-top: 1em;
-                padding-bottom: 5em;
-            }
-
-            #subscription {
-                width: 100%;
-            }
+        #subscription {
+            width: 100%;
         }
 
         #p-volunteer,
@@ -809,26 +772,6 @@ button:hover {
             background-size: cover;
         }
 
-        .about-us-subtitle {
-            height: 150px;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            flex-direction: column;
-            padding: 0;
-        }
-
-        .about-us-text1 {
-            padding-top: 1em;
-            height: 230px;
-            width: auto;
-        }
-
-        #about-us {
-            padding-top: 1em;
-            padding-bottom: 5em;
-        }
-
         #p-volunteer,
         #p-lease,
         #p-donate {
@@ -840,7 +783,6 @@ button:hover {
         body {
             padding: 0em;
             margin: 0em;
-            font-family: Garamond;
         }
 
         .main-header-nav {
@@ -864,26 +806,6 @@ button:hover {
         #header-top {
             background: none;
             height: auto;
-        }
-
-        #about-us {
-            margin: 0em;
-            width: auto;
-        }
-
-        .about-us-subtitle {
-            height: 150px;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            flex-direction: column;
-            padding: 0;
-        }
-
-        .about-us-text1 {
-            margin: 0em;
-            height: 230px;
-            width: auto;
         }
 
         #get-involved {
@@ -972,23 +894,6 @@ button:hover {
             padding-left: 0em;
             margin-left: 0em;
             margin-right: 0em;
-        }
-
-        #about-us {
-            padding: 0em;
-            padding-top: 1em;
-            margin: 0em;
-            width: auto;
-            margin-bottom: 1.5em;
-        }
-
-        .about-us-subtitle {
-            height: 170px;
-        }
-
-        .about-us-text1 {
-            height: 240px;
-            overflow: auto;
         }
 
         .get-involved-title {
