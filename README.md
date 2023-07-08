@@ -237,7 +237,7 @@ All the images used in the creation of this website were sourced on Pexels, Unsp
  - [Ezgif.com](https://ezgif.com/) was used to covert videos to the animated gif images that was used to show live tests.
  - [Screenshot & Screen Recorder](https://ezgif.com/) was used to record live tests and used to create videos therefore.
  - [Am I Responsive](https://ami.responsivedesign.is/) website was used to simultaneously display how the site looks on different screen sizes.
- - [CANVA](https://canva.com/) website was used to edit and design images.
+ - [Canva](https://canva.com/) software was used to edit and design images.
 
 
 ### Acknowledgements:
