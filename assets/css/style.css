@@ -842,7 +842,7 @@ button:hover {
             justify-content: center;
             background-color: #FFCC00;
             letter-spacing: 3px;
-            width: 340px;
+            width: auto;
             min-height: fit-content;
             margin-top: 2em;
         }
