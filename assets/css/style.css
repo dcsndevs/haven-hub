@@ -244,8 +244,7 @@ a>.nav-style>a:hover {
 .get-involved-card {
     width: 300px;
     height: auto;
-    border-top-left-radius: 3%;
-    border-top-right-radius: 3%;
+    border-radius: 3%;
     text-align: center;
     margin: 10px;
     padding: 20px;
@@ -254,7 +253,7 @@ a>.nav-style>a:hover {
     justify-content: space-between;
     flex-direction: column;
     flex-wrap: wrap;
-    box-shadow: 0px 0px 5px #000000, 0px 0px 15px #858585;
+    box-shadow: 0px 0px 5px #858585;
 }
 
 .get-involved-card-icon {
