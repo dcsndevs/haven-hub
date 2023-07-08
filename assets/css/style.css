@@ -372,12 +372,9 @@ a>.nav-style>a:hover {
 button {
     background-color: black;
     color: #FFCC00;
-    border-style: solid;
-    border-width: 2px;
     font-weight: bold;
     padding: 13px 30px;
     border-radius: 30px;
-    border-color: black;
     transition: .4s;
     cursor: pointer;
 }
