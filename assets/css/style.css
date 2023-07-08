@@ -700,6 +700,8 @@ button:hover {
             flex-direction: row;
             justify-content: space-around;
             flex-wrap: wrap;
+            align-items: center;
+
 
         }
 
@@ -713,6 +715,7 @@ button:hover {
             width: 46%;
             padding-bottom: 2em;
             box-shadow: none;
+            align-self: flex-start;
         }
 
         .about-us-text1 {
@@ -721,15 +724,13 @@ button:hover {
             padding-bottom: 0em;
             margin: 0em;
             width: 100%;
-            border-bottom-left-radius: 10px;
+            border-top-left-radius: 0;
             border-bottom-right-radius: 10px;
-
-
         }
 
         .about-us-image1 {
             /* display: none; */
-            border-top-right-radius: 10px;
+            border-bottom-right-radius: 0;
             border-top-left-radius: 10px;
             width: 100%;
             background-size: cover;
