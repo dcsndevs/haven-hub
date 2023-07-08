@@ -227,12 +227,6 @@ a>.nav-style>a:hover {
 }
 
 /* Get Involved page Cards on Home page section */
-.get-involved-title {
-    width: 100%;
-    text-align: center;
-    margin: 20px;
-}
-
 #get-involved {
     padding-bottom: 3em;
     display: flex;
@@ -261,6 +255,12 @@ a>.nav-style>a:hover {
     font-size: 250%;
     font-weight: bolder;
     padding-top: 1em;
+}
+
+.get-involved-title {
+    width: 100%;
+    text-align: center;
+    margin: 20px;
 }
 
 .get-involved-card-title {
@@ -772,12 +772,15 @@ button:hover {
             background-size: cover;
         }
 
+
         /* For Get-involved Page not section */
         #p-volunteer,
         #p-lease,
         #p-donate {
             width: 360px;
         }
+
+
     }
 
     @media screen and (max-width: 360px) {
@@ -815,14 +818,6 @@ button:hover {
             display: inline;
         }
 
-        .get-involved-title {
-            width: auto;
-            text-align: center;
-            margin: 0em;
-            padding: 0em;
-            padding-top: 3em;
-        }
-
         .get-involved-card {
             width: auto;
             height: auto;
@@ -832,10 +827,20 @@ button:hover {
             margin-top: 1em;
         }
 
+        .get-involved-title {
+            width: auto;
+            text-align: center;
+            margin: 0em;
+            padding: 0em;
+            padding-top: 3em;
+        }
+
+
+
         #subscribe {
             display: flex;
             justify-content: center;
-            background-color: white;
+            background-color: #FFCC00;
             letter-spacing: 3px;
             width: 340px;
             min-height: fit-content;
