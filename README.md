@@ -24,34 +24,70 @@ I want to learn if they have new openings, acquired new service centres near me 
 ## Features
 
 ### Navigation Bar:
+![Navigation bar of large screens](documentation/images/nav-bar-large.png)
+See also:
+- [Nav bar for medium screens](documentation/images/nav-bar-small.png)
+- [Navigation bar for smaller screens](documentation/images/nav-bar-smallest.png)
+
 The Navigation bar is replete across the pages of the entire website. It helps the users of this website to easily move from one page to the other. It also bares a phone number which can be phoned via a single click, if the user is browsing through a device that has a calling application installed on it. The navigation bar also includes a Location link that can automatically list the address to the organisation on google maps, rather than typing the address manually. Finally, the Navigation bar includes the organisation logo written in large fonts, in other to help the user know with ease, that they are on the Haven Hub website and to also give a feel of the organisation's brand.
 
 ### Hero image with text:
+![Hero image with text](documentation/images/hero-image-with-text.png)
+See also:
+- [Hero image with text on medium screens](documentation/images/hero-image-with-text-medium-screens.png)
+- [Hero image with text on small screens](documentation/images/hero-image-with-text-small-screens.png)
+
 The main image shows a staff administering medication to a client in a residential setting. A bold introductory message immediately lets the user know that this is a organisation that specialises in supported living and housing accommodations.
 
 ### About Us & Services Section:
+- [About us section large screens](documentation/images/about-us-section.png)
+- [About us section on medium screen](documentation/images/about-us-section-medium-screen.png)
+- [About us section on small screen](documentation/images/about-us-section-small-screen.png)
+
 This section is immediately under the hero image, and it is also a page. It can be viewed by either scrolling down further or by clicking the "About us" link on the navigation bar.
 This section welcomes the user to the website with a brief introductory message of what the organisation does.
 This section is divided into four sections and each of the remaining three sections explains the kind of services that is provided by the organisation.
 
 ### Get Involved Section:
+- [Get involved section](documentation/images/get-involved-section.png)
+- [Get involved section on medium screen](documentation/images/get-involved-section-medium.png)
+- [Get involved section on small screen](documentation/images/get-involved-section-mobile.png)
+
 Below the About Us & Services section is the Get Involved section (different from the get-involved page). This section can be visited by further scrolling. It consists of three responsive cards that visually depicts a call to action for the user. It immediately lets the user know that they can be involved in three ways - Volunteering, Donation, and Leasing their property to the organisation.
 
 ### Subscribe to Newsletter:
+- [Subscribe to newsletter on smaller screens](<documentation/images/subscribe-to-newsletter-smaller screen.png>)
+- [Subscribe to newsletter](documentation/images/subscribe-to-newsletter.png)
+- [Subscribe to newsletters](documentation/images/subscribe-to-newsletter-s.png)
+- [Subscrie to newsletter on large screen](documentation/images/subscribe-to-newsletter-on-large-screen.png)
+
 This section is found towards the bottom of the page and it helps the user signup up to the organisation's newsletter. It was built with ease and seeks to secure the subscription by just accepting one input field and then collecting the user's email address.
 
 ### Footer:
+- [Footer on small screen](documentation/images/footer-smaller-screen.png)
+- [Footer on large screen](documentation/images/footer-large-screen.png)
+- [Footer on medium screen](documentation/images/footer-small-screen.png)
+
 Like the Navigation bar, the footer maintains the same design and content through out all the pages of the website. It contains the organisation's social links which when clicked opens the social site on a new window and still keeps Haven hub's website open. This helps the user to still stay active in what they were doing on the organisation's website. 
 The footer also contains the organisation's phone number and physical address/ The address when clicked also opens a google map for ease of direction. Likewise, the phone number when clicked, would attempt to dial the number if the user were using a mobile device  or a computer that has Call abilities.
 
 ### Get Involved Page:
+- [Get involved page on mobile devices](documentation/images/get-involved-page-mobile.png)
+- [Get involved page on full display on large screen](documentation/images/get-involved-page-medium-full.png)
+- [Get involved volunteer](documentation/images/get-involved-volunteer.png)
+
 By clicking the Get Involved link on the menu on the navigation bar, the user can visit this page. The page gives more explanation to the Get-involved section that we witnessed on the home page. It encourages he user to take action by signing up and participating by volunteering, donations and leasing properties to the organisation.
 
 ### Sign Up Page:
+- [Sign up page](documentation/images/sign-up-page.png)
+
 The [Signup page](https://dcsndevs.github.io/haven-hub/contact-us.html) contains a web form that collects the user's data based on the reason why they are contacting the organisation. The user has the options and choose to become a client, donate, volunteer, lease their property and subscribe to the organisation's newsletter.
 At the moment, the form is not connected to any database but only make use of a 'Get' form action. There are future plans of connecting it using JavaScript, PHP and MYSQL in other to store what is submitted.
 
 ### Thank you Page:
+- [Contact us feedback](documentation/images/thank-you-message.png)
+- [Subscription successful](documentation/images/subscription-successful.png)
+
 There are two thank you page with same layout but different messages. 
 [The first](https://dcsndevs.github.io/haven-hub/contact-us.html), is a message that users who Signed up via the contact us page gets to see. It informs the user that their details have been received, and that they would be contacted shortly.
 [The second](https://dcsndevs.github.io/haven-hub/newsletter-thankyou.html), refers to users who specifically used the Newsletter subscription form from the Hompeage. It lets the user know that they have successfully subscribed to receive newsletter from the organisation.
@@ -59,6 +95,8 @@ There are two thank you page with same layout but different messages.
 There is a future plan to allow the user receive a pop-up after submitting through the contact page and then gives the user an option to return to the homepage. This would reduce the number of pages for the website as a whole, and is a faster and more user friendly method rather than allowing another page load before confirming actions to the users.
 
 ### 404 Error Page:
+![404 error page](documentation/images/404-html-error-page.png)
+
 The [404 Error](https://dcsndevs.github.io/haven-hub/404.html) is a safety net for broken links. The name of the file 404.html was created according to [Github's standard](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-custom-404-page-for-your-github-pages-site) for showing visitors a message in a situation where the intended link becomes unavailable. If a link is unavailable, the host, in this case Github, redirects the user to 404.html by default. This prevents the user from having a total bad experience an ensures that the user still remains on the website.
 
 ## Testing
@@ -70,18 +108,11 @@ Responsive Design Tester by Media Genesis was used to view the website on differ
 ### Links & Feature Test
 - [Link to first video before Homepage redesign YouTube Video of live testing](https://youtu.be/CFa9-n3SuaA)
 - [Current YouTube Video of live testing](https://youtu.be/e_SBWsyzmAA)
-[![Haven-hub-Youtube-Video-Banner](documentation/images/haven-hub-youtube-placeholder.png)](https://youtu.be/e_SBWsyzmAA "Haven Hub Website Project")
+[![Haven-hub-Youtube-Video-Banner](documentation/images/haven-hub-youtube-placeholder.png)](https://youtu.be/e_SBWsyzmAA "Haven Hub Website Project") 
 
 - [Fixed Email Input on Contact form](documentation/images/gifs/contact-form-fix.gif)
-
-
-
-
 - [Phone Link Test](documentation/images/gifs/phone-call-link-test.gif)
 
-
-
- 
  ### Responsive Screen Displays
 - [Responsiveness Test across multiple device sizes](https://youtu.be/CFa9-n3SuaA)
  [![Haven-hub-Youtube-Video-Banner](documentation/images/haven-hub-youtube-placeholder.png)](https://youtu.be/CFa9-n3SuaA "Haven Hub Responsivenes Test Project")
@@ -103,6 +134,7 @@ A notable issue raised was that of the body font being high in contrast. The fon
 
 - [Index Page Desktop (Current)](https://pagespeed.web.dev/analysis/https-dcsndevs-github-io-haven-hub/r2s9s49ea7?form_factor=desktop)![Index-Desktop](documentation/images/index-d-pagespeed-insights.png)
 
+See also:
 - [Index Page Mobile(Old)](https://pagespeed.web.dev/analysis/https-dcsndevs-github-io-haven-hub/r2s9s49ea7?form_factor=mobile)
 
 - [Index Page Desktop (Old)](https://pagespeed.web.dev/analysis/https-dcsndevs-github-io-haven-hub/r2s9s49ea7?form_factor=desktop)
@@ -133,6 +165,8 @@ A notable issue raised was that of the body font being high in contrast. The fon
 
 - [Index page (Current)](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdcsndevs.github.io%2Fhaven-hub%2F)![Index](documentation/images/current-validator-index.png)
 
+See also:
+
 - [Index page (Old)](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdcsndevs.github.io%2Fhaven-hub%2F)
 
 - [Get Involved Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdcsndevs.github.io%2Fhaven-hub%2Fget-involved.html)
@@ -155,6 +189,8 @@ Click the link below to visit the CSS validation page.
 
  - [Current CSS Test](documentation/images/css-validator-success.png)
   ![Current CSS Test](documentation/images/css-validator-success.png)
+
+  See also:
  
  - [Current CSS Test - 4 Warnings](documentation/images/css-validator-warning.png)
 
@@ -166,6 +202,11 @@ Click the link below to visit the CSS validation page.
 ### Color Contrast:
 
 [Deque's University Color Contrast Analyzer](https://dequeuniversity.com/rules/axe/4.7/color-contrast) was used to determine what colors go together This ensures that users of all kind can clearly view texts and image/button borders. Some users might be color blind or are people with low vision experience. This tool ensures that the best colours are used in other to guarantee their convenience. A brief understanding of this would be an instance where a white text is put on a yellow backrgound. Both colors are too bright and would be difficult to read for most users.
+
+### Blasmiq:
+Blasmiq was used to draw mockups for the first set o website design to guide in th edevelopment of this project.
+- [Blasmiq homepage design 1](documentation/images/blasmiq-wireframe-1.png)
+- [Blasmiq homepage design 2](documentation/images/blasmiq-wireframe-2.png)
 
 
             
@@ -231,7 +272,6 @@ All the images used in the creation of this website were sourced on Pexels, Unsp
 6. Photo by [Mikhail Nilov](https://www.pexels.com/photo/woman-helping-a-man-sitting-on-a-chair-6981012/) 
 7. Photo by [Liza Summer](https://www.pexels.com/photo/cheerful-ethnic-woman-with-donate-box-6348123/)
 8. Photo by [Lisa Fotios](https://www.pexels.com/photo/houses-in-town-3825883/)
-
 
  - [Image Resizer](https://imageresizer.com/) and [TinyPng](https://tinypng.com/) were used to respectively resize and compress all the images on this site.
  - [Ezgif.com](https://ezgif.com/) was used to covert videos to the animated gif images that was used to show live tests.
