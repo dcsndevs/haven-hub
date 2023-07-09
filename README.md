@@ -13,7 +13,7 @@
 ### First Time Visitor Goals:
 As a first-time visitor, my primary goal is to easily learn and gather about the organization. 
 I want to be able easily get their contact details and find out their location.
-It is important for me to understand the services they offer and how I can involved with work.
+It is important for me to understand the services they offer and how I can be involved with work.
 
 ### Returning Visitor Goals:
 As a returning visitor, my goal is to obtain updated information about the organisation. I except to find the latest news, updates, and any changes that have occurred since my last visit. 
@@ -31,7 +31,7 @@ See also:
 - [Nav bar for medium screens](documentation/images/nav-bar-small.png)
 - [Navigation bar for smaller screens](documentation/images/nav-bar-smallest.png)
 
-The Navigation bar is consistently present across all pages of the entire website. It helps the users of this website to easily move from one page to the other. It also displays a phone number that can be dialed with a single click, if the user is browsing through a device that has a calling application installed on it. The navigation bar also includes a Location link that can automatically list the address to the organisation on google maps, rather than typing the address manually. Finally, the Navigation bar includes the organisation logo written in large fonts, in other to help the user know with ease, that they are on the Haven Hub website and to also give a feel of the organisation's brand.
+The Navigation bar is consistently present across all pages of the entire website. It helps the users of this website to easily move from one page to the other. It also displays a phone number that can be dialled with a single click, if the user is browsing through a device that has a calling application installed on it. The navigation bar also includes a Location link that can automatically list the address to the organisation on google maps, rather than typing the address manually. Finally, the Navigation bar includes the organisation logo written in large fonts, in other to help the user know with ease, that they are on the Haven Hub website and to also give a feel of the organisation's brand.
 
 ### Hero image with text:
 ![Hero image with text](documentation/images/hero-image-with-text.png)
@@ -61,7 +61,7 @@ Below the About Us & Services section is the Get Involved section (different fro
 - [Subscribe to newsletter on smaller screens](<documentation/images/subscribe-to-newsletter-smaller screen.png>)
 - [Subscribe to newsletter](documentation/images/subscribe-to-newsletter.png)
 - [Subscribe to newsletters](documentation/images/subscribe-to-newsletter-s.png)
-- [Subscrie to newsletter on large screen](documentation/images/subscribe-to-newsletter-on-large-screen.png)
+- [Subscribe to newsletter on large screen](documentation/images/subscribe-to-newsletter-on-large-screen.png)
 
 This section is found towards the bottom of the page and it helps the user signup up to the organisation's newsletter. It was built with ease and seeks to secure the subscription by just accepting one input field and then collecting the user's email address.
 
@@ -70,7 +70,7 @@ This section is found towards the bottom of the page and it helps the user signu
 - [Footer on large screen](documentation/images/footer-large-screen.png)
 - [Footer on medium screen](documentation/images/footer-small-screen.png)
 
-Like the Navigation bar, the footer maintains the same design and content through out all the pages of the website. It contains the organisation's social links which when clicked opens the social site on a new window and still keeps Haven hub's website open. This helps the user to still stay active in what they were doing on the organisation's website. 
+Like the Navigation bar, the footer maintains the same design and content throughout all the pages of the website. It contains the organisation's social links which when clicked opens the social site on a new window and still keeps Haven hub's website open. This helps the user to still stay active in what they were doing on the organisation's website. 
 The footer also contains the organisation's phone number and physical address/ The address when clicked also opens a google map for ease of direction. Likewise, the phone number when clicked, would attempt to dial the number if the user were using a mobile device  or a computer that has Call abilities.
 
 ### Get Involved Page:
@@ -92,9 +92,9 @@ At the moment, the form is not connected to any database but only make use of a 
 
 There are two thank you page with same layout but different messages. 
 [The first](https://dcsndevs.github.io/haven-hub/contact-us.html), is a message that users who Signed up via the contact us page gets to see. It informs the user that their details have been received, and that they would be contacted shortly.
-[The second](https://dcsndevs.github.io/haven-hub/newsletter-thankyou.html), refers to users who specifically used the Newsletter subscription form from the Hompeage. It lets the user know that they have successfully subscribed to receive newsletter from the organisation.
+[The second](https://dcsndevs.github.io/haven-hub/newsletter-thankyou.html), refers to users who specifically used the Newsletter subscription form from the Homepage. It lets the user know that they have successfully subscribed to receive newsletter from the organisation.
 
-There is a future plan to allow the user receive a pop-up after submitting through the contact page and then gives the user an option to return to the homepage. This would reduce the number of pages for the website as a whole, and is a faster and more user friendly method rather than allowing another page load before confirming actions to the users.
+There is a future plan to allow the user receive a pop-up after submitting through the contact page and then gives the user an option to return to the homepage. This would reduce the number of pages for the website as a whole, and is a faster and more user-friendly method rather than allowing another page load before confirming actions to the users.
 
 ### 404 Error Page:
 ![404 error page](documentation/images/404-html-error-page.png)
@@ -119,7 +119,7 @@ Responsive Design Tester by Media Genesis was used to view the website on differ
 - [Responsiveness Test across multiple device sizes](https://youtu.be/CFa9-n3SuaA)
  [![Haven-hub-Youtube-Video-Banner](documentation/images/haven-hub-youtube-placeholder.png)](https://youtu.be/CFa9-n3SuaA "Haven Hub Responsivenes Test Project")
 
-    #### Old Gifs Images of Homepage rresponsiveness:
+    #### Old Gifs Images of Homepage responsiveness:
     [Mobile Screens 375 x 667](documentation/images/gifs/haven-hub-375-responsiveness.gif)
 
     [Tablet Screen 768 x 1024](documentation/images/gifs/haven-hub-768-responsiveness.gif)
@@ -145,9 +145,9 @@ Responsive Design Tester by Media Genesis was used to view the website on differ
 | Lease | Click on Button | User is redirected to the contact-us.html | yes | Yes | - |
 | Subscribe | Click on Button | User is redirected to the newsletter-thankyou.html | yes | Yes | Under the condition that a validated email is entered in the input section |
 | *Homepage Footer* |  |  |  |  |  
-| Facebook | Click on icon | User is redirected to the external facebook website | yes | Yes | - |
-| Twitter | Click on icon | User is redirected to the external twitter website | yes | Yes | - |
-| Instagram | Click on icon | User is redirected to the external instagram website | yes | Yes | - |
+| Facebook | Click on icon | User is redirected to the external Facebook website | yes | Yes | - |
+| Twitter | Click on icon | User is redirected to the external Twitter website | yes | Yes | - |
+| Instagram | Click on icon | User is redirected to the external Instagram website | yes | Yes | - |
 | Phone | Click on Link | User is redirected to the device calling feature | yes | Yes | - |
 | Location | Click on Link | User is redirected to Google maps | yes | Yes | It opens with a pre-filled address |
 
@@ -165,9 +165,9 @@ Responsive Design Tester by Media Genesis was used to view the website on differ
 | Donate | Click on Button | User is redirected to the contact-us.html | yes | Yes | - |
 | Start! | Click on Button | User is redirected to the contact-us.html | yes | Yes | - |
 | *Get-involved Page Footer* |  |  |  |  |  
-| Facebook | Click on icon | User is redirected to the external facebook website | yes | Yes | - |
-| Twitter | Click on icon | User is redirected to the external twitter website | yes | Yes | - |
-| Instagram | Click on icon | User is redirected to the external instagram website | yes | Yes | - |
+| Facebook | Click on icon | User is redirected to the external Facebook website | yes | Yes | - |
+| Twitter | Click on icon | User is redirected to the external Twitter website | yes | Yes | - |
+| Instagram | Click on icon | User is redirected to the external Instagram website | yes | Yes | - |
 | Phone | Click on Link | User is redirected to the device calling feature | yes | Yes | - |
 | Location | Click on Link | User is redirected to Google maps | yes | Yes | It opens with a pre-filled address |
 
@@ -181,12 +181,12 @@ Responsive Design Tester by Media Genesis was used to view the website on differ
 | Location | Click on Link | User is redirected to Google maps | yes | Yes | It opens with a pre-filled address |
 | Phone | Click on Link | User is redirected to the device calling feature | yes | Yes | - |
 | *Contact-us page Buttons* |  |  |  |  |  
-| Submit | Click on Button | User is redirected to the thankyou.html | yes | Yes | Under the condition that a valid email and required fileds are entered|
+| Submit | Click on Button | User is redirected to the thankyou.html | yes | Yes | Under the condition that a valid email and required fields are entered|
 | Reset | Click on Button | The form is reset | yes | Yes | - |
 | *Contact-us Page Footer* |  |  |  |  |  
-| Facebook | Click on icon | User is redirected to the external facebook website | yes | Yes | - |
-| Twitter | Click on icon | User is redirected to the external twitter website | yes | Yes | - |
-| Instagram | Click on icon | User is redirected to the external instagram website | yes | Yes | - |
+| Facebook | Click on icon | User is redirected to the external Facebook website | yes | Yes | - |
+| Twitter | Click on icon | User is redirected to the external Twitter website | yes | Yes | - |
+| Instagram | Click on icon | User is redirected to the external Instagram website | yes | Yes | - |
 | Phone | Click on Link | User is redirected to the device calling feature | yes | Yes | - |
 | Location | Click on Link | User is redirected to Google maps | yes | Yes | It opens with a pre-filled address |
 |  |   |  |  |  |
@@ -277,10 +277,10 @@ Click the link below to visit the CSS validation page.
 
 ### Color Contrast:
 
-[Deque's University Color Contrast Analyzer](https://dequeuniversity.com/rules/axe/4.7/color-contrast) was used to determine what colors go together This ensures that users of all kind can clearly view texts and image/button borders. Some users might be color blind or are people with low vision experience. This tool ensures that the best colours are used in other to guarantee their convenience. A brief understanding of this would be an instance where a white text is put on a yellow backrgound. Both colors are too bright and would be difficult to read for most users.
+[Deque's University Color Contrast Analyzer](https://dequeuniversity.com/rules/axe/4.7/color-contrast) was used to determine what colors go together This ensures that users of all kind can clearly view texts and image/button borders. Some users might be color blind or are people with low vision experience. This tool ensures that the best colours are used in other to guarantee their convenience. A brief understanding of this would be an instance where a white text is put on a yellow background. Both colors are too bright and would be difficult to read for most users.
 
 ## Blasmiq:
-Blasmiq was used to draw mockups for the first set o website design to guide in th edevelopment of this project.
+Blasmiq was used to draw mock-ups for the first set of website design to guide in the development of this project.
 - [Blasmiq homepage design 1](documentation/images/blasmiq-wireframe-1.png)
 - [Blasmiq homepage design 2](documentation/images/blasmiq-wireframe-2.png)
 
