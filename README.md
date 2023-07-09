@@ -116,8 +116,8 @@ Responsive Design Tester by Media Genesis was used to view the website on differ
 - [Phone Link Test](documentation/images/gifs/phone-call-link-test.gif)
 
  ### Responsive Screen Displays
-- [Responsiveness Test across multiple device sizes](https://youtu.be/CFa9-n3SuaA)
- [![Haven-hub-Youtube-Video-Banner](documentation/images/haven-hub-youtube-placeholder.png)](https://youtu.be/CFa9-n3SuaA "Haven Hub Responsivenes Test Project")
+- [Responsiveness Test across multiple device sizes](https://youtu.be/3OcypStVrsA)
+ [![Haven-hub-Youtube-Video-Banner](documentation/images/haven-hub-youtube-placeholder.png)](https://youtu.be/3OcypStVrsA "Haven Hub Responsivenes Test Project")
 
     #### Old Gifs Images of Homepage responsiveness:
     [Mobile Screens 375 x 667](documentation/images/gifs/haven-hub-375-responsiveness.gif)
