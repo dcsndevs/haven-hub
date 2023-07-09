@@ -3,7 +3,7 @@
 
 ## Welcome
 
-**Haven Hub Care Services Limited** is an organisation that specialises in providing assisted living for people with special needs and is based in the United Kingdom. The website seeks to present key contact information about the organisation, and collect information from people that are interested in its services and offers. The link to the deployed site is [Here](https://dcsndevs.github.io/haven-hub) 
+**Haven Hub Care Services Limited** is an organisation that specialises in providing assisted living for people with special needs and is based in the United Kingdom. The website aims to present key contact information about the organisation and collect information from individuals who are interested in its services and offerings. You can find The link to the deployed site [Here](https://dcsndevs.github.io/haven-hub) 
 
 ![Responsive Image](/documentation/images/haven-hub-responsive-image.png)
 
@@ -11,15 +11,17 @@
 
 
 ### First Time Visitor Goals:
-As a first-time visitor, I want to easily learn and know more about the organisation. 
-I want to easily get their contact details and to know where they are located.
-I want to learn more about the services that they offer and how I can be involved with what the organisation does.
+As a first-time visitor, my primary goal is to easily learn and gather about the organization. 
+I want to be able easily get their contact details and find out their location.
+It is important for me to understand the services they offer and how I can involved with work.
 
 ### Returning Visitor Goals:
-As a returning visitor, I want to get updated information about the organisation. 
+As a returning visitor, my goal is to obtain updated information about the organisation. I except to find the latest news, updates, and any changes that have occurred since my last visit. 
 
 ### Frequent Visitor Goals:
-I want to learn if they have new openings, acquired new service centres near me and learn of any charity projects that might be ongoing.
+As a frequent visitor, I want to stay informed about any new job openings within the organisation. 
+I am interested in knowing if they acquired new service centers in my area.
+Additionally, I would like to stay updated on any ongoing charity projects that the organisation is involved in.
 
 ## Features
 
@@ -29,7 +31,7 @@ See also:
 - [Nav bar for medium screens](documentation/images/nav-bar-small.png)
 - [Navigation bar for smaller screens](documentation/images/nav-bar-smallest.png)
 
-The Navigation bar is replete across the pages of the entire website. It helps the users of this website to easily move from one page to the other. It also bares a phone number which can be phoned via a single click, if the user is browsing through a device that has a calling application installed on it. The navigation bar also includes a Location link that can automatically list the address to the organisation on google maps, rather than typing the address manually. Finally, the Navigation bar includes the organisation logo written in large fonts, in other to help the user know with ease, that they are on the Haven Hub website and to also give a feel of the organisation's brand.
+The Navigation bar is consistently present across all pages of the entire website. It helps the users of this website to easily move from one page to the other. It also displays a phone number that can be dialed with a single click, if the user is browsing through a device that has a calling application installed on it. The navigation bar also includes a Location link that can automatically list the address to the organisation on google maps, rather than typing the address manually. Finally, the Navigation bar includes the organisation logo written in large fonts, in other to help the user know with ease, that they are on the Haven Hub website and to also give a feel of the organisation's brand.
 
 ### Hero image with text:
 ![Hero image with text](documentation/images/hero-image-with-text.png)
