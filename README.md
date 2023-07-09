@@ -126,6 +126,80 @@ Responsive Design Tester by Media Genesis was used to view the website on differ
 
     [Desktop Screen 1920 x 1200](documentation/images/gifs/haven-hub-1920-responsiveness.gif)
 
+### Manual Testing 
+| Feature | Action | Expected Result | Tested | Passed | Comments |
+| --- | --- | --- | --- | --- | --- |
+| *Homepage Navigation* |  |  |  |  |  |
+| Logo | Click on Haven hub logo | User is redirected to the index.html | yes | Yes | - |
+| Home | Click on Link | User is redirected to the index.html  | yes | Yes | - |
+| Get-Involved | Click on Link | User is redirected to the get-involved.html | yes | Yes | - |
+| Contact-us | Click on Link | User is redirected to the contact-us.html | yes | Yes | - |
+| Location | Click on Link | User is redirected to Google maps | yes | Yes | It opens with a pre-filled address |
+| Phone | Click on Link | User is redirected to the device calling feature | yes | Yes | - |
+| *Homepage Buttons* |  |  |  |  |  
+| Enquiries | Click on Button | User is redirected to the contact-us.html | yes | Yes | - |
+| Volunteer | Click on Button | User is redirected to the contact-us.html | yes | Yes | - |
+| Donate | Click on Button | User is redirected to the contact-us.html | yes | Yes | - |
+| Lease | Click on Button | User is redirected to the contact-us.html | yes | Yes | - |
+| Subscribe | Click on Button | User is redirected to the newsletter-thankyou.html | yes | Yes | Under the condition that a validated email is entered in the input section |
+| *Homepage Footer* |  |  |  |  |  
+| Facebook | Click on icon | User is redirected to the external facebook website | yes | Yes | - |
+| Twitter | Click on icon | User is redirected to the external twitter website | yes | Yes | - |
+| Instagram | Click on icon | User is redirected to the external instagram website | yes | Yes | - |
+| Phone | Click on Link | User is redirected to the device calling feature | yes | Yes | - |
+| Location | Click on Link | User is redirected to Google maps | yes | Yes | It opens with a pre-filled address |
+
+ Feature | Action | Expected Result | Tested | Passed | Comments |
+| --- | --- | --- | --- | --- | --- |
+| *Get-involved Navigation* |  |  |  |  |  |
+| Logo | Click on Haven hub logo | User is redirected to the index.html | yes | Yes | - |
+| Home | Click on Link | User is redirected to the index.html  | yes | Yes | - |
+| Get-Involved | Click on Link | User is redirected to the get-involved.html | yes | Yes | - |
+| Contact-us | Click on Link | User is redirected to the contact-us.html | yes | Yes | - |
+| Location | Click on Link | User is redirected to Google maps | yes | Yes | It opens with a pre-filled address |
+| Phone | Click on Link | User is redirected to the device calling feature | yes | Yes | - |
+| *Get-involved page Buttons* |  |  |  |  |  
+| Volunteer | Click on Button | User is redirected to the contact-us.html | yes | Yes | - |
+| Donate | Click on Button | User is redirected to the contact-us.html | yes | Yes | - |
+| Start! | Click on Button | User is redirected to the contact-us.html | yes | Yes | - |
+| *Get-involved Page Footer* |  |  |  |  |  
+| Facebook | Click on icon | User is redirected to the external facebook website | yes | Yes | - |
+| Twitter | Click on icon | User is redirected to the external twitter website | yes | Yes | - |
+| Instagram | Click on icon | User is redirected to the external instagram website | yes | Yes | - |
+| Phone | Click on Link | User is redirected to the device calling feature | yes | Yes | - |
+| Location | Click on Link | User is redirected to Google maps | yes | Yes | It opens with a pre-filled address |
+
+ Feature | Action | Expected Result | Tested | Passed | Comments |
+| --- | --- | --- | --- | --- | --- |
+| *Contact-us Navigation* |  |  |  |  |  |
+| Logo | Click on Haven hub logo | User is redirected to the index.html | yes | Yes | - |
+| Home | Click on Link | User is redirected to the index.html  | yes | Yes | - |
+| Get-Involved | Click on Link | User is redirected to the get-involved.html | yes | Yes | - |
+| Contact-us | Click on Link | User is redirected to the contact-us.html | yes | Yes | - |
+| Location | Click on Link | User is redirected to Google maps | yes | Yes | It opens with a pre-filled address |
+| Phone | Click on Link | User is redirected to the device calling feature | yes | Yes | - |
+| *Contact-us page Buttons* |  |  |  |  |  
+| Submit | Click on Button | User is redirected to the thankyou.html | yes | Yes | Under the condition that a valid email and required fileds are entered|
+| Reset | Click on Button | The form is reset | yes | Yes | - |
+| *Contact-us Page Footer* |  |  |  |  |  
+| Facebook | Click on icon | User is redirected to the external facebook website | yes | Yes | - |
+| Twitter | Click on icon | User is redirected to the external twitter website | yes | Yes | - |
+| Instagram | Click on icon | User is redirected to the external instagram website | yes | Yes | - |
+| Phone | Click on Link | User is redirected to the device calling feature | yes | Yes | - |
+| Location | Click on Link | User is redirected to Google maps | yes | Yes | It opens with a pre-filled address |
+|  |   |  |  |  |
+|  |   |  |  |  |
+
+
+
+### Browser Testing
+The final project was tested on four different browsers, namely:
+-Microsoft Internet explorer
+-Google Chrome
+-Brave
+-Mozilla Firefox
+The output was similar on all these browsers except on Mozila firefox, where the fonts appeared darker and were therefore better viewed in terms of clarity and contrast. In addition, the buttons on the "get-involved" section (not page) of the index page were observed to overlap the text above them. I was able to correct this error by adding more padding on top of the buttons.
+
 ### Google PageSpeed Insights:
 Google page speed insights was used to test the speed of the website and various issues were highlighted which was followed by subsequent adjustments.
 A notable issue raised was that of the body font being high in contrast. The font (Diphlliea) was then changed to Roboto. High contrast fonts are difficult to read by some users and also on some devices.
@@ -203,18 +277,18 @@ Click the link below to visit the CSS validation page.
 
 [Deque's University Color Contrast Analyzer](https://dequeuniversity.com/rules/axe/4.7/color-contrast) was used to determine what colors go together This ensures that users of all kind can clearly view texts and image/button borders. Some users might be color blind or are people with low vision experience. This tool ensures that the best colours are used in other to guarantee their convenience. A brief understanding of this would be an instance where a white text is put on a yellow backrgound. Both colors are too bright and would be difficult to read for most users.
 
-### Blasmiq:
+## Blasmiq:
 Blasmiq was used to draw mockups for the first set o website design to guide in th edevelopment of this project.
 - [Blasmiq homepage design 1](documentation/images/blasmiq-wireframe-1.png)
 - [Blasmiq homepage design 2](documentation/images/blasmiq-wireframe-2.png)
 
 
             
-### Unfixed Bugs:
+## Unfixed Bugs:
 
 I encountered issues with the footer the signup and thank you pages. The footers were floating because the page didn't have enough content and then scrolling was an issue in mobile screens - This tutorial by [Sir Chogyal](https://www.youtube.com/watch?v=J-r75L3Tflg) helped me through it.
 
-### Technologies used:
+## Technologies used:
 - HTML was used as the main language for the website.
 - CSS was used to add styles and layout to the website.
 - Blasmiq was used to create wireframes to pre-deign and guide the site's layout and designs
