@@ -131,66 +131,61 @@ Responsive Design Tester by Media Genesis was used to view the website on differ
 ### Manual Testing 
 | Feature | Action | Expected Result | Tested | Passed | Comments |
 | --- | --- | --- | --- | --- | --- |
+|  |  | **Home Page** |  |  |  |
 | *Homepage Navigation* |  |  |  |  |  |
-| Logo | Click on Haven hub logo | User is redirected to the index.html | yes | Yes | - |
-| Home | Click on Link | User is redirected to the index.html  | yes | Yes | - |
-| Get-Involved | Click on Link | User is redirected to the get-involved.html | yes | Yes | - |
-| Contact-us | Click on Link | User is redirected to the contact-us.html | yes | Yes | - |
+| Logo | Click on Haven hub logo | User is redirected to index.html | yes | Yes | - |
+| Home | Click on Link | User is redirected to index.html  | yes | Yes | - |
+| Get-Involved | Click on Link | User is redirected to get-involved.html | yes | Yes | - |
+| Contact-us | Click on Link | User is redirected to contact-us.html | yes | Yes | - |
 | Location | Click on Link | User is redirected to Google maps | yes | Yes | It opens with a pre-filled address |
-| Phone | Click on Link | User is redirected to the device calling feature | yes | Yes | - |
+| Phone | Click on Link | User is redirected to device calling feature | yes | Yes | - |
 | *Homepage Buttons* |  |  |  |  |  
-| Enquiries | Click on Button | User is redirected to the contact-us.html | yes | Yes | - |
-| Volunteer | Click on Button | User is redirected to the contact-us.html | yes | Yes | - |
-| Donate | Click on Button | User is redirected to the contact-us.html | yes | Yes | - |
-| Lease | Click on Button | User is redirected to the contact-us.html | yes | Yes | - |
-| Subscribe | Click on Button | User is redirected to the newsletter-thankyou.html | yes | Yes | Under the condition that a validated email is entered in the input section |
+| Enquiries | Click on Button | User is redirected to contact-us.html | yes | Yes | - |
+| Volunteer | Click on Button | User is redirected to contact-us.html | yes | Yes | - |
+| Donate | Click on Button | User is redirected to contact-us.html | yes | Yes | - |
+| Lease | Click on Button | User is redirected to contact-us.html | yes | Yes | - |
+| Subscribe | Click on Button | User is redirected to newsletter-thankyou.html | yes | Yes | Under the condition that a validated email is entered in the input section |
 | *Homepage Footer* |  |  |  |  |  
-| Facebook | Click on icon | User is redirected to the external Facebook website | yes | Yes | - |
-| Twitter | Click on icon | User is redirected to the external Twitter website | yes | Yes | - |
-| Instagram | Click on icon | User is redirected to the external Instagram website | yes | Yes | - |
-| Phone | Click on Link | User is redirected to the device calling feature | yes | Yes | - |
+| Facebook | Click on icon | User is redirected to external Facebook website | yes | Yes | - |
+| Twitter | Click on icon | User is redirected to external Twitter website | yes | Yes | - |
+| Instagram | Click on icon | User is redirected to external Instagram website | yes | Yes | - |
+| Phone | Click on Link | User is redirected to device calling feature | yes | Yes | - |
 | Location | Click on Link | User is redirected to Google maps | yes | Yes | It opens with a pre-filled address |
-
- Feature | Action | Expected Result | Tested | Passed | Comments |
-| --- | --- | --- | --- | --- | --- |
+  |  |  | **Get-Involved Page** |  |  |
 | *Get-involved Navigation* |  |  |  |  |  |
-| Logo | Click on Haven hub logo | User is redirected to the index.html | yes | Yes | - |
-| Home | Click on Link | User is redirected to the index.html  | yes | Yes | - |
-| Get-Involved | Click on Link | User is redirected to the get-involved.html | yes | Yes | - |
-| Contact-us | Click on Link | User is redirected to the contact-us.html | yes | Yes | - |
+| Logo | Click on Haven hub logo | User is redirected to index.html | yes | Yes | - |
+| Home | Click on Link | User is redirected to index.html  | yes | Yes | - |
+| Get-Involved | Click on Link | User is redirected to get-involved.html | yes | Yes | - |
+| Contact-us | Click on Link | User is redirected to contact-us.html | yes | Yes | - |
 | Location | Click on Link | User is redirected to Google maps | yes | Yes | It opens with a pre-filled address |
-| Phone | Click on Link | User is redirected to the device calling feature | yes | Yes | - |
+| Phone | Click on Link | User is redirected to device calling feature | yes | Yes | - |
 | *Get-involved page Buttons* |  |  |  |  |  
-| Volunteer | Click on Button | User is redirected to the contact-us.html | yes | Yes | - |
-| Donate | Click on Button | User is redirected to the contact-us.html | yes | Yes | - |
-| Start! | Click on Button | User is redirected to the contact-us.html | yes | Yes | - |
+| Volunteer | Click on Button | User is redirected to contact-us.html | yes | Yes | - |
+| Donate | Click on Button | User is redirected to contact-us.html | yes | Yes | - |
+| Start! | Click on Button | User is redirected to contact-us.html | yes | Yes | - |
 | *Get-involved Page Footer* |  |  |  |  |  
-| Facebook | Click on icon | User is redirected to the external Facebook website | yes | Yes | - |
-| Twitter | Click on icon | User is redirected to the external Twitter website | yes | Yes | - |
-| Instagram | Click on icon | User is redirected to the external Instagram website | yes | Yes | - |
-| Phone | Click on Link | User is redirected to the device calling feature | yes | Yes | - |
+| Facebook | Click on icon | User is redirected to external Facebook website | yes | Yes | - |
+| Twitter | Click on icon | User is redirected to external Twitter website | yes | Yes | - |
+| Instagram | Click on icon | User is redirected to external Instagram website | yes | Yes | - |
+| Phone | Click on Link | User is redirected to device calling feature | yes | Yes | - |
 | Location | Click on Link | User is redirected to Google maps | yes | Yes | It opens with a pre-filled address |
-
- Feature | Action | Expected Result | Tested | Passed | Comments |
-| --- | --- | --- | --- | --- | --- |
+|  |  | **Contact-us Page** |  |  |
 | *Contact-us Navigation* |  |  |  |  |  |
-| Logo | Click on Haven hub logo | User is redirected to the index.html | yes | Yes | - |
-| Home | Click on Link | User is redirected to the index.html  | yes | Yes | - |
-| Get-Involved | Click on Link | User is redirected to the get-involved.html | yes | Yes | - |
-| Contact-us | Click on Link | User is redirected to the contact-us.html | yes | Yes | - |
+| Logo | Click on Haven hub logo | User is redirected to index.html | yes | Yes | - |
+| Home | Click on Link | User is redirected to index.html  | yes | Yes | - |
+| Get-Involved | Click on Link | User is redirected to get-involved.html | yes | Yes | - |
+| Contact-us | Click on Link | User is redirected to contact-us.html | yes | Yes | - |
 | Location | Click on Link | User is redirected to Google maps | yes | Yes | It opens with a pre-filled address |
-| Phone | Click on Link | User is redirected to the device calling feature | yes | Yes | - |
+| Phone | Click on Link | User is redirected to device calling feature | yes | Yes | - |
 | *Contact-us page Buttons* |  |  |  |  |  
-| Submit | Click on Button | User is redirected to the thankyou.html | yes | Yes | Under the condition that a valid email and required fields are entered|
+| Submit | Click on Button | User is redirected to thankyou.html | yes | Yes | Under the condition that a valid email and required fields are entered|
 | Reset | Click on Button | The form is reset | yes | Yes | - |
 | *Contact-us Page Footer* |  |  |  |  |  
-| Facebook | Click on icon | User is redirected to the external Facebook website | yes | Yes | - |
-| Twitter | Click on icon | User is redirected to the external Twitter website | yes | Yes | - |
-| Instagram | Click on icon | User is redirected to the external Instagram website | yes | Yes | - |
-| Phone | Click on Link | User is redirected to the device calling feature | yes | Yes | - |
+| Facebook | Click on icon | User is redirected to external Facebook website | yes | Yes | - |
+| Twitter | Click on icon | User is redirected to external Twitter website | yes | Yes | - |
+| Instagram | Click on icon | User is redirected to external Instagram website | yes | Yes | - |
+| Phone | Click on Link | User is redirected to device calling feature | yes | Yes | - |
 | Location | Click on Link | User is redirected to Google maps | yes | Yes | It opens with a pre-filled address |
-|  |   |  |  |  |
-|  |   |  |  |  |
 
 
 
