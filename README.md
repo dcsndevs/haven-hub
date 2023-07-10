@@ -314,8 +314,9 @@ The site was then deployed via Github pages by:
 After these steps, the site would have been deployed and becomes live at <https://dcsndevs.github.io/haven-hub>
 
 ### Local Deployment:
-To clone this project, you can do so at 
-https://github.com/dcsndevs/haven-hub.git
+To clone this project, you can do so using VsCode or any code editor that has an integrated development Environment (IDE), using this command: 
+
+     git clone https://github.com/dcsndevs/haven-hub.git
 
 ## Credits
 
