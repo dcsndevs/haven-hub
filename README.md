@@ -107,7 +107,7 @@ Various tools have been used in testing the overall performance of the website f
 
 Responsive Design Tester by Media Genesis was used to view the website on different media screens. Click any title below to view the site's appearance on the screen.
 
-### Links & Feature Test
+### Links & Feature Test:
 - [Link to first video before Homepage redesign YouTube Video of live testing](https://youtu.be/CFa9-n3SuaA)
 - [Current YouTube Video of live testing](https://youtu.be/e_SBWsyzmAA)
 [![Haven-hub-Youtube-Video-Banner](documentation/images/haven-hub-youtube-placeholder.png)](https://youtu.be/e_SBWsyzmAA "Haven Hub Website Project") 
@@ -128,7 +128,7 @@ Responsive Design Tester by Media Genesis was used to view the website on differ
 
     [Desktop Screen 1920 x 1200](documentation/images/gifs/haven-hub-1920-responsiveness.gif)
 
-### Manual Testing 
+### Manual Testing: 
 | Feature | Action | Expected Result | Tested | Passed | Comments |
 | --- | --- | --- | --- | --- | --- |
 |  |  | **Home Page** |  |  |  |
@@ -189,7 +189,7 @@ Responsive Design Tester by Media Genesis was used to view the website on differ
 
 
 
-### Browser Testing
+### Browser Testing:
 The final project was tested on four different browsers, namely:
 -Microsoft Internet explorer
 -Google Chrome
@@ -201,7 +201,7 @@ The output was similar on all these browsers except on Mozila firefox, where the
 Google page speed insights was used to test the speed of the website and various issues were highlighted which was followed by subsequent adjustments.
 A notable issue raised was that of the body font being high in contrast. The font (Diphlliea) was then changed to Roboto. High contrast fonts are difficult to read by some users and also on some devices.
 
-- [Index Page Mobile (Current)](https://pagespeed.web.dev/analysis/https-dcsndevs-github-io-haven-hub/r2s9s49ea7?form_factor=mobile)![Index](documentation/images/index-m-pagespeed-insights.png)
+- [Index Page Mobile (Current)](https://pagespeed.web.dev/analysis/https-dcsndevs-github-io-haven-hub/r2s9s49ea7?form_factor=mobile)![Index](documentation/images/pagespeed-index-latest.png)
 
 - [Index Page Desktop (Current)](https://pagespeed.web.dev/analysis/https-dcsndevs-github-io-haven-hub/r2s9s49ea7?form_factor=desktop)![Index-Desktop](documentation/images/index-d-pagespeed-insights.png)
 
