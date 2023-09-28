@@ -393,6 +393,19 @@ button:hover {
     box-sizing: border-box;
 }
 
+/* Fix Select option on mobile devices */
+select{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: white;
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 14px;
+    border: 2px solid black;
+    border-radius: 30px;
+}
+
 #contact-us-sign-up-body,
 #p-get-involved-body,
 #thank-you-body {
@@ -437,8 +450,7 @@ button:hover {
     margin-bottom: 2em;
 }
 
-#form-main-banner2>input,
-#form-main-banner2>select {
+#form-main-banner2>input {
     display: inline-block;
     width: 100%;
     padding: 14px 130px 14px 14px;
